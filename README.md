@@ -13,6 +13,7 @@ Ansible Bookmarks.
 - [Ansible Blog](https://www.ansible.com/blog)
 - [Ansible Fest Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
+- [The Bullhorn Newsletter](https://us19.campaign-archive.com/home/?u=56d874e027110e35dea0e03c1&id=d6635f5420)
 
 ## Download
 - [Red Hat Ansible Automation Platform Trial](https://www.redhat.com/en/technologies/management/ansible/try-it)
