@@ -1,5 +1,5 @@
 <p align="center">
-  <img title="Ansible Logo" src="static/Ansible_logo.svg"><br>
+  <img width="200" height="246" title="Ansible Logo" src="static/Ansible_logo.svg"><br>
   <b>Ansible Links</b><br>
 </p>
 
