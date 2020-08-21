@@ -28,6 +28,7 @@ Ansible Bookmarks.
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
 - [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
+- [Template Designer for Automation](https://td4a.codethenetwork.com/)
 
 ## Service Now
 - [Ansible + ServiceNow Part 1: Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
@@ -41,3 +42,6 @@ Ansible Bookmarks.
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
 - [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
+
+## Container Groups
+- [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
