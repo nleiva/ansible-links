@@ -41,6 +41,9 @@ Ansible Bookmarks.
 ## Callback Modules
 - [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
 
+## Testing
+- [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
+
 ## Inventory plugins
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
