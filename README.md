@@ -38,6 +38,9 @@ Ansible Bookmarks.
 - [Ansible Service Now example](https://github.com/nleiva/ansible-snow)
 - [Galaxy - Service Now](https://galaxy.ansible.com/servicenow/servicenow)
 
+## Callback Modules
+- [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
+
 ## Inventory plugins
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
