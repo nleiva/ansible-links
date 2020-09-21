@@ -44,6 +44,9 @@ Ansible Bookmarks.
 ## Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
 
+## Authentication
+- [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
+
 ## Inventory plugins
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
@@ -51,3 +54,6 @@ Ansible Bookmarks.
 
 ## Container Groups
 - [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
+
+## Miscellaneous
+- [Ansible and Google Calendar integration for Change management](https://medium.com/@nleiva/ansible-and-google-calendar-integration-for-change-management-7c00553b3d5a)
