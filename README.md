@@ -15,9 +15,31 @@ Ansible Bookmarks.
 - [Ansible Videos](https://www.ansible.com/resources/videos)
 - [The Bullhorn Newsletter](https://us19.campaign-archive.com/home/?u=56d874e027110e35dea0e03c1&id=d6635f5420)
 
+### Roles
+- [Ansible 101 - Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
+
+### Callback Modules
+- [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
+
+### Inventory plugins
+- [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
+- [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
+- [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
+
+### Testing
+- [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
+
 ## Download
 - [Red Hat Ansible Automation Platform Trial](https://www.redhat.com/en/technologies/management/ansible/try-it)
 - [Ansible Tower](https://releases.ansible.com/ansible-tower/setup/?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
+
+## Ansible Tower
+
+### Authentication
+- [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
+
+### Container Groups
+- [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
 
 ## Python
 - [Python and Ansible to Automate a Network Security Workflow](https://medium.com/swlh/python-and-ansible-to-automate-a-network-security-workflow-28b9a44660c6)
@@ -37,23 +59,6 @@ Ansible Bookmarks.
 - [Governing Self-Service Cloud Provisioning](https://github.com/michaelford85/aws-deploy)
 - [Ansible Service Now example](https://github.com/nleiva/ansible-snow)
 - [Galaxy - Service Now](https://galaxy.ansible.com/servicenow/servicenow)
-
-## Callback Modules
-- [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
-
-## Testing
-- [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
-
-## Authentication
-- [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
-
-## Inventory plugins
-- [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
-- [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
-- [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
-
-## Container Groups
-- [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
 
 ## Miscellaneous
 - [Ansible and Google Calendar integration for Change management](https://medium.com/@nleiva/ansible-and-google-calendar-integration-for-change-management-7c00553b3d5a)
