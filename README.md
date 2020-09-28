@@ -62,3 +62,4 @@ Ansible Bookmarks.
 
 ## Miscellaneous
 - [Ansible and Google Calendar integration for Change management](https://medium.com/@nleiva/ansible-and-google-calendar-integration-for-change-management-7c00553b3d5a)
+- [Ansible and Go](https://codeburst.io/get-yourself-going-with-ansible-60ca623bf4)
