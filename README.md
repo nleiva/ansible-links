@@ -51,7 +51,8 @@ Ansible Bookmarks.
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
 - [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
 - [Template Designer for Automation](https://td4a.codethenetwork.com/)
-- [Network: 2.10 Roadmap](https://github.com/ansible/community/wiki/Network%3A-2.10-Roadmap)
+- [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
+  - [(OLD) Network: 2.10 Roadmap](https://github.com/ansible/community/wiki/Network%3A-2.10-Roadmap)
 
 ## Service Now
 - [Ansible + ServiceNow Part 1: Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
