@@ -47,12 +47,13 @@ Ansible Bookmarks.
 ## Network
 - [Red Hat Ansible Network Automation](https://www.ansible.com/products/network-automation)
 - [Network modules](https://docs.ansible.com/ansible/latest/modules/list_of_network_modules.html)
+- [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
+  - [(OLD) Network: 2.10 Roadmap](https://github.com/ansible/community/wiki/Network%3A-2.10-Roadmap)
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
 - [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
-- [Template Designer for Automation](https://td4a.codethenetwork.com/)
-- [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
-  - [(OLD) Network: 2.10 Roadmap](https://github.com/ansible/community/wiki/Network%3A-2.10-Roadmap)
+- [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
+
 
 ## Service Now
 - [Ansible + ServiceNow Part 1: Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
