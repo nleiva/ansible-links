@@ -14,6 +14,7 @@ Ansible Bookmarks.
 - [Ansible Fest Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
 - [The Bullhorn Newsletter](https://us19.campaign-archive.com/home/?u=56d874e027110e35dea0e03c1&id=d6635f5420)
+- [Red Hat Management Portfolio](https://github.com/ShaddGallegos/RHTI)
 
 ### Roles
 - [Ansible 101 - Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
