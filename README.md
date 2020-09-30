@@ -59,6 +59,7 @@ Ansible Bookmarks.
 - [Ansible + ServiceNow Part 1: Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
 - [Ansible + ServiceNow Part 2: Parsing facts from network devices using PyATS/Genie](https://www.ansible.com/blog/ansible-servicenow-part-2-parsing-facts-from-network-devices-using-pyats/genie)
 - [Ansible + ServiceNow Part 3: Making outbound RESTful API calls to Red Hat Ansible Tower](https://www.ansible.com/blog/ansible-servicenow-howto-part-3-making-outbound-restful-api-calls-to-ansible-tower)
+- [Connecting ServiceNow and Ansible Tower](https://github.com/shadowman-lab/Ansible-Config/tree/master/SNOW)
 - [Governing Self-Service Cloud Provisioning](https://github.com/michaelford85/aws-deploy)
 - [Ansible Service Now example](https://github.com/nleiva/ansible-snow)
 - [Galaxy - Service Now](https://galaxy.ansible.com/servicenow/servicenow)
