@@ -56,6 +56,9 @@ Ansible Bookmarks.
 - [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
 
+### Aruba
+- [Aruba Switching for Data Center Networking (DCN)](https://github.com/aruba/aoscx-ansible-dcn-workflows)
+
 
 ## Service Now
 - [Ansible + ServiceNow Part 1: Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
