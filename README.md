@@ -43,6 +43,9 @@ Ansible Bookmarks.
 ### Container Groups
 - [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
 
+### Internals
+- [Ansible Tower 3.7.0 RabbitMQ Replacement](https://www.youtube.com/watch?v=smYgGswrDpc)
+
 ## Python
 - [Python and Ansible to Automate a Network Security Workflow](https://medium.com/swlh/python-and-ansible-to-automate-a-network-security-workflow-28b9a44660c6)
 
