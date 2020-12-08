@@ -10,7 +10,7 @@ Ansible Bookmarks.
 ## Learning
 - [Ansible Get started](https://www.ansible.com/resources/get-started)
 - [Ansible Introduction (Katacoda)](https://lab.redhat.com/ansible-introduction)
-- [Red Hat Ansible Automation Platform Workshops](https://github.com/ansible/workshops)
+- [Ansible Automation Platform Workshops](https://ansible.github.io/workshops/)
 - [Ansible Blog](https://www.ansible.com/blog)
 - [Ansible Fest Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
