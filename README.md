@@ -18,6 +18,7 @@ Ansible Bookmarks.
 - [Red Hat Management Portfolio](https://github.com/ShaddGallegos/RHTI)
 
 ### Roles
+- [Best Practices for Roles](https://github.com/oasis-roles/meta_standards)
 - [Ansible 101 - Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
 
 ### Callback Modules
