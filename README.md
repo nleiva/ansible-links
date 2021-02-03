@@ -63,11 +63,11 @@ Ansible Bookmarks.
 ## Python
 - [Python and Ansible to Automate a Network Security Workflow](https://medium.com/swlh/python-and-ansible-to-automate-a-network-security-workflow-28b9a44660c6)
 
-## Network
+## Network Automation
 - [Red Hat Ansible Network Automation](https://www.ansible.com/products/network-automation)
-- [Network modules](https://docs.ansible.com/ansible/latest/modules/list_of_network_modules.html)
+- [Network Resource Modules](https://docs.ansible.com/ansible/latest/network/user_guide/network_resource_modules.html)
+- [Network modules Ansible 2.9](https://docs.ansible.com/ansible/2.9/modules/list_of_network_modules.html)
 - [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
-  - [(OLD) Network: 2.10 Roadmap](https://github.com/ansible/community/wiki/Network%3A-2.10-Roadmap)
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
 - [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
@@ -75,7 +75,7 @@ Ansible Bookmarks.
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
 
 ### The Inside Playbook
-- [Network Features Coming Soon in Ansible Engine 2.9](https://www.ansible.com/blog/network-features-coming-soon-in-ansible-engine-2.9): Facts enhancements and resource modules.
+- [Network Features Coming Soon in Ansible Engine 2.9](https://www.ansible.com/blog/network-features-coming-soon-in-ansible-engine-2.9): Facts enhancements and **resource modules with scope of work**.
 - [Deep dive on VLANS resource modules for network automation](https://www.ansible.com/blog/deep-dive-on-vlans-resource-modules-for-network-automation)
 - [Getting Started With OSPFV2 Resource Modules](https://www.ansible.com/blog/getting-started-with-ospfv2-resource-modules)
 - [Deep Dive: ACL Configuration Management Using Ansible Network Automation Resource Modules](https://www.ansible.com/blog/deep-dive-acl-configuration-management-using-ansible-network-automation-resource-modules)
