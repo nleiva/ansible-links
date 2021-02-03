@@ -39,14 +39,23 @@ Ansible Bookmarks.
 ## Ansible Tower
 
 ### Architecture
-- [Configure High Availability and/or Disaster Recovery on a Tower Cluster](https://github.com/redhat-cop/automate-tower-ha-dr#configure-high-availability-andor-disaster-recovery-on-a-tower-cluster)
-- [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html)
+- [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
+- [Instance Groups](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#ag-instance-groups): . Instance groups can be assigned to one or more of; Organizations, Inventories, and Job Templates.
+- [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
+- [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
+- [Organizations](https://docs.ansible.com/ansible-tower/latest/html/userguide/organizations.html): Logical collection of Users, Teams, Projects, and Inventories.
+- [Configure High Availability and/or Disaster Recovery on a Tower Cluster](https://github.com/redhat-cop/automate-tower-ha-dr#configure-high-availability-andor-disaster-recovery-on-a-tower-cluster): Toolkit not officially supported by Red Hat Ansible support/engineering and provided as is.
+
+#### AAP Database
+- [Red Hat Ansible Tower Database Scope of Coverage](https://access.redhat.com/articles/4010491)
+- [Is Database Replication Supported with an Ansible Tower subscription?](https://access.redhat.com/solutions/3682951)
+
+#### Considerations
+- [Supported Platforms with Red Hat Ansible Engine](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
+- [How are "managed nodes" defined as part of the Red Hat Ansible Automation Platform offering?](https://access.redhat.com/articles/3331481)
 
 ### Authentication
 - [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
-
-### Container Groups
-- [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
 
 ### Internals
 - [Ansible Tower 3.7.0 RabbitMQ Replacement](https://www.youtube.com/watch?v=smYgGswrDpc)
@@ -62,9 +71,17 @@ Ansible Bookmarks.
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
 - [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
-- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation)
-- [Ansible Network Resource Modules: Deep Dive on Return Values](https://www.ansible.com/blog/ansible-network-resource-modules-deep-dive-on-return-values)
+- [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/)
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
+
+### The Inside Playbook
+- [Network Features Coming Soon in Ansible Engine 2.9](https://www.ansible.com/blog/network-features-coming-soon-in-ansible-engine-2.9): Facts enhancements and resource modules.
+- [Deep dive on VLANS resource modules for network automation](https://www.ansible.com/blog/deep-dive-on-vlans-resource-modules-for-network-automation)
+- [Getting Started With OSPFV2 Resource Modules](https://www.ansible.com/blog/getting-started-with-ospfv2-resource-modules)
+- [Deep Dive: ACL Configuration Management Using Ansible Network Automation Resource Modules](https://www.ansible.com/blog/deep-dive-acl-configuration-management-using-ansible-network-automation-resource-modules)
+- [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
+- [Ansible Network Resource Modules: Deep Dive on Return Values](https://www.ansible.com/blog/ansible-network-resource-modules-deep-dive-on-return-values)
+- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation)
 
 ### Aruba
 - [Aruba Switching for Data Center Networking (DCN)](https://github.com/aruba/aoscx-ansible-dcn-workflows)
@@ -92,7 +109,7 @@ Ansible Bookmarks.
 - [Galaxy - Service Now](https://galaxy.ansible.com/servicenow/servicenow)
 
 ## Miscellaneous
-- [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture)
-- [Integrate your calendar with Ansible to avoid schedule conflicts](https://opensource.com/article/20/10/calendar-ansible)
-- [Ansible and Google Calendar integration for Change management](https://medium.com/@nleiva/ansible-and-google-calendar-integration-for-change-management-7c00553b3d5a)
-- [Ansible and Go](https://codeburst.io/get-yourself-going-with-ansible-60ca623bf4)
+- [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge..
+- [Integrate your calendar with Ansible to avoid schedule conflicts](https://opensource.com/article/20/10/calendar-ansible): Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.
+- [Create an Ansible module for integrating your Google Calendar](https://opensource.com/article/20/10/ansible-module-go): Learn how to write an Ansible module in Go to integrate Google Calendar into your automation workflow.
+- [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
