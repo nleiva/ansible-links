@@ -32,6 +32,14 @@ Ansible Bookmarks.
 ### Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
 
+### Collections
+- [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections)
+- [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
+
+#### Useful Collections
+- [Tower Configuration Collection](https://github.com/redhat-cop/tower_configuration)
+- [Automation Hub Configuration Collection](https://github.com/redhat-cop/ah_configuration)
+
 ## Download
 - [Red Hat Ansible Automation Platform Trial](https://www.redhat.com/en/technologies/management/ansible/try-it)
 - [Ansible Tower](https://releases.ansible.com/ansible-tower/setup/?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
