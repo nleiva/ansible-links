@@ -109,6 +109,7 @@ Ansible Bookmarks.
 - [ansible-hardening](https://github.com/openstack/ansible-hardening)
 - [Ansible Lockdown](https://github.com/ansible/ansible-lockdown)
 - [Red Hat Product Applicability Guide for PCI DSS version 3.2](https://www.redhat.com/rhdc/managed-files/cm-red-hat-product-applicability-guide-pci-dss-analyst-paper-f16584-201903-en.pdf)
+- [STIG content for configuration management tools](https://public.cyber.mil/stigs/supplemental-automation-content/)
 - [Automating Security Compliance with Ansible: DevSecOps made Easy](https://madeintandem.com/blog/automating-security-compliance-ansible-devsecops-made-easy/)
 
 ## Service Now
