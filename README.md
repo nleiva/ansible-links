@@ -49,10 +49,14 @@ Ansible Bookmarks.
 ### Architecture
 - [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
 - [Instance Groups](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#ag-instance-groups): . Instance groups can be assigned to one or more of; Organizations, Inventories, and Job Templates.
-- [Ansible Tower Container Groups](https://www.youtube.com/watch?v=fBNTYOovtkI)
 - [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
 - [Configure High Availability and/or Disaster Recovery on a Tower Cluster](https://github.com/redhat-cop/automate-tower-ha-dr#configure-high-availability-andor-disaster-recovery-on-a-tower-cluster): Toolkit not officially supported by Red Hat Ansible support/engineering and provided as is.
 - [Security Best Practices](https://docs.ansible.com/ansible-tower/latest/html/administration/security_best_practices.html)
+
+#### Container Groups
+- [Container Groups docs](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#container-groups)
+- [Ansible Tower Container Groups demo](https://www.youtube.com/watch?v=fBNTYOovtkI)
+- [Introduction to Ansible Builder](https://www.ansible.com/blog/introduction-to-ansible-builder)
 
 #### AAP Database
 - [Red Hat Ansible Tower Database Scope of Coverage](https://access.redhat.com/articles/4010491)
