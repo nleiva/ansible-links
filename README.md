@@ -41,13 +41,16 @@ Ansible Bookmarks.
 - [Tower Configuration Collection](https://github.com/redhat-cop/tower_configuration)
 - [Automation Hub Configuration Collection](https://github.com/redhat-cop/ah_configuration)
 
-## Ansible Tower
+## Ansible Automation Platform
 
 ### Installing
 - [Trial](https://www.redhat.com/en/technologies/management/ansible/try-it)
 - [System Requirements](https://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html)
+- [Installing Ansible Automation Platform](https://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_install_wizard.html)
 - [Installer](https://releases.ansible.com/ansible-tower/setup/?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
 - [Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-tower)
+- [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
+- [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
 
 ### Architecture
 - [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
