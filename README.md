@@ -134,6 +134,9 @@ Ansible Bookmarks.
 - [Ansible Service Now example](https://github.com/nleiva/ansible-snow)
 - [Galaxy - Service Now](https://galaxy.ansible.com/servicenow/servicenow)
 
+## Logging
+- [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
+ 
 ## Miscellaneous
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge..
 - [Integrate your calendar with Ansible to avoid schedule conflicts](https://opensource.com/article/20/10/calendar-ansible): Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.
