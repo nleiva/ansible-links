@@ -19,7 +19,7 @@ Ansible Bookmarks.
 
 ### Roles
 - [Best Practices for Roles](https://github.com/oasis-roles/meta_standards)
-- [Ansible 101 - Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
+- [Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
 
 ### Callback Modules
 - [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
@@ -38,8 +38,8 @@ Ansible Bookmarks.
 - [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
 
 #### Useful Collections
-- [Tower Configuration Collection](https://github.com/redhat-cop/tower_configuration)
-- [Automation Hub Configuration Collection](https://github.com/redhat-cop/ah_configuration)
+- [Tower Configuration](https://github.com/redhat-cop/tower_configuration)
+- [Automation Hub Configuratio](https://github.com/redhat-cop/ah_configuration)
 
 ## Ansible Automation Platform
 
@@ -126,9 +126,9 @@ Ansible Bookmarks.
 - [Automating Security Compliance with Ansible: DevSecOps made Easy](https://madeintandem.com/blog/automating-security-compliance-ansible-devsecops-made-easy/)
 
 ## Service Now
-- [Ansible + ServiceNow Part 1: Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
-- [Ansible + ServiceNow Part 2: Parsing facts from network devices using PyATS/Genie](https://www.ansible.com/blog/ansible-servicenow-part-2-parsing-facts-from-network-devices-using-pyats/genie)
-- [Ansible + ServiceNow Part 3: Making outbound RESTful API calls to Red Hat Ansible Tower](https://www.ansible.com/blog/ansible-servicenow-howto-part-3-making-outbound-restful-api-calls-to-ansible-tower)
+- [Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
+- [Parsing facts from network devices using PyATS/Genie](https://www.ansible.com/blog/ansible-servicenow-part-2-parsing-facts-from-network-devices-using-pyats/genie)
+- [Making outbound RESTful API calls to Red Hat Ansible Tower](https://www.ansible.com/blog/ansible-servicenow-howto-part-3-making-outbound-restful-api-calls-to-ansible-tower)
 - [Connecting ServiceNow and Ansible Tower](https://github.com/shadowman-lab/Ansible-Config/tree/master/SNOW)
 - [Governing Self-Service Cloud Provisioning](https://github.com/michaelford85/aws-deploy)
 - [Ansible Service Now example](https://github.com/nleiva/ansible-snow)
@@ -139,15 +139,15 @@ Ansible Bookmarks.
  
 ## Miscellaneous
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
-- [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook)
+- [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
 - [Integrate your calendar with Ansible to avoid schedule conflicts](https://opensource.com/article/20/10/calendar-ansible): Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.
 - [Create an Ansible module for integrating your Google Calendar](https://opensource.com/article/20/10/ansible-module-go): Learn how to write an Ansible module in Go to integrate Google Calendar into your automation workflow.
 - [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
 
 ### My Ansible Content
-- [grafana_agent (role)](https://galaxy.ansible.com/nleiva/grafana_agent)
-- [capirca_acl (collection)](https://galaxy.ansible.com/nleiva/capirca_acl)
-- [Networking examples (playbooks)](https://github.com/nleiva/ansible-networking)
-- [Cloud Provisioning examples (playbooks)](https://github.com/nleiva/ansible-cloud)
-- [Ansible Service Now example (playbooks)](https://github.com/nleiva/ansible-snow)
-- [My Home Lab (playbooks)](https://github.com/nleiva/ansible-home)
+- [grafana_agent](https://galaxy.ansible.com/nleiva/grafana_agent) (role)
+- [capirca_acl](https://galaxy.ansible.com/nleiva/capirca_acl) (collection)
+- [Networking examples](https://github.com/nleiva/ansible-networking) (playbooks)
+- [Cloud Provisioning examples](https://github.com/nleiva/ansible-cloud) (playbooks)
+- [Ansible Service Now example](https://github.com/nleiva/ansible-snow) (playbooks)
+- [My Home Lab](https://github.com/nleiva/ansible-home) (playbooks)
