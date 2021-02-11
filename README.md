@@ -69,7 +69,7 @@ Ansible Bookmarks.
 - [Is Database Replication Supported with an Ansible Tower subscription?](https://access.redhat.com/solutions/3682951)
 
 #### Considerations
-- [Supported Platforms with Red Hat Ansible Engine](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
+- [Supported Platforms with Red Hat Ansible Automation Platform](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
 - [How are "managed nodes" defined as part of the Red Hat Ansible Automation Platform offering?](https://access.redhat.com/articles/3331481)
 
 ### RBAC and Authentication
@@ -92,7 +92,6 @@ Ansible Bookmarks.
 - [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
-- [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
 - [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/)
 - [What networking platforms and versions are tested as part of Red Hat Ansible Network Automation?](https://access.redhat.com/articles/3185021)
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
@@ -139,7 +138,16 @@ Ansible Bookmarks.
 - [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
  
 ## Miscellaneous
-- [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge..
+- [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
+- [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook)
 - [Integrate your calendar with Ansible to avoid schedule conflicts](https://opensource.com/article/20/10/calendar-ansible): Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.
 - [Create an Ansible module for integrating your Google Calendar](https://opensource.com/article/20/10/ansible-module-go): Learn how to write an Ansible module in Go to integrate Google Calendar into your automation workflow.
 - [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
+
+### My Ansible Content
+- [grafana_agent (role)](https://galaxy.ansible.com/nleiva/grafana_agent)
+- [capirca_acl (collection)](https://galaxy.ansible.com/nleiva/capirca_acl)
+- [Networking examples (playbooks)](https://github.com/nleiva/ansible-networking)
+- [Cloud Provisioning examples (playbooks)](https://github.com/nleiva/ansible-cloud)
+- [Ansible Service Now example (playbooks)](https://github.com/nleiva/ansible-snow)
+- [My Home Lab (playbooks)](https://github.com/nleiva/ansible-home)
