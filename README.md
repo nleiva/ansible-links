@@ -94,6 +94,7 @@ Ansible Bookmarks.
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
 - [Networking collection of Playbooks](https://github.com/nleiva/ansible-networking)
 - [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/)
+- [What networking platforms and versions are tested as part of Red Hat Ansible Network Automation?](https://access.redhat.com/articles/3185021)
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
 
 ### The Inside Playbook
