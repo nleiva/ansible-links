@@ -145,6 +145,7 @@ Ansible Bookmarks.
 
 ## Terraform
 - [Ansible and HashiCorp: Better Together](https://www.hashicorp.com/resources/ansible-terraform-better-together)
+- [HashiCorp Terraform and Red Hat Ansible Automation](https://www.redhat.com/en/resources/hashicorp-terraform-ansible-infrastructure-as-code-overview)
 - [Ansible & Terraform – together or against?](https://www.opensourcerers.org/2020/10/12/ansible-and-terraform-integration/)
 - [How To Use Ansible with Terraform for Configuration Management](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management)
 
