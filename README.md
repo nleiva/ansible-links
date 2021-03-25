@@ -47,6 +47,7 @@ Ansible Bookmarks.
 
 ### Installing
 - [Trial](https://www.redhat.com/en/technologies/management/ansible/try-it)
+- [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview)
 - [System Requirements](https://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html)
 - [Installing Ansible Automation Platform](https://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_install_wizard.html)
 - [Installer](https://releases.ansible.com/ansible-tower/setup/?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
