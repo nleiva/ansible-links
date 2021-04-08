@@ -56,6 +56,15 @@ Ansible Bookmarks.
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
 
+### Upstream projects
+- [Galaxy NG](https://github.com/ansible/galaxy_ng)
+- [Ansible core](https://github.com/ansible/ansible)
+- [AWX](https://github.com/ansible/awx)
+- [Ansible Builder](https://github.com/ansible/ansible-builder)
+- [Ansible Navigator](https://github.com/ansible/ansible-navigator)
+- [Ansible Collections](https://github.com/ansible-collections)
+- [Ansible Runner](https://github.com/ansible/ansible-runner)
+
 ### Architecture
 - [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
 - [Instance Groups](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#ag-instance-groups): . Instance groups can be assigned to one or more of; Organizations, Inventories, and Job Templates.
