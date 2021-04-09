@@ -64,6 +64,7 @@ Ansible Bookmarks.
 - [Ansible Navigator](https://github.com/ansible/ansible-navigator): A TUI for the Red Hat Ansible Automation Platform.
 - [Ansible Collections](https://github.com/ansible-collections): Great Ansible content.
 - [Ansible Runner](https://github.com/ansible/ansible-runner): Tower-> Runner-> Core.
+- [Receptor](https://github.com/project-receptor/receptor): Overlay network intended to ease the distribution of work across a large and dispersed collection of workers.
 
 ### Architecture
 - [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
