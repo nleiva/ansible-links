@@ -105,6 +105,7 @@ Ansible Bookmarks.
 ## Network Automation
 - [Red Hat Ansible Network Automation](https://www.ansible.com/products/network-automation)
 - [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows)
+- [Network automation instructional e-book](https://www.redhat.com/en/engage/network-automation-ebook-s-202104291219)
 - [Network Resource Modules](https://docs.ansible.com/ansible/latest/network/user_guide/network_resource_modules.html)
 - [Network modules Ansible 2.9](https://docs.ansible.com/ansible/2.9/modules/list_of_network_modules.html)
 - [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
