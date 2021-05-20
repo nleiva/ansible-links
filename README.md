@@ -106,8 +106,8 @@ Ansible Bookmarks.
 ## Network Automation
 - [Red Hat Ansible Network Automation](https://www.ansible.com/products/network-automation)
 - [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows)
+- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation)
 - [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book)
-- [Network Resource Modules](https://docs.ansible.com/ansible/latest/network/user_guide/network_resource_modules.html)
 - [Network modules Ansible 2.9](https://docs.ansible.com/ansible/2.9/modules/list_of_network_modules.html)
 - [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
 - [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
@@ -117,14 +117,15 @@ Ansible Bookmarks.
 - [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html)
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
 
-### The Inside Playbook
+### Network Resource Modules
+- [Network Resource Modules](https://docs.ansible.com/ansible/latest/network/user_guide/network_resource_modules.html): From Ansible docs.
 - [Network Features Coming Soon in Ansible Engine 2.9](https://www.ansible.com/blog/network-features-coming-soon-in-ansible-engine-2.9): Facts enhancements and **resource modules with scope of work**.
+- [Ansible Network Automation Feature Tracker](https://access.redhat.com/articles/5531421): Resource modules per vendor as November 2020.
+- [Network:2021 Spring Roadmap](https://github.com/ansible/community/wiki/Network:2021-Spring-Roadmap#new-network-resource-modules): Latest network resource modules.
 - [Deep dive on VLANS resource modules for network automation](https://www.ansible.com/blog/deep-dive-on-vlans-resource-modules-for-network-automation)
 - [Getting Started With OSPFV2 Resource Modules](https://www.ansible.com/blog/getting-started-with-ospfv2-resource-modules)
 - [Deep Dive: ACL Configuration Management Using Ansible Network Automation Resource Modules](https://www.ansible.com/blog/deep-dive-acl-configuration-management-using-ansible-network-automation-resource-modules)
-- [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
 - [Ansible Network Resource Modules: Deep Dive on Return Values](https://www.ansible.com/blog/ansible-network-resource-modules-deep-dive-on-return-values)
-- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation)
 - [Ansible Network Resource Purge parameter](https://www.ansible.com/blog/ansible-network-resource-purge-parameter)
 
 ### Aruba
@@ -132,6 +133,9 @@ Ansible Bookmarks.
 
 ### Cisco
 - [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade)
+
+### NetBox
+- [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
 
 ## Security
 - [Simplify your security operations center](https://www.redhat.com/rhdc/managed-files/ma-security-automation-e-book-f24343-202007-en.pdf)
