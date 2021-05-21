@@ -56,6 +56,9 @@ Ansible Bookmarks.
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
 
+#### AWX
+- [Stop using alpha software and improve upgrades ](https://github.com/ansible/awx/issues/10166)
+
 ### Upstream projects
 - [Ansible Core](https://github.com/ansible/ansible): a.k.a. Engine.
 - [AWX](https://github.com/ansible/awx): Provides a web-based user interface, REST API, and task engine built on top of Ansible. It is the upstream project for Tower.
