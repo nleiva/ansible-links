@@ -173,6 +173,7 @@ Ansible Bookmarks.
 - [HashiCorp Terraform and Red Hat Ansible Automation](https://www.redhat.com/en/resources/hashicorp-terraform-ansible-infrastructure-as-code-overview)
 - [Ansible & Terraform – together or against?](https://www.opensourcerers.org/2020/10/12/ansible-and-terraform-integration/)
 - [How To Use Ansible with Terraform for Configuration Management](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management)
+- [Red Hat and Hashicorp Demo Event](https://primetime.bluejeans.com/a2m/events/playback/e0c34c7f-3cae-4ddc-81ea-ee4d4cc7c91a)
 
 ## Kubernetes
 - [How useful is Ansible in a Cloud-Native Kubernetes Environment?](https://www.ansible.com/blog/how-useful-is-ansible-in-a-cloud-native-kubernetes-environment)
