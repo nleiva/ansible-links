@@ -197,4 +197,5 @@ Ansible Bookmarks.
 - [Networking examples](https://github.com/nleiva/ansible-networking) (playbooks)
 - [Cloud Provisioning examples](https://github.com/nleiva/ansible-cloud) (playbooks)
 - [Ansible Service Now example](https://github.com/nleiva/ansible-snow) (playbooks)
+- [Store Ansible backup on AWS S3](https://github.com/nleiva/ansible-backup) (playbooks)
 - [My Home Lab](https://github.com/nleiva/ansible-home) (playbooks)
