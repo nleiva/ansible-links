@@ -77,6 +77,7 @@ Ansible Bookmarks.
 - [Configure High Availability and/or Disaster Recovery on a Tower Cluster](https://github.com/redhat-cop/automate-tower-ha-dr#configure-high-availability-andor-disaster-recovery-on-a-tower-cluster): Toolkit not officially supported by Red Hat Ansible support/engineering and provided as is.
 - [Security Best Practices](https://docs.ansible.com/ansible-tower/latest/html/administration/security_best_practices.html)
 - [Ansible Automation Platform 1.2 - Reference Architecture](https://access.redhat.com/articles/6039601)
+- [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841)
 
 #### Container Groups
 - [Container Groups docs](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#container-groups)
