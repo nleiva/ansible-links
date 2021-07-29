@@ -39,6 +39,7 @@ Ansible Bookmarks.
 ### Collections
 - [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections)
 - [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
+- [Ansible Supported Collections, Versioning, and Release Strategy](https://access.redhat.com/articles/4993781)
 
 #### Useful Collections
 - [Tower Configuration](https://github.com/redhat-cop/tower_configuration)
