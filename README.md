@@ -27,6 +27,7 @@ Ansible Bookmarks.
 
 ### Callback Modules
 - [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
+- [Examples of the stdout or callback plugins](https://rndmh3ro.github.io/)
 - [Provisioning Callbacks](https://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html#provisioning-callbacks)
 
 ### Inventory plugins
