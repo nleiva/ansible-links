@@ -129,6 +129,7 @@ Ansible Bookmarks.
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
 
 ### Network Resource Modules
+- [What is a resource module](https://github.com/ansible-community/community-topics/issues/33#issuecomment-897029700)
 - [Network Resource Modules](https://docs.ansible.com/ansible/latest/network/user_guide/network_resource_modules.html): From Ansible docs.
 - [Network Features Coming Soon in Ansible Engine 2.9](https://www.ansible.com/blog/network-features-coming-soon-in-ansible-engine-2.9): Facts enhancements and **resource modules with scope of work**.
 - [Ansible Network Resource Modules Quick Reference](https://www.ansible.com/hubfs/CY21%7C%20Ansible%20Network%20Automation%20Cheat%20Sheet.pdf)
