@@ -196,7 +196,6 @@ Ansible Bookmarks.
 - [Ansible Configuration Management Database](https://github.com/fboender/ansible-cmdb): Ansible-cmdb takes the output of Ansible's fact gathering and converts it into a static HTML overview page (and other things) containing system configuration information.
 - [AnsibleDB](https://github.com/apidb-io/ansibledb_opensource): Gives you the ability to quickly collect facts about your Infrastucture estate [linux, windows & network devices] and via our API, pull out the information important to you.
 
-
 ## Miscellaneous
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
 - [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
@@ -205,11 +204,21 @@ Ansible Bookmarks.
 - [Create an Ansible module for integrating your Google Calendar](https://opensource.com/article/20/10/ansible-module-go): Learn how to write an Ansible module in Go to integrate Google Calendar into your automation workflow.
 - [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
 
-### My Ansible Content
-- [grafana_agent](https://galaxy.ansible.com/nleiva/grafana_agent) (role)
-- [capirca_acl](https://galaxy.ansible.com/nleiva/capirca_acl) (collection)
-- [Networking examples](https://github.com/nleiva/ansible-networking) (playbooks)
-- [Cloud Provisioning examples](https://github.com/nleiva/ansible-cloud) (playbooks)
-- [Ansible Service Now example](https://github.com/nleiva/ansible-snow) (playbooks)
-- [Store Ansible backup on AWS S3](https://github.com/nleiva/ansible-backup) (playbooks)
-- [My Home Lab](https://github.com/nleiva/ansible-home) (playbooks)
+## My Ansible Content
+### Roles
+- [grafana_agent](https://galaxy.ansible.com/nleiva/grafana_agent): Installs Grafana Cloud Agent on RedHat/CentOS or Debian/Ubuntu servers to collect observability data and sends it to Grafana Cloud.
+### Collections
+- [capirca_acl](https://galaxy.ansible.com/nleiva/capirca_acl): This collection includes a module (translate) to use Capirca from your Ansible playbooks.
+### Playbooks
+- [ansible-kubernetes](https://github.com/nleiva/ansible-kubernetes): Deploy managed Kubernetes clusters in the cloud: AKS, EKS and GKE.
+- [ansible-networking](https://github.com/nleiva/ansible-networking): Simple networking examples.
+- [aws-testbed](https://github.com/nleiva/aws-testbed): Create reproducible Linux environments in the cloud.
+- [ansible-cloud](https://github.com/nleiva/ansible-cloud): Deploy virtual machines in AWS (Fedora, JunOS, Cisco IOS, CentOS, etc.).
+- [ansible-snow](https://github.com/nleiva/ansible-snow): Ansible Tower workflow with Cisco and Service Now Collections.
+- [ansible-backup](https://github.com/nleiva/ansible-backup): Creates a backup of your Tower setup and uploads it to AWS S3.
+- [ansible-home](https://github.com/nleiva/ansible-home): Collection of playbooks I run in my personal home-lab.
+- [ansible-rhpds](https://github.com/nleiva/ansible-rhpds): Request a Red Hat Product Demo System (RHPDS) Sandbox.
+- [ansible-workflow](https://github.com/nleiva/ansible-workflow): An attempt to document Ansible Tower workflows as code.
+- [check-calendar](https://github.com/nleiva/check-calendar): Simple app to verify whether a time slot is taken/busy in Google Calendar from Ansible.
+### Inventories
+- [ansible-inventory](https://github.com/nleiva/ansible-inventory/blob/master/hosts): DevNet always-on Cisco devices.
