@@ -5,7 +5,7 @@
 
 ---
 
-Ansible Bookmarks.
+Curated list of Ansible resources online organized by topic.
 
 ## Learning
 - [Ansible Get started](https://www.ansible.com/resources/get-started)
@@ -21,35 +21,36 @@ Ansible Bookmarks.
 - [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update)
 - [Red Hat Management Portfolio](https://github.com/ShaddGallegos/RHTI)
 
-### Roles
+### Ansible features
+#### Roles
 - [Best Practices for Roles](https://github.com/oasis-roles/meta_standards)
 - [Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
 
-### Callback Modules
+#### Callback Modules
 - [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
 - [Examples of the stdout or callback plugins](https://rndmh3ro.github.io/)
 - [Provisioning Callbacks](https://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html#provisioning-callbacks)
 
-### Inventory plugins
+#### Inventory plugins
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
 - [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
 
-### Testing
+#### Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
 
-### Collections
+#### Collections
 - [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections)
 - [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
 - [Ansible Supported Collections, Versioning, and Release Strategy](https://access.redhat.com/articles/4993781)
 
-#### Useful Collections
+##### Useful Collections
 - [Tower Configuration](https://github.com/redhat-cop/tower_configuration)
-- [Automation Hub Configuratio](https://github.com/redhat-cop/ah_configuration)
+- [Automation Hub Configuration](https://github.com/redhat-cop/ah_configuration)
 
-## Ansible Automation Platform
+## Red Hat Ansible Automation Platform
 
-### Installing
+### Installation
 - [Trial](https://www.redhat.com/en/technologies/management/ansible/try-it)
 - [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview)
 - [System Requirements](https://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html)
@@ -59,7 +60,7 @@ Ansible Bookmarks.
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
 
-### AAP 2.0
+### RHAAP 2.0
 - [Ansible Automation Platform 2.0 Early Access Homepage](https://access.redhat.com/articles/6145072)
 - [Ansible Automation Platform 2.0 Release FAQ](https://access.redhat.com/articles/6192881)
 - [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841)
