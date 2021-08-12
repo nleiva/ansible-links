@@ -206,10 +206,13 @@ Curated list of Ansible resources online organized by topic.
 - [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
 
 ## My Ansible Content
+
 ### Roles
 - [grafana_agent](https://galaxy.ansible.com/nleiva/grafana_agent): Installs Grafana Cloud Agent on RedHat/CentOS or Debian/Ubuntu servers to collect observability data and sends it to Grafana Cloud.
+
 ### Collections
 - [capirca_acl](https://galaxy.ansible.com/nleiva/capirca_acl): This collection includes a module (translate) to use Capirca from your Ansible playbooks.
+
 ### Playbooks
 - [ansible-kubernetes](https://github.com/nleiva/ansible-kubernetes): Deploy managed Kubernetes clusters in the cloud: AKS, EKS and GKE.
 - [ansible-networking](https://github.com/nleiva/ansible-networking): Simple networking examples.
@@ -221,5 +224,6 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-rhpds](https://github.com/nleiva/ansible-rhpds): Request a Red Hat Product Demo System (RHPDS) Sandbox.
 - [ansible-workflow](https://github.com/nleiva/ansible-workflow): An attempt to document Ansible Tower workflows as code.
 - [check-calendar](https://github.com/nleiva/check-calendar): Simple app to verify whether a time slot is taken/busy in Google Calendar from Ansible.
+
 ### Inventories
 - [ansible-inventory](https://github.com/nleiva/ansible-inventory/blob/master/hosts): DevNet always-on Cisco devices.
