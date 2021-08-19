@@ -121,7 +121,7 @@ Curated list of Ansible resources online organized by topic.
 - [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A shameless plug to my blog post at ansible.com.
 - [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
 - [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
-- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Cconfiguration backup and restore for a Cisco IOS-XE network router demo by Sean Cavanaugh. 
+- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by Sean Cavanaugh. 
 - [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3): Ansible Networking Collection Project Board.
 - [Network Tool Kit](https://github.com/network-automation/toolkit): Collection of network roles used for the Ansible Network Automation Workshop.
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report): Generate a HTML report using the template module from facts gathered with the nxos_facts module.
