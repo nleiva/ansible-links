@@ -117,18 +117,18 @@ Curated list of Ansible resources online organized by topic.
 - [Python and Ansible to Automate a Network Security Workflow](https://medium.com/swlh/python-and-ansible-to-automate-a-network-security-workflow-28b9a44660c6)
 
 ## Network Automation
-- [Red Hat Ansible Network Automation](https://www.ansible.com/products/network-automation)
-- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows)
-- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation)
-- [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book)
-- [Network modules Ansible 2.9](https://docs.ansible.com/ansible/2.9/modules/list_of_network_modules.html)
-- [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3)
-- [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/tower_workshop)
-- [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report)
-- [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/)
+- [Ansible Network Automation](https://www.ansible.com/products/network-automation): Red Hat Ansible Network Automation main page.
+- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A shameless plug to my blog post at ansible.com.
+- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
+- [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
+- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Cconfiguration backup and restore for a Cisco IOS-XE network router demo by Sean Cavanaugh. 
+- [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3): Ansible Networking Collection Project Board.
+- [Network Tool Kit](https://github.com/network-automation/toolkit): Collection of network roles used for the Ansible Network Automation Workshop.
+- [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report): Generate a HTML report using the template module from facts gathered with the nxos_facts module.
+- [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/): One of the best ways for people to begin managing their network in a practical way by Landon Holley.
 - [What networking platforms and versions are tested as part of Red Hat Ansible Network Automation?](https://access.redhat.com/articles/3185021)
-- [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html)
-- [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/)
+- [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html): Documentation of the cli_parse module taht parses semi-structured data such as network configurations into structured data to allow programmatic use of the data from that device.
+- [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/): To test online your jinja2 template.
 
 ### Network Resource Modules
 - [What is a resource module](https://github.com/ansible-community/community-topics/issues/33#issuecomment-897029700)
