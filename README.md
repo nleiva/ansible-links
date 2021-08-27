@@ -200,9 +200,6 @@ Curated list of Ansible resources online organized by topic.
 ## Miscellaneous
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
 - [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
-- [5 ways to process JSON data in Ansible](https://opensource.com/article/21/4/process-json-data-ansible)
-- [Integrate your calendar with Ansible to avoid schedule conflicts](https://opensource.com/article/20/10/calendar-ansible): Make sure your automation workflow's schedule doesn't conflict with something else by integrating a calendar app into Ansible.
-- [Create an Ansible module for integrating your Google Calendar](https://opensource.com/article/20/10/ansible-module-go): Learn how to write an Ansible module in Go to integrate Google Calendar into your automation workflow.
 - [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
 
 ## My Ansible Content
@@ -227,3 +224,19 @@ Curated list of Ansible resources online organized by topic.
 
 ### Inventories
 - [ansible-inventory](https://github.com/nleiva/ansible-inventory/blob/master/hosts): DevNet always-on Cisco devices.
+
+### Blog Posts
+- [A simple approach to delete AWS resources with Ansible](https://nleiva.medium.com/a-simple-approach-to-delete-aws-resources-with-ansible-b31c796fa16d)
+- [A beginner's guide to auto-configure a Linux machine with Ansible](https://nleiva.medium.com/a-beginners-guide-to-auto-configure-a-linux-machine-with-ansible-1f4435e8f12e)
+- [A simple guide to quickly provisioning AWS resources with Ansible](https://nleiva.medium.com/a-simple-guide-to-quickly-provisioning-aws-resources-with-ansible-35e67ae15b9c)
+- [How to consistently run temporary workloads on AWS and save money](https://nleiva.medium.com/how-you-can-consistently-run-temporary-workloads-in-the-cloud-37140b4b5e55)
+- [Mapping SAML attributes to Red Hat Ansible Automation Platform organizations and teams](https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams)
+- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows)
+- [5 ways to process JSON data in Ansible](https://opensource.com/article/21/4/process-json-data-ansible)
+- [Monitoring your home lab devices in the cloud for free](https://nleiva.medium.com/monitoring-your-home-lab-devices-in-the-cloud-for-free-54c4d11ac471)
+- [Create an Ansible module for integrating your Google Calendar](https://opensource.com/article/20/10/ansible-module-go)
+- [Integrate your calendar with Ansible to avoid schedule conflicts](https://opensource.com/article/20/10/calendar-ansible)
+- [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture)
+- [Get Yourself GOing with Ansible](https://codeburst.io/get-yourself-going-with-ansible-60ca623bf4)
+- [Ansible and Google Calendar Integration for Change Management](https://medium.com/swlh/ansible-and-google-calendar-integration-for-change-management-7c00553b3d5a)
+- [Python and Ansible to automate a Network Security workflow](https://medium.com/swlh/python-and-ansible-to-automate-a-network-security-workflow-28b9a44660c6)
