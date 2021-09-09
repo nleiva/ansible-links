@@ -165,6 +165,8 @@ Curated list of Ansible resources online organized by topic.
 - [Red Hat Product Applicability Guide for PCI DSS version 3.2](https://www.redhat.com/rhdc/managed-files/cm-red-hat-product-applicability-guide-pci-dss-analyst-paper-f16584-201903-en.pdf)
 - [STIG content for configuration management tools](https://public.cyber.mil/stigs/supplemental-automation-content/)
 - [Ansible + OpenSCAP For Compliance Automation](https://medium.com/@jackprice/ansible-openscap-for-compliance-automation-14200fe70663)
+- [Enterprise Compliance and Security with Ansible (Ansible Automates)](https://www.ansible.com/videos-ansible-automates-enterprise-compliance-and-security-with-ansible)
+- [Implementing Content for Automated Security Compliance to Custom Policies (Workshop)](https://2020-summit-labs.gitlab.io/rhel-custom-security-content/#_hands_on_lab)
 - [Automating Security Compliance with Ansible: DevSecOps made Easy](https://madeintandem.com/blog/automating-security-compliance-ansible-devsecops-made-easy/)
 
 ## Service Now
