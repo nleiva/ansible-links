@@ -219,6 +219,7 @@ Curated list of Ansible resources online organized by topic.
 
 ### Playbooks
 - [ansible-kubernetes](https://github.com/nleiva/ansible-kubernetes): Deploy managed Kubernetes clusters in the cloud: AKS, EKS and GKE.
+- [ansible-web-server](https://github.com/nleiva/ansible-web-server): Create a highly available web appplication on any cloud provider with Ansible.
 - [ansible-webserver-azure](https://github.com/nleiva/ansible-webserver-azure): Automatically provision a number webserver instances behind a load balancer on Azure.
 - [ansible-networking](https://github.com/nleiva/ansible-networking): Simple networking examples.
 - [aws-testbed](https://github.com/nleiva/aws-testbed): Create reproducible Linux environments in the cloud.
@@ -229,6 +230,9 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-rhpds](https://github.com/nleiva/ansible-rhpds): Request a Red Hat Product Demo System (RHPDS) Sandbox.
 - [ansible-workflow](https://github.com/nleiva/ansible-workflow): An attempt to document Ansible Tower workflows as code.
 - [check-calendar](https://github.com/nleiva/check-calendar): Simple app to verify whether a time slot is taken/busy in Google Calendar from Ansible.
+
+### GitHub Actions
+- [ansible-lint-action](https://github.com/nleiva/ansible-lint-action): My personal fork to be able to install Ansible collections and any other improvements that might be required.
 
 ### Inventories
 - [ansible-inventory](https://github.com/nleiva/ansible-inventory/blob/master/hosts): DevNet always-on Cisco devices.
