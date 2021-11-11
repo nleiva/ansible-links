@@ -130,6 +130,7 @@ Curated list of Ansible resources online organized by topic.
 - [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/): One of the best ways for people to begin managing their network in a practical way by Landon Holley.
 - [What networking platforms and versions are tested as part of Red Hat Ansible Network Automation?](https://access.redhat.com/articles/3185021)
 - [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html): Documentation of the cli_parse module taht parses semi-structured data such as network configurations into structured data to allow programmatic use of the data from that device.
+- [Network Inventory Report with Ansible](https://github.com/AdamMack2007/ansible_inventory_report#network-inventory-report-with-ansible): Creates a compliance report for network devices.
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/): To test online your jinja2 template.
 
 ### Network Resource Modules
@@ -153,6 +154,7 @@ Curated list of Ansible resources online organized by topic.
 
 ### Cisco
 - [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade)
+- 
 
 ### NetBox
 - [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
@@ -211,6 +213,7 @@ Curated list of Ansible resources online organized by topic.
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
 - [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
 - [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
+- [Ansible Semaphore](https://ansible-semaphore.com/): Modern UI for Ansible written in Go.
 
 ## My Ansible Content
 
