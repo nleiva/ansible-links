@@ -121,17 +121,22 @@ Curated list of Ansible resources online organized by topic.
 ## Network Automation
 - [Ansible Network Automation](https://www.ansible.com/products/network-automation): Red Hat Ansible Network Automation main page.
 - [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A shameless plug to my blog post at ansible.com.
-- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
-- [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
-- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by Sean Cavanaugh. 
-- [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3): Ansible Networking Collection Project Board.
-- [Network Tool Kit](https://github.com/network-automation/toolkit): Collection of network roles used for the Ansible Network Automation Workshop.
-- [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report): Generate a HTML report using the template module from facts gathered with the nxos_facts module.
+-[Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
 - [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/): One of the best ways for people to begin managing their network in a practical way by Landon Holley.
+- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by Sean Cavanaugh. 
+- [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
+- [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3): Ansible Networking Collection Project Board.
 - [What networking platforms and versions are tested as part of Red Hat Ansible Network Automation?](https://access.redhat.com/articles/3185021)
-- [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html): Documentation of the cli_parse module taht parses semi-structured data such as network configurations into structured data to allow programmatic use of the data from that device.
-- [Network Inventory Report with Ansible](https://github.com/AdamMack2007/ansible_inventory_report#network-inventory-report-with-ansible): Creates a compliance report for network devices.
+
+### Working with Network Configurations
+- [Network Tool Kit](https://github.com/network-automation/toolkit): Collection of network roles used for the Ansible Network Automation Workshop.
+- [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html): Documentation of the cli_parse module that parses semi-structured data such as network configurations into structured data to allow programmatic use of the data from that device.
+- [Ansible Module for utilizing Hierarchical Configuration](https://github.com/netdevops/hconfig-remediation-ansible): Hierarchical Configuration takes a running configuration of a network device, compares it to its intended configuration, and builds the remediation steps necessary to bring a device into spec with its intended configuration.
 - [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/): To test online your jinja2 template.
+
+### Network Inventory
+- [Network Inventory Report with Ansible](https://github.com/AdamMack2007/ansible_inventory_report#network-inventory-report-with-ansible): Creates a compliance report for network devices.
+- [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report): Generate a HTML report using the template module from facts gathered with the nxos_facts module.
 
 ### Network Resource Modules
 - [What is a resource module](https://github.com/ansible-community/community-topics/issues/33#issuecomment-897029700)
@@ -154,7 +159,6 @@ Curated list of Ansible resources online organized by topic.
 
 ### Cisco
 - [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade)
-- 
 
 ### NetBox
 - [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
