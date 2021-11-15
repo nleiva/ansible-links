@@ -137,6 +137,7 @@ Curated list of Ansible resources online organized by topic.
 ### Network Inventory
 - [Network Inventory Report with Ansible](https://github.com/AdamMack2007/ansible_inventory_report#network-inventory-report-with-ansible): Creates a compliance report for network devices.
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report): Generate a HTML report using the template module from facts gathered with the nxos_facts module.
+- [Git as a source of truth for network automation](https://vincent.bernat.ch/en/blog/2021-source-of-truth-network)
 
 ### Network Resource Modules
 - [What is a resource module](https://github.com/ansible-community/community-topics/issues/33#issuecomment-897029700)
