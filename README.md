@@ -245,6 +245,9 @@ Curated list of Ansible resources online organized by topic.
 ### GitHub Actions
 - [ansible-lint-action](https://github.com/nleiva/ansible-lint-action): My personal fork to be able to install Ansible collections and any other improvements that might be required.
 
+### Execution Environments
+- [Build Execution Environments with GitHub Actions](https://github.com/nleiva/ee-builds)
+
 ### Inventories
 - [ansible-inventory](https://github.com/nleiva/ansible-inventory/blob/master/hosts): DevNet always-on Cisco devices.
 
