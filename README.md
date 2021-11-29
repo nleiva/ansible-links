@@ -9,29 +9,32 @@ Curated list of Ansible resources online organized by topic.
 
 ## Learning
 - [Ansible Get started](https://www.ansible.com/resources/get-started)
-- [Ansible Instruqt Courses](https://www.ansible.com/products/ansible-training)
+- [DO007 - Ansible Basics: Automation Technical Overview (FREE)](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview)
+- [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training)
+- [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training)
 - [Ansible Introduction (Katacoda)](https://lab.redhat.com/ansible-introduction)
 - [Ansible Automation Platform Workshops](https://ansible.github.io/workshops/)
 - [Ansible Blog](https://www.ansible.com/blog)
 - [Ansible Fest Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
-- [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/)
-- [Good Practices for Ansible - GPA](https://github.com/redhat-cop/automation-good-practices)
 - [The Bullhorn Newsletter](https://us19.campaign-archive.com/home/?u=56d874e027110e35dea0e03c1&id=d6635f5420)
-- [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update)
-- [Red Hat Management Portfolio](https://github.com/ShaddGallegos/RHTI)
+- [Red Hat Management Portfolio](https://github.com/ShaddGallegos/RHTI): by Shadd Gallegos.
 
-### Ansible features
-#### Roles
-- [Best Practices for Roles](https://github.com/oasis-roles/meta_standards)
+### Writing Playbooks, Roles, etc.
+- [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): by John Wadleigh.
+- [Good Practices for Ansible - GPA](https://github.com/redhat-cop/automation-good-practices)
+- [Best Practices for Roles](https://github.com/redhat-cop/automation-good-practices)
+
+## Ansible features
+### Roles
 - [Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
 
-#### Callback Modules
+### Callback Modules
 - [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
 - [Examples of the stdout or callback plugins](https://rndmh3ro.github.io/)
 - [Provisioning Callbacks](https://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html#provisioning-callbacks)
 
-#### Inventory plugins
+### Inventory plugins
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
 - [Write your own Red Hat Ansible Tower inventory plugin](https://developers.redhat.com/blog/2021/03/10/write-your-own-red-hat-ansible-tower-inventory-plugin)
@@ -42,15 +45,15 @@ Curated list of Ansible resources online organized by topic.
 - [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory): by Will Tome.
 - [Examples to setup inventory plugins with AAP](https://github.com/redawg/inventoryplugins): by Andrew Schoenfeld.
 
-#### Testing
+### Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
 
-#### Collections
+### Collections
 - [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections)
 - [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
 - [Ansible Supported Collections, Versioning, and Release Strategy](https://access.redhat.com/articles/4993781)
 
-##### Useful Collections
+#### Useful Collections
 - [Tower Configuration](https://github.com/redhat-cop/tower_configuration)
 - [Automation Hub Configuration](https://github.com/redhat-cop/ah_configuration)
 
@@ -67,6 +70,7 @@ Curated list of Ansible resources online organized by topic.
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
 
 ### RHAAP 2.0
+- [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update)
 - [Ansible Automation Platform 2.0 Early Access Homepage](https://access.redhat.com/articles/6145072)
 - [Ansible Automation Platform 2.0 Release FAQ](https://access.redhat.com/articles/6192881)
 - [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841)
