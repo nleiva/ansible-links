@@ -33,10 +33,14 @@ Curated list of Ansible resources online organized by topic.
 
 #### Inventory plugins
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
-- [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory)
 - [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
 - [Write your own Red Hat Ansible Tower inventory plugin](https://developers.redhat.com/blog/2021/03/10/write-your-own-red-hat-ansible-tower-inventory-plugin)
 - [Developing an inventory plugin](https://docs.ansible.com/ansible/latest/dev_guide/developing_inventory.html#developing-an-inventory-plugin)
+- [Ansible Constructed Inventory Plugin](https://cloudautomation.pharriso.co.uk/post/ansible-constructed-inventory-plugin/): by Pat Harrison.
+- [Ansible Custom Inventory Plugin - a hands-on, quick start guide](https://termlen0.github.io/2019/11/16/observations/): by Ajay Chenampara.
+- [Advanced Inventories Workshop](https://goetzrieger.github.io/ansible-tower-advanced/9-advanced-inventories/): by Goetz Rieger.
+- [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory): by Will Tome.
+- [Examples to setup inventory plugins with AAP](https://github.com/redawg/inventoryplugins): by Andrew Schoenfeld.
 
 #### Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
