@@ -14,6 +14,7 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training)
 - [Ansible Introduction (Katacoda)](https://lab.redhat.com/ansible-introduction)
 - [Ansible Automation Platform Workshops](https://ansible.github.io/workshops/)
+- [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/)
 - [Ansible Blog](https://www.ansible.com/blog)
 - [Ansible Fest Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
