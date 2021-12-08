@@ -177,18 +177,21 @@ Curated list of Ansible resources online organized by topic.
 - [Simplify your security operations center](https://www.redhat.com/rhdc/managed-files/ma-security-automation-e-book-f24343-202007-en.pdf)
 - [Security Automation with Ansible](https://www.ansible.com/hubfs/2018_Content/AnsibleAutomates-AnsibleForSecurityAutomation.pdf?hsLang=en-us)
 - [Deploying OpenSCAP on Satellite using Ansible](https://www.redhat.com/en/blog/deploying-openscap-satellite-using-ansible)
-- [PCI-DSS v3.2.1 Control Baseline for Red Hat Enterprise Linux 8](https://github.com/RedHatOfficial/ansible-role-rhel8-pci-dss)
-- [DISA STIG for Red Hat Enterprise Linux 7](https://github.com/RedHatOfficial/ansible-role-rhel7-stig)
 - [Implementing Proactive Security and Compliance Automation and DevSecOps](https://github.com/RedHatDemos/SecurityDemos/blob/master/2019Labs/ProactiveSecurityCompliance/documentation/README.adoc)
 - [Workshop - Ansible Automation for Security Compliance](https://github.com/p-avery/ansible_compliance/tree/main/exercises)
 - [ansible-hardening](https://github.com/openstack/ansible-hardening)
 - [Ansible Lockdown](https://github.com/ansible/ansible-lockdown)
-- [Red Hat Product Applicability Guide for PCI DSS version 3.2](https://www.redhat.com/rhdc/managed-files/cm-red-hat-product-applicability-guide-pci-dss-analyst-paper-f16584-201903-en.pdf)
 - [STIG content for configuration management tools](https://public.cyber.mil/stigs/supplemental-automation-content/)
 - [Ansible + OpenSCAP For Compliance Automation](https://medium.com/@jackprice/ansible-openscap-for-compliance-automation-14200fe70663)
 - [Enterprise Compliance and Security with Ansible (Ansible Automates)](https://www.ansible.com/videos-ansible-automates-enterprise-compliance-and-security-with-ansible)
-- [Implementing Content for Automated Security Compliance to Custom Policies (Workshop)](https://2020-summit-labs.gitlab.io/rhel-custom-security-content/)
 - [Automating Security Compliance with Ansible: DevSecOps made Easy](https://madeintandem.com/blog/automating-security-compliance-ansible-devsecops-made-easy/)
+- [ComplianceAsCode](https://github.com/ComplianceAsCode/content#ansible): Ansible playbooks generated from security profiles.
+### RHEL
+- [Implementing Content for Automated Security Compliance to Custom Policies (Workshop)](https://2020-summit-labs.gitlab.io/rhel-custom-security-content/)
+- [PCI-DSS v3.2.1 Control Baseline for Red Hat Enterprise Linux 8](https://github.com/RedHatOfficial/ansible-role-rhel8-pci-dss): Ensures PCI-DSS v3.2.1 security configuration settings are applied.
+- [CIS Red Hat Enterprise Linux 8 Benchmark for Level 2 - Server](https://github.com/RedHatOfficial/ansible-role-rhel8-cis): This profile defines a baseline that aligns to the "Level 2 - Server" configuration from the Center for Internet Security® Red Hat Enterprise Linux 8 Benchmark™, v1.0.1, released 2021-05-19.
+- [DISA STIG for Red Hat Enterprise Linux 7](https://github.com/RedHatOfficial/ansible-role-rhel7-stig): This profile contains configuration checks that align to the DISA STIG for Red Hat Enterprise Linux V3R4.
+- [Red Hat Product Applicability Guide for PCI DSS version 3.2](https://www.redhat.com/rhdc/managed-files/cm-red-hat-product-applicability-guide-pci-dss-analyst-paper-f16584-201903-en.pdf)
 
 ## Service Now
 - [Automating ServiceNow with Red Hat Ansible Automation Platform](https://www.ansible.com/blog/certified-collection-servicenow)
