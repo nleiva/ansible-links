@@ -69,6 +69,7 @@ Curated list of Ansible resources online organized by topic.
 - [Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-tower)
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
+- [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
 
 ### RHAAP 2.0
 - [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update)
