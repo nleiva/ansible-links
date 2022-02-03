@@ -76,6 +76,7 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Automation Platform 2.0 Early Access Homepage](https://access.redhat.com/articles/6145072)
 - [Ansible Automation Platform 2.0 Release FAQ](https://access.redhat.com/articles/6192881)
 - [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841)
+- [Ansible Automation Platform Certified Content](https://access.redhat.com/articles/3642632): Beginning with Ansible 2.9, the Ansible Content Collection subsystem was included as fully supported by Red Hat, and the certified content should be using this packaging format and distributed via Ansible Automation Hub.
 
 #### AWX
 - [Stop using alpha software and improve upgrades ](https://github.com/ansible/awx/issues/10166)
