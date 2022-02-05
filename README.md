@@ -138,7 +138,7 @@ Curated list of Ansible resources online organized by topic.
 - [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/): One of the best ways for people to begin managing their network in a practical way by Landon Holley.
 - [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean). 
 - [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
-- [Ansible Network Automation Workshop - Network Tool Kit](https://github.com/network-automation/toolkit): 
+- [Ansible Network Automation Workshop - Network Tool Kit](https://github.com/network-automation/toolkit): By [Sean Cavanaugh](https://github.com/IPvSean).
 - [Networking Project Board](https://github.com/orgs/ansible-collections/projects/3): Ansible Networking Collection Project Board.
 - [What networking platforms and versions are tested as part of Red Hat Ansible Network Automation?](https://access.redhat.com/articles/3185021)
 
