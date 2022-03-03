@@ -179,7 +179,8 @@ Curated list of Ansible resources online organized by topic.
 
 ### Cisco
 - [Cisco with Ansible](https://developer.cisco.com/automation-ansible/): DevNet tutorials to start your automation journey with Ansible.
-- [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade)
+- [Simplifying network automation with Red Hat Ansible and Cisco](https://www.youtube.com/watch?v=tYKHP-3ol9c): Simplify, optimize, and automate network operations.  Automation gives you the agility, flexibility, and consistency you need to keep infrastructure running at peal performance.
+- [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
 
 ### Juniper
 - [Understanding the Ansible for Junos OS Collections, Roles, and Modules](https://www.juniper.net/documentation/us/en/software/junos-ansible/ansible/topics/concept/junos-ansible-modules-overview.html)
