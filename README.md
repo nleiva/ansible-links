@@ -162,6 +162,7 @@ Curated list of Ansible resources online organized by topic.
 - [Network Resource Modules](https://docs.ansible.com/ansible/latest/network/user_guide/network_resource_modules.html): From Ansible docs.
 - [Network Features Coming Soon in Ansible Engine 2.9](https://www.ansible.com/blog/network-features-coming-soon-in-ansible-engine-2.9): Facts enhancements and **resource modules with scope of work**.
 - [Ansible Network Resource Modules Quick Reference](https://www.ansible.com/hubfs/CY21%7C%20Ansible%20Network%20Automation%20Cheat%20Sheet.pdf)
+- [Network Resource Module Models](https://github.com/ansible-network/resource_module_models/tree/master/models)
 - [Ansible Network Automation Feature Tracker](https://access.redhat.com/articles/5531421): Resource modules per vendor as November 2020.
 - [Network:2021 Spring Roadmap](https://github.com/ansible/community/wiki/Network:2021-Spring-Roadmap#new-network-resource-modules): Latest network resource modules.
 - [Deep dive on VLANS resource modules for network automation](https://www.ansible.com/blog/deep-dive-on-vlans-resource-modules-for-network-automation)
@@ -260,6 +261,7 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-web-server](https://github.com/nleiva/ansible-web-server): Create a highly available web appplication on any cloud provider with Ansible.
 - [ansible-webserver-azure](https://github.com/nleiva/ansible-webserver-azure): Automatically provision a number webserver instances behind a load balancer on Azure.
 - [ansible-networking](https://github.com/nleiva/ansible-networking): Simple networking examples.
+- [ansible-net-modules](https://github.com/nleiva/ansible-net-modules): Network Resource Modules Demo.
 - [aws-testbed](https://github.com/nleiva/aws-testbed): Create reproducible Linux environments in the cloud.
 - [ansible-cloud](https://github.com/nleiva/ansible-cloud): Deploy virtual machines in AWS (Fedora, JunOS, Cisco IOS, CentOS, etc.).
 - [ansible-snow](https://github.com/nleiva/ansible-snow): Ansible Tower workflow with Cisco and Service Now Collections.
