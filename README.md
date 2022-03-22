@@ -91,6 +91,9 @@ Curated list of Ansible resources online organized by topic.
 - [Receptor](https://github.com/project-receptor/receptor): Overlay network intended to ease the distribution of work across a large and dispersed collection of workers.
 - [Galaxy NG](https://github.com/ansible/galaxy_ng): Host your very own Ansible Galaxy server.
 - [Automation Analytics Front End](https://github.com/RedHatInsights/tower-analytics-frontend)
+- [Service Catalog API](https://github.com/RedHatInsights/catalog-api)
+- [Service Catalog UI](https://github.com/RedHatInsights/catalog-ui)
+- [Drools](https://github.com/kiegroup/drools): Rule engine (Decision Manager).
 - [Ansible Collections](https://github.com/ansible-collections): Great Ansible content.
 
 ### Architecture
