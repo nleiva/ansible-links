@@ -93,6 +93,7 @@ Curated list of Ansible resources online organized by topic.
 - [Automation Analytics Front End](https://github.com/RedHatInsights/tower-analytics-frontend)
 - [Service Catalog API](https://github.com/RedHatInsights/catalog-api)
 - [Service Catalog UI](https://github.com/RedHatInsights/catalog-ui)
+- [Pinakes](https://github.com/ansible/pinakes): The upstream community project for RedHat's Automation Services Catalog product..
 - [Drools](https://github.com/kiegroup/drools): Rule engine (Decision Manager).
 - [Ansible Collections](https://github.com/ansible-collections): Great Ansible content.
 
