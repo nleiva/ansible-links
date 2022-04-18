@@ -69,6 +69,7 @@ Curated list of Ansible resources online organized by topic.
 - [Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-tower)
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
+- [What Ports Need To Be Opened In The Firewall For Ansible Automation Platform 2 Services?](https://access.redhat.com/solutions/6756251)
 
 ### Ansible Automation Platform 2
 - [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update): Blog post update from Feb 2021.
