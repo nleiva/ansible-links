@@ -69,14 +69,17 @@ Curated list of Ansible resources online organized by topic.
 - [Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-tower)
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
-- [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
 
-### RHAAP 2.0
-- [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update)
-- [Ansible Automation Platform 2.0 Early Access Homepage](https://access.redhat.com/articles/6145072)
-- [Ansible Automation Platform 2.0 Release FAQ](https://access.redhat.com/articles/6192881)
-- [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841)
-- [Ansible Automation Platform Certified Content](https://access.redhat.com/articles/3642632): Beginning with Ansible 2.9, the Ansible Content Collection subsystem was included as fully supported by Red Hat, and the certified content should be using this packaging format and distributed via Ansible Automation Hub.
+### Ansible Automation Platform 2
+- [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update): Blog post update from Feb 2021.
+- [Ansible Automation Platform 2.0 Early Access Homepage](https://access.redhat.com/articles/6145072): Most commonly used resources for Ansible Automation Platform 2 with all information, FAQ, links, etc.
+- [Ansible Automation Platform 2.0 Release FAQ](https://access.redhat.com/articles/6192881): Product features or roadmap items as it relates to the Ansible Automation Platform (AAP) 2 Release.
+- [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841): Why was Ansible Tower renamed to Automation controller?
+- [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
+- [Ansible Automation Platform 1.2 to 2 Migration Guide]: Methodology to migrate from Ansible Automation Platform 1.2 to Ansible Automation Platform 2.
+
+### Subscription
+- [Certified Content](https://access.redhat.com/articles/3642632): Beginning with Ansible 2.9, the Ansible Content Collection subsystem was included as fully supported by Red Hat, and the certified content should be using this packaging format and distributed via Ansible Automation Hub.
 - [What is included in Red Hat Ansible Automation Platform subscription?](https://access.redhat.com/articles/6057451): Self-Hosted and/or on-premises components; Automation controller, Private automation hub, Automation content navigator, Automation execution environments, Execution environment builder, Automation mesh, Ansible content tools, and Ansible Content Collections. Hosted Services on console.redhat.com; Red Hat Insights for Ansible Automation Platform, Automation hub, Automation services catalog.
 
 #### AWX
