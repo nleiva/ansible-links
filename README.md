@@ -251,6 +251,8 @@ Curated list of Ansible resources online organized by topic.
 
 ## Performance
 - [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
+- [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
+- [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
 
 ## Miscellaneous
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
