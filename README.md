@@ -9,6 +9,7 @@ Curated list of Ansible resources online organized by topic.
 
 ## Learning
 - [Ansible Get started](https://www.ansible.com/resources/get-started)
+- [Get started with Ansible in three parts](https://developers.redhat.com/products/ansible/getting-started)
 - [DO007 - Ansible Basics: Automation Technical Overview (FREE)](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview)
 - [Red Hat Ansible Automation Platform: A beginner’s guide](https://www.redhat.com/rhdc/managed-files/ma-intro-to-ansible-ebook-f31032-202204-en_0.pdf)
 - [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training)
