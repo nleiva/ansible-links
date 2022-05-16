@@ -18,7 +18,7 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Automation Platform Workshops](https://ansible.github.io/workshops/)
 - [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/)
 - [Ansible Blog](https://www.ansible.com/blog)
-- [Ansible Fest](https://www.ansible.com/ansiblefest):
+- [Ansible Fest](https://www.ansible.com/ansiblefest)
   - [Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
   - [Virtual 2020](https://www.youtube.com/watch?v=IXs46VEmBaY&list=PLdu06OJoEf2YcaRkIjvB7V35u6WI9yb19)
   - [Virtual 2021](https://www.youtube.com/watch?v=xVZM0QZtkeI&list=PLdu06OJoEf2aVagK5rW1uMA76H8rPw3CT)
