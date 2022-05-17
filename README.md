@@ -185,6 +185,7 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Network Resource Purge parameter](https://www.ansible.com/blog/ansible-network-resource-purge-parameter)
 
 ### Arista
+- [Ansible Network Automation with Arista CloudVision and Arista Validated Designs](https://www.ansible.com/resources/webinars-training/ansible-network-automation-with-arista-cloudvision-and-arista): Live Demo of Network services provisioning and workflow with Ansible and CloudVision and deep-dive into the “stackable template architecture” by Brad Thornton.
 - [Ansible Collection For Arista Validated Designs](https://github.com/aristanetworks/ansible-avd#ansible-collection-for-arista-validated-designs---aristaavd)
 - [Ansible Modules for Arista CloudVision Platform](https://github.com/aristanetworks/ansible-cvp)
 
