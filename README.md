@@ -197,6 +197,7 @@ Curated list of Ansible resources online organized by topic.
 - [Simplifying network automation with Red Hat Ansible and Cisco](https://www.youtube.com/watch?v=tYKHP-3ol9c): Simplify, optimize, and automate network operations.  Automation gives you the agility, flexibility, and consistency you need to keep infrastructure running at peal performance.
 - [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
 - [Automate Cisco ACI Tenant Profile Creation](https://github.com/CiscoSE/ACI_Ansible_FastStrike): Parse a CSV file that includes the needed attributes to automate and orchestrate creation of new tenants.
+- [Red Hat Fireside Chat with WWT and Cisco](https://www.youtube.com/watch?v=6Ypxh0fUo1Y): Red Hat guests from Cisco Systems and World Wide Technology (WWT) shared their experiences on how partnerships have benefited customers who are implementing next generation network automation.
 
 ### Juniper
 - [Understanding the Ansible for Junos OS Collections, Roles, and Modules](https://www.juniper.net/documentation/us/en/software/junos-ansible/ansible/topics/concept/junos-ansible-modules-overview.html)
