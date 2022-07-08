@@ -228,6 +228,7 @@ Curated list of Ansible resources online organized by topic.
 ## Service Now
 - [Automating ServiceNow with Red Hat Ansible Automation Platform](https://www.ansible.com/blog/certified-collection-servicenow)
 - [Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
+- [Ansible + ServiceNow Demos](https://aap2.demoredhat.com/demos/servicenow/): These demos are intended for effectively demonstrating Ansible + ServiceNow capabilities with prescriptive guides on the Ansible Automation Workshop infrastructure.
 - [Parsing facts from network devices using PyATS/Genie](https://www.ansible.com/blog/ansible-servicenow-part-2-parsing-facts-from-network-devices-using-pyats/genie)
 - [Making outbound RESTful API calls to Red Hat Ansible Tower](https://www.ansible.com/blog/ansible-servicenow-howto-part-3-making-outbound-restful-api-calls-to-ansible-tower)
 - [Connecting ServiceNow and Ansible Tower](https://github.com/shadowman-lab/Ansible-Config/tree/master/SNOW)
