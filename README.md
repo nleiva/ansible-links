@@ -240,11 +240,11 @@ Curated list of Ansible resources online organized by topic.
 - [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
 
 ## Terraform
-- [Ansible and HashiCorp: Better Together](https://www.hashicorp.com/resources/ansible-terraform-better-together)
-- [HashiCorp Terraform and Red Hat Ansible Automation](https://www.redhat.com/en/resources/hashicorp-terraform-ansible-infrastructure-as-code-overview)
-- [Ansible & Terraform – together or against?](https://www.opensourcerers.org/2020/10/12/ansible-and-terraform-integration/)
-- [How To Use Ansible with Terraform for Configuration Management](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management)
-- [Red Hat and Hashicorp Demo Event](https://primetime.bluejeans.com/a2m/events/playback/e0c34c7f-3cae-4ddc-81ea-ee4d4cc7c91a)
+- [Ansible vs. Terraform Demystified](https://www.ansible.com/blog/ansible-vs.-terraform-demystified): The two tools are better together and can work in harmony to create a better experience for developers and operations teams. By [Sean Cavanaugh](https://github.com/IPvSean).
+- [Ansible and HashiCorp: Better Together](https://www.hashicorp.com/resources/ansible-terraform-better-together): Presenters from Red Hat and HashiCorp showcase workflows that integrate the best parts of Ansible and the HashiCorp stack for configuration and provisioning.
+- [Ansible & Terraform – together or against?](https://www.opensourcerers.org/2020/10/12/ansible-and-terraform-integration/): Treat Terraform like any other Ansible module to deploy resources and get the benefit of Terraform like state, dynamic changes to the deployment and even “terraform destroy”. By Götz Rieger.
+- [DigitalOcean's How To Use Ansible with Terraform for Configuration Management](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management): Terraform and Ansible together form a flexible workflow for spinning up servers with the needed software and hardware configurations. Running Ansible directly as part of the Terraform deployment process allows you to have the servers up and bootstrapped with dependencies for your development work and applications much faster.
+- [Red Hat and Hashicorp Demo Event](https://primetime.bluejeans.com/a2m/events/playback/e0c34c7f-3cae-4ddc-81ea-ee4d4cc7c91a): By [Michaeld Ford](https://github.com/michaelford85) and Andy James.
 
 ## Puppet
 - [Migrating from Puppet Enterprise to Ansible Tower](https://www.ansible.com/migrating-from-puppet-enterprise-to-ansible-tower)
