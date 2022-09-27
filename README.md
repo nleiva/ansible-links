@@ -70,6 +70,7 @@ Curated list of Ansible resources online organized by topic.
 - [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview)
 - [System Requirements](https://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html)
 - [Installing Ansible Automation Platform](https://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_install_wizard.html)
+- [Red Hat Ansible Automation Platform Installation Guide](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.2/html-single/red_hat_ansible_automation_platform_installation_guide/index): This guide helps you to understand the installation requirements and processes behind installing Ansible Automation Platform 2.2.
 - [Installer](https://releases.ansible.com/ansible-tower/setup/?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
 - [Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-tower)
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
