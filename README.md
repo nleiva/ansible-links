@@ -156,7 +156,7 @@ Curated list of Ansible resources online organized by topic.
 - [Infrastructure Awareness - Technical Demo](https://www.youtube.com/watch?v=2O-f7PnxA3A): Retrieve facts from network devices and build dynamic documentation to help network engineers and architects gather automated information about their network. By [Sean Cavanaugh](https://github.com/IPvSean).
 - [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
 - [Ansible Network: Workshop - Network Tool Kit](https://github.com/network-automation/toolkit): By [Sean Cavanaugh](https://github.com/IPvSean).
-- [Ansible Network: CY22 Q1 Q2 Roadmap](https://github.com/ansible/community/wiki/Network:-CY22-Q1-Q2-Roadmap): By [Trishna Guha](https://github.com/trishnaguha).
+- [Ansible Network Roadmap](https://github.com/ansible/community/wiki/Network:-CY22-Q3-Q4,-CY23-Roadmap): By [Trishna Guha](https://github.com/trishnaguha).
 - [Ansible Network: Project Board](https://github.com/orgs/ansible-collections/projects/3): Ansible Networking Collection Project Board.
 - [What networking platforms and versions are tested as part of Red Hat Ansible Network Automation?](https://access.redhat.com/articles/3185021)
 
