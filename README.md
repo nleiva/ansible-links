@@ -148,6 +148,7 @@ Curated list of Ansible resources online organized by topic.
 ## Network Automation
 - [Ansible Network Automation](https://www.ansible.com/products/network-automation): Red Hat Ansible Network Automation main page.
 - [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A shameless plug to my blog post at ansible.com.
+- [Red Hat's Network Automation guide](https://www.redhat.com/rhdc/managed-files/ma-network-automation-guide-ebook-f32023-202209-en.pdf): Goes from assessing your network automation maturity to top network automation use cases.
 - [Five great use cases for Ansible Network Automation](https://www.youtube.com/watch?v=wXUgYfZKMHU&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX): Presented by [Sean Cavanaugh](https://github.com/IPvSean), Technical Marketing Manager at Red Hat.
 - [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
 - [Using network automation to power modern applications](https://www.redhat.com/en/engage/growing-network-automation-s-202111230714): [Mike Fratto](https://451research.com/analyst-team/analyst/Mike+Fratto) at 451 Research explores how network automation differs from automated network management and which features to consider as you mature your network automation solution.
