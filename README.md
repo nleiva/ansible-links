@@ -190,7 +190,9 @@ Curated list of Ansible resources online organized by topic.
 ### Arista
 - [Ansible Network Automation with Arista CloudVision and Arista Validated Designs](https://www.ansible.com/resources/webinars-training/ansible-network-automation-with-arista-cloudvision-and-arista): Live Demo of Network services provisioning and workflow with Ansible and CloudVision and deep-dive into the “stackable template architecture” by Brad Thornton.
 - [Ansible Collection For Arista Validated Designs](https://github.com/aristanetworks/ansible-avd#ansible-collection-for-arista-validated-designs---aristaavd)
-- [Ansible Modules for Arista CloudVision Platform](https://github.com/aristanetworks/ansible-cvp)
+- [Ansible Modules for Arista CloudVision Platform](https://github.com/aristanetworks/ansible-cvp
+- [Addressing NetOps issues with Event-Driven Ansible](https://www.ansible.com/blog/addressing-netops-issues-with-event-driven-ansible): Respond to events we gather from things like network telemetry.
+- [gNMI and NATS Demo](https://github.com/arista-netdevops-community/Ansible-Event-Driven-Automation-Examples/tree/main/nats#nats-demo).
 
 ### Aruba
 - [Aruba Switching for Data Center Networking (DCN)](https://github.com/aruba/aoscx-ansible-dcn-workflows)
