@@ -24,10 +24,10 @@ Curated list of Ansible resources online organized by topic.
   - [Chicago 2022](https://www.youtube.com/watch?v=GPYbxj5mi60&list=PLdu06OJoEf2aNRkQZQ8QM5ZwHc8QAoqtz)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
 
-### Writing Playbooks, Roles, etc.
-- [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): by John Wadleigh.
-- [Good Practices for Ansible - GPA](https://github.com/redhat-cop/automation-good-practices)
-- [Best Practices for Roles](https://github.com/redhat-cop/automation-good-practices)
+### Good Practices to write Ansible content
+- [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
+- [The Zen of Ansible](https://www.ansible.com/blog/the-zen-of-ansible): Based on [Timothy Appnel](https://github.com/tima)'s presentation at AnsibleFest 2022.
+- [Good Practices for Ansible](https://github.com/redhat-cop/automation-good-practices#good-practices-for-ansible---gpa): This document aims to gather good practices from the field of Ansible practitioners at Red Hat, consultants, developers, and others. And thus it strives to give any Red Hat employee, partner or customer (or any Ansible user) a guideline from which to start in good conditions their automation journey.
 
 ## Ansible features
 ### Roles
@@ -146,7 +146,8 @@ Curated list of Ansible resources online organized by topic.
 ## Network Automation
 - [Ansible Network Automation](https://www.ansible.com/products/network-automation): Red Hat Ansible Network Automation main page.
 - [Red Hat's Network Automation guide](https://www.redhat.com/rhdc/managed-files/ma-network-automation-guide-ebook-f32023-202209-en.pdf): Goes from assessing your network automation maturity to top network automation use cases.
-- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A shameless plug to my blog post at ansible.com.
+- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A good way to translate network automation into business value is by taking existing processes and automating them to make them more consistent and faster to run. 
+- [Network automation: What architects need to know](https://www.redhat.com/architect/network-automation): Network automation is a marathon, so you might want to begin with baby steps. You also need clear business metrics and to understand how to measure them for success to help others see the path forward.
 - [Five great use cases for Ansible Network Automation](https://www.youtube.com/watch?v=wXUgYfZKMHU&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX): Presented by [Sean Cavanaugh](https://github.com/IPvSean), Technical Marketing Manager at Red Hat.
 - [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
 - [Using network automation to power modern applications](https://www.redhat.com/en/engage/growing-network-automation-s-202111230714): [Mike Fratto](https://451research.com/analyst-team/analyst/Mike+Fratto) at 451 Research explores how network automation differs from automated network management and which features to consider as you mature your network automation solution.
@@ -316,7 +317,6 @@ Curated list of Ansible resources online organized by topic.
 - [A simple guide to quickly provisioning AWS resources with Ansible](https://nleiva.medium.com/a-simple-guide-to-quickly-provisioning-aws-resources-with-ansible-35e67ae15b9c)
 - [How to consistently run temporary workloads on AWS and save money](https://nleiva.medium.com/how-you-can-consistently-run-temporary-workloads-in-the-cloud-37140b4b5e55)
 - [Mapping SAML attributes to Red Hat Ansible Automation Platform organizations and teams](https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams)
-- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows)
 - [5 ways to process JSON data in Ansible](https://opensource.com/article/21/4/process-json-data-ansible)
 - [Monitoring your home lab devices in the cloud for free](https://nleiva.medium.com/monitoring-your-home-lab-devices-in-the-cloud-for-free-54c4d11ac471)
 - [Create an Ansible module for integrating your Google Calendar](https://opensource.com/article/20/10/ansible-module-go)
