@@ -8,24 +8,21 @@
 Curated list of Ansible resources online organized by topic.
 
 ## Learning
-- [Ansible Get started](https://www.ansible.com/resources/get-started)
-- [Get started with Ansible in three parts](https://developers.redhat.com/products/ansible/getting-started)
-- [DO007 - Ansible Basics: Automation Technical Overview (FREE)](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview)
-- [Red Hat Ansible Automation Platform: A beginner’s guide](https://www.redhat.com/rhdc/managed-files/ma-intro-to-ansible-ebook-f31032-202204-en_0.pdf)
-- [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training)
-- [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training)
-- [Ansible Introduction (Katacoda)](https://lab.redhat.com/ansible-introduction)
-- [Ansible Automation Platform Workshops](https://ansible.github.io/workshops/)
-- [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/)
+- [Get started with Red Hat Ansible Automation Platform](https://www.ansible.com/resources/get-started)
+- [Get started with Ansible in three parts](https://developers.redhat.com/products/ansible/getting-started): Create, manage and scale by [Red Hat Developer](https://developers.redhat.com/).
+- [DO007 - Ansible Basics: Automation Technical Overview (FREE)](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview): Series of on-demand, online videos that introduce you to the Red Hat Ansible Automation Platform. Learn configuration management, provisioning, deploying, and managing compute infrastructure across cloud, virtual, and physical environments with Ansible.
+- [Red Hat Ansible Automation Platform: A beginner’s guide](https://www.redhat.com/rhdc/managed-files/ma-intro-to-ansible-ebook-f31032-202204-en_0.pdf): Concise guide to Ansible Automation Platform, its benefits, and information to help you make the right decisions for your organization's automation practice.
+- [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training): Hands-on learning scenarios provide you with a preconfigured Red Hat® Ansible® Automation Platform environment to experiment, practice, and see how automation can relieve you of manual tasks.
+- [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training): Interactive learning scenarios provide you with a pre-configured Ansible environment to experiment, learn, and see how Ansible can help you solve real-world problems. The environment runs entirely in your browser at your convenience, enabling you to learn more about our technology at your pace and time.
+- [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/): The Red Hat Ansible Automation Workshops project is intended for effectively demonstrating Ansible’s capabilities through instructor-led workshops or self-paced exercises.
 - [Official Ansible Product Demos](https://github.com/RedHatGov/product-demos#official-ansible-product-demos)
 - [Ansible Blog](https://www.ansible.com/blog)
 - [Ansible Fest](https://www.ansible.com/ansiblefest)
   - [Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
   - [Virtual 2020](https://www.youtube.com/watch?v=IXs46VEmBaY&list=PLdu06OJoEf2YcaRkIjvB7V35u6WI9yb19)
   - [Virtual 2021](https://www.youtube.com/watch?v=xVZM0QZtkeI&list=PLdu06OJoEf2aVagK5rW1uMA76H8rPw3CT)
+  - [Chicago 2022](https://www.youtube.com/watch?v=GPYbxj5mi60&list=PLdu06OJoEf2aNRkQZQ8QM5ZwHc8QAoqtz)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
-- [The Bullhorn Newsletter](https://us19.campaign-archive.com/home/?u=56d874e027110e35dea0e03c1&id=d6635f5420)
-- [Red Hat Management Portfolio](https://github.com/ShaddGallegos/RHTI): by Shadd Gallegos.
 
 ### Writing Playbooks, Roles, etc.
 - [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): by John Wadleigh.
@@ -85,6 +82,7 @@ Curated list of Ansible resources online organized by topic.
 - [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841): Why was Ansible Tower renamed to Automation controller?
 - [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
 - [Ansible Automation Platform 1.2 to 2 Migration Guide](https://access.redhat.com/documentation/en-us/reference_architectures/2022/html-single/ansible_automation_platform_1.2_to_2_migration_guide/index): Methodology to migrate from Ansible Automation Platform 1.2 to Ansible Automation Platform 2.
+- [Migration from AAP 1.2 to Ansible Automation Platform 2: Side by side upgrade](https://www.youtube.com/watch?v=EKf3u1QdpNo&list=PLdu06OJoEf2YTVvHFPO6ZyZz5ax0FHe2L): Videos series with a step by step walkthrough of a side by side migration from AAP 1.2 to AAP 2 by [Julen Landa Alustiza](https://github.com/Zokormazo).
 
 ### Subscription
 - [Certified Content](https://access.redhat.com/articles/3642632): Beginning with Ansible 2.9, the Ansible Content Collection subsystem was included as fully supported by Red Hat, and the certified content should be using this packaging format and distributed via Ansible Automation Hub.
@@ -147,13 +145,12 @@ Curated list of Ansible resources online organized by topic.
 
 ## Network Automation
 - [Ansible Network Automation](https://www.ansible.com/products/network-automation): Red Hat Ansible Network Automation main page.
-- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A shameless plug to my blog post at ansible.com.
 - [Red Hat's Network Automation guide](https://www.redhat.com/rhdc/managed-files/ma-network-automation-guide-ebook-f32023-202209-en.pdf): Goes from assessing your network automation maturity to top network automation use cases.
+- [Network MOP's as automated workflows](https://www.ansible.com/blog/network-mops-as-automated-workflows): A shameless plug to my blog post at ansible.com.
 - [Five great use cases for Ansible Network Automation](https://www.youtube.com/watch?v=wXUgYfZKMHU&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX): Presented by [Sean Cavanaugh](https://github.com/IPvSean), Technical Marketing Manager at Red Hat.
 - [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
 - [Using network automation to power modern applications](https://www.redhat.com/en/engage/growing-network-automation-s-202111230714): [Mike Fratto](https://451research.com/analyst-team/analyst/Mike+Fratto) at 451 Research explores how network automation differs from automated network management and which features to consider as you mature your network automation solution.
 - [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/): One of the best ways for people to begin managing their network in a practical way by Landon Holley.
-- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean).
 - [Infrastructure Awareness - Technical Demo](https://www.youtube.com/watch?v=2O-f7PnxA3A): Retrieve facts from network devices and build dynamic documentation to help network engineers and architects gather automated information about their network. By [Sean Cavanaugh](https://github.com/IPvSean).
 - [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
 - [Ansible Network: Workshop - Network Tool Kit](https://github.com/network-automation/toolkit): By [Sean Cavanaugh](https://github.com/IPvSean).
@@ -201,11 +198,12 @@ Curated list of Ansible resources online organized by topic.
 - [Cisco with Ansible](https://developer.cisco.com/automation-ansible/): DevNet tutorials to start your automation journey with Ansible.
 - [Simplifying network automation with Red Hat Ansible and Cisco](https://www.youtube.com/watch?v=tYKHP-3ol9c): Simplify, optimize, and automate network operations.  Automation gives you the agility, flexibility, and consistency you need to keep infrastructure running at peal performance.
 - [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
+- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean).
 - [Automate Cisco ACI Tenant Profile Creation](https://github.com/CiscoSE/ACI_Ansible_FastStrike): Parse a CSV file that includes the needed attributes to automate and orchestrate creation of new tenants.
 - [Red Hat Fireside Chat with WWT and Cisco](https://www.youtube.com/watch?v=6Ypxh0fUo1Y): Red Hat guests from Cisco Systems and World Wide Technology (WWT) shared their experiences on how partnerships have benefited customers who are implementing next generation network automation.
 
 ### F5
-- [Deploy production grade automation technology at scale with Red Hat and F5](https://www.redhat.com/rhdc/managed-files/pa-network-automation-for-everyone-f5-e-book-f32193-202211-en.pdf)
+- [Deploy production grade automation technology at scale with Red Hat and F5](https://www.redhat.com/rhdc/managed-files/pa-network-automation-for-everyone-f5-e-book-f32193-202211-en.pdf): F5 provides Certified Content Collections for both physical and virtual editions of BIG-IP, allowing you to automate networks of any size more simply. You can automate and orchestrate nearly all Day 0 to Day 2 tasks over a wide range of use cases. A dedicated staff builds and regularly maintains these integrations, ensuring that they are always up to date and reliable for production use.
 
 ### Juniper
 - [Understanding the Ansible for Junos OS Collections, Roles, and Modules](https://www.juniper.net/documentation/us/en/software/junos-ansible/ansible/topics/concept/junos-ansible-modules-overview.html)
