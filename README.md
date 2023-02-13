@@ -205,6 +205,7 @@ Curated list of Ansible resources online organized by topic.
 
 ### F5
 - [Deploy production grade automation technology at scale with Red Hat and F5](https://www.redhat.com/rhdc/managed-files/pa-network-automation-for-everyone-f5-e-book-f32193-202211-en.pdf): F5 provides Certified Content Collections for both physical and virtual editions of BIG-IP, allowing you to automate networks of any size more simply. You can automate and orchestrate nearly all Day 0 to Day 2 tasks over a wide range of use cases. A dedicated staff builds and regularly maintains these integrations, ensuring that they are always up to date and reliable for production use.
+- [Ansible F5 Networking Workshop](https://aap2.demoredhat.com/exercises/ansible_f5/)
 
 ### Juniper
 - [Understanding the Ansible for Junos OS Collections, Roles, and Modules](https://www.juniper.net/documentation/us/en/software/junos-ansible/ansible/topics/concept/junos-ansible-modules-overview.html)
