@@ -126,6 +126,12 @@ Curated list of Ansible resources online organized by topic.
 - [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
 - [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
 
+#### Platform as Code
+- [Automation controller workflow deployment as code](https://www.ansible.com/blog/automation-controller-workflow-deployment-as-code): A programmatic way to create, update or delete automation controller objects as well as perform tasks such as run jobs, change configurations and much more.
+- [Creating an Ansible controller config as code pipeline](https://www.redhat.com/en/blog/creating-ansible-controller-config-code-pipeline): Create an organization-wide solution to deploying configuration as code.
+- [Ansible Automation Platform 2.3 Configuration as Code Improvements](https://www.ansible.com/blog/ansible-automation-platform-2.3-configuration-as-code-improvements): What Configuration as Code (CaC) is and the benefits it can bring to your organization, including a UI and API walkthrough of automation controller and how to take a full Configuration as Code approach to your automation infrastructure.
+- [Manage automation controller Configuration as Code (CaC) with Ansible](https://www.redhat.com/architect/ansible-automation-controller-cac-gitops): An alternative to database replication to copy data from one environment to another.
+
 #### Considerations
 - [Supported Platforms with Red Hat Ansible Automation Platform](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
 - [How are "managed nodes" defined as part of the Red Hat Ansible Automation Platform offering?](https://access.redhat.com/articles/3331481)
