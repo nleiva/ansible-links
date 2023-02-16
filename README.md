@@ -42,6 +42,7 @@ Curated list of Ansible resources online organized by topic.
 - [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory): by Will Tome.
 - [Ansible Custom Inventory Plugin - a hands-on, quick start guide](https://termlen0.github.io/2019/11/16/observations/): by Ajay Chenampara.
 - [JSON inventory plugin demo](https://github.com/nleiva/inventory): My JSON inventory plugin demo.
+- [Ansible LDAP Inventory Plugin](https://github.com/joshinryz/ansible_ldap_inventory): Query active directory and get a list of machines to use as an inventory. Groups are auto generated off of OU structure and optionally group membership. 
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
 - [Write your own Red Hat Ansible Tower inventory plugin](https://developers.redhat.com/blog/2021/03/10/write-your-own-red-hat-ansible-tower-inventory-plugin)
@@ -66,7 +67,7 @@ Curated list of Ansible resources online organized by topic.
 ### Installation
 - [Product trial](https://www.redhat.com/en/technologies/management/ansible/try-it): A single, 60-day, self-supported subscription to Red Hat® Ansible® Automation Platform for installation on Red Hat Enterprise Linux® (a subscription to Red Hat Enterprise Linux is included with this product trial, if not already installed).
 - [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview): Download at no cost.
-- [System Requirements](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_planning_guide/platform-system-requirements): Red Hat Enterprise Linux 8.4 or later 64-bit (x86), Python 3.8 or later, PostgreSQL version 13. 16 GB RAM, 4 CPUs, 40 GB dedicated hard disk space (allocate a minimum of 20 GB to /var/lib/awx for execution environment storage).
+- [System Requirements](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_planning_guide/platform-system-requirements): Red Hat Enterprise Linux 8.4 or later 64-bit (x86), Python 3.8 or later, PostgreSQL version 13. 16 GB RAM, 4 CPUs, 40 GB dedicated hard disk space (allocate a minimum of 20 GB to `/var/lib/awx` for execution environment storage).
 - [Installing Red Hat Ansible Automation Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_installation_guide/assembly-platform-install-scenario): This guide helps you to understand the installation requirements and processes behind installing Ansible Automation Platform 2.3.
 - [Red Hat Ansible Automation Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-automation-platform)
 - [What Ports Need To Be Opened In The Firewall For Ansible Automation Platform 2 Services?](https://access.redhat.com/solutions/6756251)
@@ -139,15 +140,23 @@ Curated list of Ansible resources online organized by topic.
 ### RBAC and Authentication
 - [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
 - [Setting up Enterprise Authentication](https://docs.ansible.com/ansible-tower/latest/html/administration/ent_auth.html#setting-up-enterprise-authentication)
-- [Using two-factor SAML with Ansible Tower](https://www.ansible.com/blog/using-two-factor-saml-with-ansible-tower): 2FA to Ansible Tower with SAML, OAuth, and even some LDAP configs is fine. On the other hand, [2FA to managed machines is discouraged](https://access.redhat.com/solutions/3617131).
-- [Mapping SAML attributes to Red Hat Ansible Automation Platform organizations and teams](https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams)
 - [RBAC Guide and Recommendations](https://github.com/ShaddGallegos/RHTI/blob/master/Ansible_Tower/Ansible_PDF/Ansible_Tower-RBAC_Recommendations.pdf)
 - [Organizations](https://docs.ansible.com/ansible-tower/latest/html/userguide/organizations.html): Logical collection of Users, Teams, Projects, and Inventories.
-- [How To Configure SAML Authentication with Azure AD in Ansible Tower?](https://access.redhat.com/solutions/3889291)
+
+#### LDAP
 - [Authenticating To Ansible Tower via Windows Active Directory](http://gregsowell.com/?p=6443)
+- [https://docs.ansible.com/automation-controller/4.2.1/html/administration/ldap_auth.html](https://docs.ansible.com/automation-controller/4.2.1/html/administration/ldap_auth.html)
+
+#### SAML
+- [Using two-factor SAML with Ansible Tower](https://www.ansible.com/blog/using-two-factor-saml-with-ansible-tower): 2FA to Ansible Tower with SAML, OAuth, and even some LDAP configs is fine. On the other hand, [2FA to managed machines is discouraged](https://access.redhat.com/solutions/3617131).
+- [Mapping SAML attributes to Red Hat Ansible Automation Platform organizations and teams](https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams)
+- [How To Configure SAML Authentication with Azure AD in Ansible Tower?](https://access.redhat.com/solutions/3889291)
+- [Configure SAML Authentication](https://github.com/ansible/awx/blob/15964dc3959472950db23ed6463c7f4e1978192c/docs/auth/saml.md#saml): AWX can be configured to talk with SAML in order to authenticate (create/login/logout) users of AWX. User Team and Organization membership can be embedded in the SAML response to AWX.
 
 ### Internals
 - [Ansible Tower 3.7.0 RabbitMQ Replacement](https://www.youtube.com/watch?v=smYgGswrDpc)
+- [Ansible Runner Integration Overview](https://github.com/ansible/awx/blob/15964dc3959472950db23ed6463c7f4e1978192c/docs/ansible_runner_integration.md#ansible-runner-integration-overview): AWX calls out to `ansible-runner` to invoke `ansible` and `ansible-playbook`.
+- [AWX Capacity Determination and Job Impact](https://github.com/ansible/awx/blob/15964dc3959472950db23ed6463c7f4e1978192c/docs/capacity.md#awx-capacity-determination-and-job-impact): The AWX capacity system determines how many jobs can run on an Instance given the amount of resources available to the Instance and the size of the jobs that are running (referred to hereafter as Impact).
 
 ## Python
 - [Python and Ansible to Automate a Network Security Workflow](https://medium.com/swlh/python-and-ansible-to-automate-a-network-security-workflow-28b9a44660c6)
