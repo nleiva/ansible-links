@@ -66,7 +66,7 @@ Curated list of Ansible resources online organized by topic.
 ### Installation
 - [Product trial](https://www.redhat.com/en/technologies/management/ansible/try-it): A single, 60-day, self-supported subscription to Red Hat® Ansible® Automation Platform for installation on Red Hat Enterprise Linux® (a subscription to Red Hat Enterprise Linux is included with this product trial, if not already installed).
 - [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview): Download at no cost.
-- [System Requirements](https://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html)
+- [System Requirements](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_planning_guide/platform-system-requirements): Red Hat Enterprise Linux 8.4 or later 64-bit (x86), Python 3.8 or later, PostgreSQL version 13. 16 GB RAM, 4 CPUs, 40 GB dedicated hard disk space (allocate a minimum of 20 GB to /var/lib/awx for execution environment storage).
 - [Installing Red Hat Ansible Automation Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_installation_guide/assembly-platform-install-scenario): This guide helps you to understand the installation requirements and processes behind installing Ansible Automation Platform 2.3.
 - [Red Hat Ansible Automation Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-automation-platform)
 - [What Ports Need To Be Opened In The Firewall For Ansible Automation Platform 2 Services?](https://access.redhat.com/solutions/6756251)
