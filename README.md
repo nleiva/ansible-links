@@ -219,6 +219,7 @@ Curated list of Ansible resources online organized by topic.
 ### Palo Alto
 - [Palo Alto Ansible LIVEcommunity](https://live.paloaltonetworks.com/t5/ansible/ct-p/Ansible)
 - [Module reference](https://paloaltonetworks.github.io/pan-os-ansible/modules.html)
+- [Palo Alto Networks playbook examples](https://github.com/PaloAltoNetworks/ansible-playbooks)
 - [Michael Ford's examples](https://github.com/michaelford85/ansible-panos)
 
 ## Security
@@ -243,6 +244,7 @@ Curated list of Ansible resources online organized by topic.
 - [Red Hat Product Applicability Guide for PCI DSS version 3.2](https://www.redhat.com/rhdc/managed-files/cm-red-hat-product-applicability-guide-pci-dss-analyst-paper-f16584-201903-en.pdf)
 
 ## Service Now
+- [Introducing the Ansible API for ServiceNow ITSM](https://www.ansible.com/blog/introducing-the-ansible-api-for-servicenow-itsm): A result of the release of Rome, but it's also compatible with ServiceNow ITSM San Diego and Tokyo.
 - [Automating ServiceNow with Red Hat Ansible Automation Platform](https://www.ansible.com/blog/certified-collection-servicenow)
 - [Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
 - [Ansible + ServiceNow Demos](https://aap2.demoredhat.com/demos/servicenow/): These demos are intended for effectively demonstrating Ansible + ServiceNow capabilities with prescriptive guides on the Ansible Automation Workshop infrastructure.
@@ -255,6 +257,7 @@ Curated list of Ansible resources online organized by topic.
 
 ## Splunk
 - [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
+- [Splunk-Ansible documentation](https://splunk.github.io/splunk-ansible/): Collection of Splunk configuration best practices, written as Ansible playbooks for configuring Splunk Enterprise and Universal Forwarder instances based on a declarative configuration. The playbooks are internally-vetted procedures and operations that administer and manage Splunk as done within the company.
 
 ## Terraform
 - [Ansible vs. Terraform Demystified](https://www.ansible.com/blog/ansible-vs.-terraform-demystified): The two tools are better together and can work in harmony to create a better experience for developers and operations teams. By [Sean Cavanaugh](https://github.com/IPvSean).
