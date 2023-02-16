@@ -64,23 +64,20 @@ Curated list of Ansible resources online organized by topic.
 ## Red Hat Ansible Automation Platform
 
 ### Installation
-- [Trial](https://www.redhat.com/en/technologies/management/ansible/try-it)
-- [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview)
+- [Product trial](https://www.redhat.com/en/technologies/management/ansible/try-it): A single, 60-day, self-supported subscription to Red Hat® Ansible® Automation Platform for installation on Red Hat Enterprise Linux® (a subscription to Red Hat Enterprise Linux is included with this product trial, if not already installed).
+- [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview): Download at no cost.
 - [System Requirements](https://docs.ansible.com/ansible-tower/latest/html/installandreference/requirements_refguide.html)
-- [Installing Ansible Automation Platform](https://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_install_wizard.html)
-- [Red Hat Ansible Automation Platform Installation Guide](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.2/html-single/red_hat_ansible_automation_platform_installation_guide/index): This guide helps you to understand the installation requirements and processes behind installing Ansible Automation Platform 2.2.
-- [Installer](https://releases.ansible.com/ansible-tower/setup/?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW)
-- [Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-tower)
-- [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
-- [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
+- [Installing Red Hat Ansible Automation Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/red_hat_ansible_automation_platform_installation_guide/assembly-platform-install-scenario): This guide helps you to understand the installation requirements and processes behind installing Ansible Automation Platform 2.3.
+- [Red Hat Ansible Automation Platform Life Cycle](https://access.redhat.com/support/policy/updates/ansible-automation-platform)
 - [What Ports Need To Be Opened In The Firewall For Ansible Automation Platform 2 Services?](https://access.redhat.com/solutions/6756251)
+- [Deploying the Red Hat Ansible Automation Platform operator on OpenShift Container Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/deploying_the_red_hat_ansible_automation_platform_operator_on_openshift_container_platform/index)
+- [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
 
 ### Ansible Automation Platform 2
 - [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update): Blog post update from Feb 2021.
 - [Ansible Automation Platform 2.0 Early Access Homepage](https://access.redhat.com/articles/6145072): Most commonly used resources for Ansible Automation Platform 2 with all information, FAQ, links, etc.
 - [Ansible Automation Platform 2.0 Release FAQ](https://access.redhat.com/articles/6192881): Product features or roadmap items as it relates to the Ansible Automation Platform (AAP) 2 Release.
 - [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841): Why was Ansible Tower renamed to Automation controller?
-- [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
 - [Ansible Automation Platform 1.2 to 2 Migration Guide](https://access.redhat.com/documentation/en-us/reference_architectures/2022/html-single/ansible_automation_platform_1.2_to_2_migration_guide/index): Methodology to migrate from Ansible Automation Platform 1.2 to Ansible Automation Platform 2.
 - [Migration from AAP 1.2 to Ansible Automation Platform 2: Side by side upgrade](https://www.youtube.com/watch?v=EKf3u1QdpNo&list=PLdu06OJoEf2YTVvHFPO6ZyZz5ax0FHe2L): Videos series with a step by step walkthrough of a side by side migration from AAP 1.2 to AAP 2 by [Julen Landa Alustiza](https://github.com/Zokormazo).
 
@@ -107,21 +104,27 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Collections](https://github.com/ansible-collections): Great Ansible content.
 
 ### Architecture
-- [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
-- [Instance Groups](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#ag-instance-groups): . Instance groups can be assigned to one or more of; Organizations, Inventories, and Job Templates.
-- [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
-- [Configure High Availability and/or Disaster Recovery on a Tower Cluster](https://github.com/redhat-cop/automate-tower-ha-dr#configure-high-availability-andor-disaster-recovery-on-a-tower-cluster): Toolkit not officially supported by Red Hat Ansible support/engineering and provided as is.
-- [Security Best Practices](https://docs.ansible.com/ansible-tower/latest/html/administration/security_best_practices.html)
+- [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
 - [Ansible Automation Platform 1.2 - Reference Architecture](https://access.redhat.com/articles/6039601)
+- [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
+- [Security Best Practices](https://docs.ansible.com/ansible-tower/latest/html/administration/security_best_practices.html)
+
+#### Backend Database
+- [Red Hat Ansible Tower Database Scope of Coverage](https://access.redhat.com/articles/4010491)
+- [Is Database Replication Supported with an Ansible Tower subscription?](https://access.redhat.com/solutions/3682951)
 
 #### Container Groups
 - [Container Groups docs](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#container-groups)
+- [Instance Groups](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#ag-instance-groups): . Instance groups can be assigned to one or more of; Organizations, Inventories, and Job Templates.
 - [Ansible Tower Container Groups demo](https://www.youtube.com/watch?v=fBNTYOovtkI)
 - [Introduction to Ansible Builder](https://www.ansible.com/blog/introduction-to-ansible-builder)
 
-#### AAP Database
-- [Red Hat Ansible Tower Database Scope of Coverage](https://access.redhat.com/articles/4010491)
-- [Is Database Replication Supported with an Ansible Tower subscription?](https://access.redhat.com/solutions/3682951)
+#### High Availability
+- [Configure High Availability and/or Disaster Recovery on a Tower Cluster](https://github.com/redhat-cop/automate-tower-ha-dr#configure-high-availability-andor-disaster-recovery-on-a-tower-cluster): Toolkit not officially supported by Red Hat Ansible support/engineering and provided as is.
+- [AWX Clustering/HA Overview](https://github.com/ansible/awx/blob/15964dc3959472950db23ed6463c7f4e1978192c/docs/clustering.md#awx-clusteringha-overview): Allow grouping of clustered instances into different pools/queues.
+- [Manage automation controller active and passive multisite architecture with Ansible](https://www.redhat.com/architect/automation-controller-active-passive-architecture-cac): Create a workflow to achieve consistency across multiple Ansible Automation Platform sites simultaneously. Remove the overhead associated with maintaining database backups or expensive replication solutions while enabling disaster recovery and failover. 
+- [Clustering](https://docs.ansible.com/ansible-tower/latest/html/administration/clustering.html#clustering): Clustering is sharing load between hosts. Each instance should be able to act as an entry point for UI and API access. This should enable Tower administrators to use load balancers in front of as many instances as they wish and maintain good data visibility.
+- [AWS Multi–AZ Ansible Tower Cluster](http://blog.domb.net/?p=2371)
 
 #### Considerations
 - [Supported Platforms with Red Hat Ansible Automation Platform](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
