@@ -143,6 +143,9 @@ Curated list of Ansible resources online organized by topic.
 ## Python
 - [Python and Ansible to Automate a Network Security Workflow](https://medium.com/swlh/python-and-ansible-to-automate-a-network-security-workflow-28b9a44660c6)
 
+## Go
+- [Get Yourself GOing with Ansible](https://codeburst.io/get-yourself-going-with-ansible-60ca623bf4)
+
 ## Network Automation
 - [Ansible Network Automation](https://www.ansible.com/products/network-automation): Red Hat Ansible Network Automation main page.
 - [Red Hat's Network Automation guide](https://www.redhat.com/rhdc/managed-files/ma-network-automation-guide-ebook-f32023-202209-en.pdf): Goes from assessing your network automation maturity to top network automation use cases.
@@ -188,7 +191,7 @@ Curated list of Ansible resources online organized by topic.
 ### Arista
 - [Ansible Network Automation with Arista CloudVision and Arista Validated Designs](https://www.ansible.com/resources/webinars-training/ansible-network-automation-with-arista-cloudvision-and-arista): Live Demo of Network services provisioning and workflow with Ansible and CloudVision and deep-dive into the “stackable template architecture” by Brad Thornton.
 - [Ansible Collection For Arista Validated Designs](https://github.com/aristanetworks/ansible-avd#ansible-collection-for-arista-validated-designs---aristaavd)
-- [Ansible Modules for Arista CloudVision Platform](https://github.com/aristanetworks/ansible-cvp
+- [Ansible Modules for Arista CloudVision Platform](https://github.com/aristanetworks/ansible-cvp)
 - [Addressing NetOps issues with Event-Driven Ansible](https://www.ansible.com/blog/addressing-netops-issues-with-event-driven-ansible): Respond to events we gather from things like network telemetry.
 - [gNMI and NATS Demo](https://github.com/arista-netdevops-community/Ansible-Event-Driven-Automation-Examples/tree/main/nats#nats-demo).
 
@@ -212,6 +215,11 @@ Curated list of Ansible resources online organized by topic.
 
 ### NetBox
 - [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
+
+### Palo Alto
+- [Palo Alto Ansible LIVEcommunity](https://live.paloaltonetworks.com/t5/ansible/ct-p/Ansible)
+- [Module reference](https://paloaltonetworks.github.io/pan-os-ansible/modules.html)
+- [Michael Ford's examples](https://github.com/michaelford85/ansible-panos)
 
 ## Security
 - [Simplify your security operations center](https://www.redhat.com/rhdc/managed-files/ma-security-automation-e-book-f24343-202007-en.pdf)
