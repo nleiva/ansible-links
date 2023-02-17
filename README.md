@@ -39,16 +39,19 @@ Curated list of Ansible resources online organized by topic.
 - [Provisioning Callbacks](https://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html#provisioning-callbacks)
 
 ### Inventory plugins
-- [Inventory Plugin Examples](https://github.com/willtome/ansible-inventory): by Will Tome.
-- [Ansible Custom Inventory Plugin - a hands-on, quick start guide](https://termlen0.github.io/2019/11/16/observations/): by Ajay Chenampara.
-- [JSON inventory plugin demo](https://github.com/nleiva/inventory): My JSON inventory plugin demo.
-- [Ansible LDAP Inventory Plugin](https://github.com/joshinryz/ansible_ldap_inventory): Query active directory and get a list of machines to use as an inventory. Groups are auto generated off of OU structure and optionally group membership. 
+- [Ansible Custom Inventory Plugin](https://termlen0.github.io/2019/11/16/observations/): A hands-on, quick start guide by Ajay Chenampara.
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
 - [AnsibleFest Presentation](https://www.ansible.com/managing-meaningful-inventories)
 - [Write your own Red Hat Ansible Tower inventory plugin](https://developers.redhat.com/blog/2021/03/10/write-your-own-red-hat-ansible-tower-inventory-plugin)
 - [Developing an inventory plugin](https://docs.ansible.com/ansible/latest/dev_guide/developing_inventory.html#developing-an-inventory-plugin)
 - [Ansible Constructed Inventory Plugin](https://cloudautomation.pharriso.co.uk/post/ansible-constructed-inventory-plugin/): by Pat Harrison.
 - [Advanced Inventories Workshop](https://goetzrieger.github.io/ansible-tower-advanced/9-advanced-inventories/): by Goetz Rieger.
+
+#### Inventory plugins examples
+- [Will Tome's examples](https://github.com/willtome/ansible-inventory): by Will Tome.
+- [JSON](https://github.com/nleiva/inventory): My JSON inventory plugin demo.
+- [Active Directory](https://github.com/mdhowle/ansible-ad-inventory): Active Directory dynamic inventory plugin for Ansible
+- [LDAP](https://github.com/joshinryz/ansible_ldap_inventory): Query active directory and get a list of machines to use as an inventory. Groups are auto generated off of OU structure and optionally group membership. 
 
 ### Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
