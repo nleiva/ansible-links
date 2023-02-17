@@ -196,7 +196,7 @@ Curated list of Ansible resources online organized by topic.
 - [Network Inventory Report with Ansible](https://github.com/AdamMack2007/ansible_inventory_report#network-inventory-report-with-ansible): Creates a compliance report for network devices. By [Adam Mack](https://github.com/AdamMack2007).
 - [Example of Networking Inventory with Ansible](https://github.com/network-automation/ansible_inventory_report): Generate a HTML report using the template module from facts gathered with the nxos_facts module. By [Sean Cavanaugh](https://github.com/IPvSean).
 - [Git as a source of truth for network automation](https://vincent.bernat.ch/en/blog/2021-source-of-truth-network)
-- [Network CVE Report with Ansible](https://adammack2007.github.io/Ansible-Cisco-CVE-Parser/): Creates a report of all CVEs that affect a specific platform (Cisco NXOS, IOS, IOS-XE) based on the version of the software the hosts are running. By [Adam Mack](https://github.com/AdamMack2007).
+- [Ansible SNMP Collection](https://github.com/ansible-collections/ansible.snmp#ansible-snmp-collection): Using SNMP on the control node to make SNMP connections to a device.
 
 ### Network Resource Modules
 - [What is a resource module](https://github.com/ansible-community/community-topics/issues/33#issuecomment-897029700)
@@ -223,12 +223,19 @@ Curated list of Ansible resources online organized by topic.
 - [Aruba Switching for Data Center Networking (DCN)](https://github.com/aruba/aoscx-ansible-dcn-workflows)
 
 ### Cisco
-- [Cisco with Ansible](https://developer.cisco.com/automation-ansible/): DevNet tutorials to start your automation journey with Ansible.
 - [Simplifying network automation with Red Hat Ansible and Cisco](https://www.youtube.com/watch?v=tYKHP-3ol9c): Simplify, optimize, and automate network operations.  Automation gives you the agility, flexibility, and consistency you need to keep infrastructure running at peal performance.
-- [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
-- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean).
+- [Cisco with Ansible](https://developer.cisco.com/automation-ansible/): DevNet tutorials to start your automation journey with Ansible.
+- [Manage your Cisco devices with Red Hat Ansible Automation Platform](https://www.youtube.com/watch?v=teJGYOu49QY&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX&index=14): Drive the desired state of configuration for VLANs, prefix-lists, interfaces, BGP and more!
+#### ACI
 - [Automate Cisco ACI Tenant Profile Creation](https://github.com/CiscoSE/ACI_Ansible_FastStrike): Parse a CSV file that includes the needed attributes to automate and orchestrate creation of new tenants.
-- [Red Hat Fireside Chat with WWT and Cisco](https://www.youtube.com/watch?v=6Ypxh0fUo1Y): Red Hat guests from Cisco Systems and World Wide Technology (WWT) shared their experiences on how partnerships have benefited customers who are implementing next generation network automation.
+#### ASA
+- [Creating ACL entries in a Cisco ASA device](https://subscription.packtpub.com/book/cloud-and-networking/9781803235417/8/ch08lvl1sec50/creating-acl-entries-in-a-cisco-asa-device): The [Cisco ASA collection](https://galaxy.ansible.com/cisco/asa) provides modules and plugins to automate Cisco ASA operations. In this section, you will learn how to use Cisco ASA modules to create ACL entries in a Cisco ASA device.
+- [Automating the deployment os the Cisco ASA REST API](https://www.criticaldesign.net/post/automating-the-deployment-of-the-cisco-asa-rest-api): deploying the Cisco ASA REST API using automation via Ansible.
+- [Ansible Playbook for Cisco ASAv Firewall Topology](https://techbloc.net/archives/2360): Configure specific firewall settings.
+#### IOS-XE
+- [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean).
+- [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
+- [Network CVE Report with Ansible](https://adammack2007.github.io/Ansible-Cisco-CVE-Parser/): Creates a report of all CVEs that affect a specific platform (Cisco NXOS, IOS, IOS-XE) based on the version of the software the hosts are running. By [Adam Mack](https://github.com/AdamMack2007).
 
 ### F5
 - [Deploy production grade automation technology at scale with Red Hat and F5](https://www.redhat.com/rhdc/managed-files/pa-network-automation-for-everyone-f5-e-book-f32193-202211-en.pdf): F5 provides Certified Content Collections for both physical and virtual editions of BIG-IP, allowing you to automate networks of any size more simply. You can automate and orchestrate nearly all Day 0 to Day 2 tasks over a wide range of use cases. A dedicated staff builds and regularly maintains these integrations, ensuring that they are always up to date and reliable for production use.
