@@ -86,6 +86,9 @@ Curated list of Ansible resources online organized by topic.
 - [Certified Content](https://access.redhat.com/articles/3642632): Beginning with Ansible 2.9, the Ansible Content Collection subsystem was included as fully supported by Red Hat, and the certified content should be using this packaging format and distributed via Ansible Automation Hub.
 - [What is included in Red Hat Ansible Automation Platform subscription?](https://access.redhat.com/articles/6057451): Self-Hosted and/or on-premises components; Automation controller, Private automation hub, Automation content navigator, Automation execution environments, Execution environment builder, Automation mesh, Ansible content tools, and Ansible Content Collections. Hosted Services on console.redhat.com; Red Hat Insights for Ansible Automation Platform, Automation hub, Automation services catalog.
 
+### Validated content
+- [Ansible Validated Content Submission](https://redhat-cop.github.io/cop/automation-cop/validated-content-submit.html): Ansible Validated Content is a program dedicated to providing curated but non-supported content through AAP to help customers perform common operational tasks based on Red Hat or partner-led expertise.
+
 #### AWX
 - [Stop using alpha software and improve upgrades ](https://github.com/ansible/awx/issues/10166)
 
