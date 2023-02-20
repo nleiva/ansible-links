@@ -238,6 +238,9 @@ Curated list of Ansible resources online organized by topic.
 - [Network CVE Report with Ansible](https://adammack2007.github.io/Ansible-Cisco-CVE-Parser/): Creates a report of all CVEs that affect a specific platform (Cisco NXOS, IOS, IOS-XE) based on the version of the software the hosts are running. By [Adam Mack](https://github.com/AdamMack2007).
 #### Meraki
 - [Meraki playbook example](https://github.com/nleiva/ansible-networking/blob/master/meraki.md#meraki): Queries data from the Merakin innstance in the DevNet Sandbox.
+#### SD-WAN (Viptela)
+- [Viptela Ansible Modules](https://github.com/CiscoDevNet/python-viptela/tree/master/ansible): An set of Ansible modules for automating a Viptela Overlay Network.
+- [SDWAN DevOps](https://github.com/CiscoDevNet/sdwan-devops): This repo contains a set of tools to automate workflows and build CI/CD pipelines for Cisco SDWAN.
 
 ### F5
 - [Deploy production grade automation technology at scale with Red Hat and F5](https://www.redhat.com/rhdc/managed-files/pa-network-automation-for-everyone-f5-e-book-f32193-202211-en.pdf): F5 provides Certified Content Collections for both physical and virtual editions of BIG-IP, allowing you to automate networks of any size more simply. You can automate and orchestrate nearly all Day 0 to Day 2 tasks over a wide range of use cases. A dedicated staff builds and regularly maintains these integrations, ensuring that they are always up to date and reliable for production use.
