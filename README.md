@@ -151,7 +151,7 @@ Curated list of Ansible resources online organized by topic.
 
 #### LDAP
 - [Authenticating To Ansible Tower via Windows Active Directory](http://gregsowell.com/?p=6443)
-- [https://docs.ansible.com/automation-controller/4.2.1/html/administration/ldap_auth.html](https://docs.ansible.com/automation-controller/4.2.1/html/administration/ldap_auth.html)
+- [Setting up LDAP Authentication](https://docs.ansible.com/automation-controller/4.2.1/html/administration/ldap_auth.html)
 
 #### SAML
 - [Using two-factor SAML with Ansible Tower](https://www.ansible.com/blog/using-two-factor-saml-with-ansible-tower): 2FA to Ansible Tower with SAML, OAuth, and even some LDAP configs is fine. On the other hand, [2FA to managed machines is discouraged](https://access.redhat.com/solutions/3617131).
@@ -236,6 +236,8 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean).
 - [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
 - [Network CVE Report with Ansible](https://adammack2007.github.io/Ansible-Cisco-CVE-Parser/): Creates a report of all CVEs that affect a specific platform (Cisco NXOS, IOS, IOS-XE) based on the version of the software the hosts are running. By [Adam Mack](https://github.com/AdamMack2007).
+#### Meraki
+- [Meraki playbook example](https://github.com/nleiva/ansible-networking/blob/master/meraki.md#meraki): Queries data from the Merakin innstance in the DevNet Sandbox.
 
 ### F5
 - [Deploy production grade automation technology at scale with Red Hat and F5](https://www.redhat.com/rhdc/managed-files/pa-network-automation-for-everyone-f5-e-book-f32193-202211-en.pdf): F5 provides Certified Content Collections for both physical and virtual editions of BIG-IP, allowing you to automate networks of any size more simply. You can automate and orchestrate nearly all Day 0 to Day 2 tasks over a wide range of use cases. A dedicated staff builds and regularly maintains these integrations, ensuring that they are always up to date and reliable for production use.
