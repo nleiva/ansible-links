@@ -29,6 +29,11 @@ Curated list of Ansible resources online organized by topic.
 - [The Zen of Ansible](https://www.ansible.com/blog/the-zen-of-ansible): Based on [Timothy Appnel](https://github.com/tima)'s presentation at AnsibleFest 2022.
 - [Good Practices for Ansible](https://github.com/redhat-cop/automation-good-practices#good-practices-for-ansible---gpa): This document aims to gather good practices from the field of Ansible practitioners at Red Hat, consultants, developers, and others. And thus it strives to give any Red Hat employee, partner or customer (or any Ansible user) a guideline from which to start in good conditions their automation journey.
 
+### Performance
+- [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
+- [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
+- [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
+
 ## Ansible features
 ### Roles
 - [Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
@@ -76,6 +81,7 @@ Curated list of Ansible resources online organized by topic.
 - [What Ports Need To Be Opened In The Firewall For Ansible Automation Platform 2 Services?](https://access.redhat.com/solutions/6756251)
 - [Deploying the Red Hat Ansible Automation Platform operator on OpenShift Container Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/deploying_the_red_hat_ansible_automation_platform_operator_on_openshift_container_platform/index)
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
+- [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
 
 ### Ansible Automation Platform 2
 - [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update): Blog post update from Feb 2021.
@@ -258,6 +264,14 @@ Curated list of Ansible resources online organized by topic.
 - [Palo Alto Networks playbook examples](https://github.com/PaloAltoNetworks/ansible-playbooks)
 - [Michael Ford's examples](https://github.com/michaelford85/ansible-panos)
 
+## Edge
+- [Red Hat Device Edge Workshop](https://redhat-manufacturing.github.io/device-edge-workshops/exercises/rhde_aw_120/#section-2---setting-up-for-zero-touch-provisioning): Focuses on deploying various workloads to a Device Edge endpoint, focusing on ease of updating the image to support the workload type and leveraging automation to deploy the workload.
+- [Ansible Edge GitOps](https://redhat-gitops-patterns.io/ansible-edge-gitops/): Explores some of the possibilities of using an OpenShift-based Ansible Automated Platform deployment and managing Edge devices, based on work done with a partner in the Chemical space. This pattern uses OpenShift Virtualization (the productization of Kubevirt) to simulate the Edge environment for VMs.
+- [How to automate devices using the Ansible CIP collection](https://developers.redhat.com/articles/2023/01/10/automate-devices-using-ansible-cip#): Control embedded devices via the Common Industrial Protocol (CIP).
+
+## Kubernetes
+- [How useful is Ansible in a Cloud-Native Kubernetes Environment?](https://www.ansible.com/blog/how-useful-is-ansible-in-a-cloud-native-kubernetes-environment)
+
 ## Security
 - [Simplify your security operations center](https://www.redhat.com/rhdc/managed-files/ma-security-automation-e-book-f24343-202007-en.pdf)
 - [Security Automation with Ansible](https://www.ansible.com/hubfs/2018_Content/AnsibleAutomates-AnsibleForSecurityAutomation.pdf?hsLang=en-us)
@@ -279,7 +293,12 @@ Curated list of Ansible resources online organized by topic.
 - [DISA STIG for Red Hat Enterprise Linux 7](https://github.com/RedHatOfficial/ansible-role-rhel7-stig): This profile contains configuration checks that align to the DISA STIG for Red Hat Enterprise Linux V3R4.
 - [Red Hat Product Applicability Guide for PCI DSS version 3.2](https://www.redhat.com/rhdc/managed-files/cm-red-hat-product-applicability-guide-pci-dss-analyst-paper-f16584-201903-en.pdf)
 
-## Service Now
+## Windows
+- [Windows Ansible Examples](https://github.com/oatakan/windows-ansible-example): Playbook collection by [Orcun Atakan](https://github.com/oatakan).
+
+## Integrations
+
+### Service Now
 - [Introducing the Ansible API for ServiceNow ITSM](https://www.ansible.com/blog/introducing-the-ansible-api-for-servicenow-itsm): A result of the release of Rome, but it's also compatible with ServiceNow ITSM San Diego and Tokyo.
 - [Automating ServiceNow with Red Hat Ansible Automation Platform](https://www.ansible.com/blog/certified-collection-servicenow)
 - [Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
@@ -288,43 +307,34 @@ Curated list of Ansible resources online organized by topic.
 - [Making outbound RESTful API calls to Red Hat Ansible Tower](https://www.ansible.com/blog/ansible-servicenow-howto-part-3-making-outbound-restful-api-calls-to-ansible-tower)
 - [Connecting ServiceNow and Ansible Tower](https://github.com/shadowman-lab/Ansible-Config/tree/master/SNOW)
 - [Governing Self-Service Cloud Provisioning](https://github.com/michaelford85/aws-deploy)
-- [Ansible Service Now example](https://github.com/nleiva/ansible-snow)
-- [Galaxy - Service Now](https://galaxy.ansible.com/servicenow/servicenow)
+- [Ansible Service Now example](https://github.com/nleiva/ansible-snow): My workflow example with SNOW that parses data from a Cisco IOS device to create and update an incident.
 
-## Splunk
+### Splunk
 - [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
 - [Splunk-Ansible documentation](https://splunk.github.io/splunk-ansible/): Collection of Splunk configuration best practices, written as Ansible playbooks for configuring Splunk Enterprise and Universal Forwarder instances based on a declarative configuration. The playbooks are internally-vetted procedures and operations that administer and manage Splunk as done within the company.
 
-## Terraform
+### Terraform
 - [Ansible vs. Terraform Demystified](https://www.ansible.com/blog/ansible-vs.-terraform-demystified): The two tools are better together and can work in harmony to create a better experience for developers and operations teams. By [Sean Cavanaugh](https://github.com/IPvSean).
 - [Ansible and HashiCorp: Better Together](https://www.hashicorp.com/resources/ansible-terraform-better-together): Presenters from Red Hat and HashiCorp showcase workflows that integrate the best parts of Ansible and the HashiCorp stack for configuration and provisioning.
 - [Ansible & Terraform – together or against?](https://www.opensourcerers.org/2020/10/12/ansible-and-terraform-integration/): Treat Terraform like any other Ansible module to deploy resources and get the benefit of Terraform like state, dynamic changes to the deployment and even “terraform destroy”. By Götz Rieger.
 - [DigitalOcean's How To Use Ansible with Terraform for Configuration Management](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management): Terraform and Ansible together form a flexible workflow for spinning up servers with the needed software and hardware configurations. Running Ansible directly as part of the Terraform deployment process allows you to have the servers up and bootstrapped with dependencies for your development work and applications much faster.
 - [Red Hat and Hashicorp Demo Event](https://primetime.bluejeans.com/a2m/events/playback/e0c34c7f-3cae-4ddc-81ea-ee4d4cc7c91a): By [Michaeld Ford](https://github.com/michaelford85) and Andy James.
 
-## Puppet
+### Puppet
 - [Migrating from Puppet Enterprise to Ansible Tower](https://www.ansible.com/migrating-from-puppet-enterprise-to-ansible-tower)
 
-## Kubernetes
-- [How useful is Ansible in a Cloud-Native Kubernetes Environment?](https://www.ansible.com/blog/how-useful-is-ansible-in-a-cloud-native-kubernetes-environment)
+## Projects
 
-## CMDB
+### CMDB
 - [Ansible Configuration Management Database](https://github.com/fboender/ansible-cmdb): Ansible-cmdb takes the output of Ansible's fact gathering and converts it into a static HTML overview page (and other things) containing system configuration information.
 - [AnsibleDB](https://github.com/apidb-io/ansibledb_opensource): Gives you the ability to quickly collect facts about your Infrastucture estate [linux, windows & network devices] and via our API, pull out the information important to you.
 
-## Performance
-- [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
-- [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
-- [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
-
-## Windows
-- [Windows Ansible Examples](https://github.com/oatakan/windows-ansible-example): Playbook collection by [Orcun Atakan](https://github.com/oatakan).
+### GUI
+- [Ansible Semaphore](https://ansible-semaphore.com/): Modern UI for Ansible written in Go.
 
 ## Miscellaneous
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
 - [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
-- [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
-- [Ansible Semaphore](https://ansible-semaphore.com/): Modern UI for Ansible written in Go.
 
 ## My Ansible Content
 
