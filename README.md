@@ -95,6 +95,12 @@ Curated list of Ansible resources online organized by topic.
 - [Certified Content](https://access.redhat.com/articles/3642632): Beginning with Ansible 2.9, the Ansible Content Collection subsystem was included as fully supported by Red Hat, and the certified content should be using this packaging format and distributed via Ansible Automation Hub.
 - [What is included in Red Hat Ansible Automation Platform subscription?](https://access.redhat.com/articles/6057451): Self-Hosted and/or on-premises components; Automation controller, Private automation hub, Automation content navigator, Automation execution environments, Execution environment builder, Automation mesh, Ansible content tools, and Ansible Content Collections. Hosted Services on console.redhat.com; Red Hat Insights for Ansible Automation Platform, Automation hub, Automation services catalog.
 
+### Business value
+- [Time Savings Calculator](https://redhatdg.co1.qualtrics.com/jfe/form/SV_25JhSmJFBbdWzg9): Answer a few short questions to find out how much time you could save by using Red Hat® Ansible® Automation Platform across your organization.
+- [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Having answers to the range of topics and questions discussed will help you be better equipped to embrace automation in your organization. If you can build a coalition of other Architects, explore these questions, and pitch to the right executive sponsor, you are well on your way to being the Automation Architect the team needs.
+- [Network automation: What architects need to know](https://www.redhat.com/architect/network-automation): Network automation is a marathon, so you might want to begin with baby steps. You also need clear business metrics and to understand how to measure them for success to help others see the path forward.
+- [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
+
 ### Validated content
 - [Ansible Validated Content Submission](https://redhat-cop.github.io/cop/automation-cop/validated-content-submit.html): Ansible Validated Content is a program dedicated to providing curated but non-supported content through AAP to help customers perform common operational tasks based on Red Hat or partner-led expertise.
 
@@ -109,11 +115,11 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Builder](https://github.com/ansible/ansible-builder): Automates the process of building execution environments.
 - [Receptor](https://github.com/project-receptor/receptor): Overlay network intended to ease the distribution of work across a large and dispersed collection of workers.
 - [Galaxy NG](https://github.com/ansible/galaxy_ng): Host your very own Ansible Galaxy server.
-- [Automation Analytics Front End](https://github.com/RedHatInsights/tower-analytics-frontend)
-- [Service Catalog API](https://github.com/RedHatInsights/catalog-api)
-- [Service Catalog UI](https://github.com/RedHatInsights/catalog-ui)
-- [Pinakes](https://github.com/ansible/pinakes): The upstream community project for RedHat's Automation Services Catalog product..
-- [Drools](https://github.com/kiegroup/drools): Rule engine (Decision Manager).
+- [Automation Analytics Front End](https://github.com/RedHatInsights/tower-analytics-frontend): Automation Analytics provides data analytics for AAP that provides visualization and insight into how automation is used in your organization.
+- [Pinakes](https://github.com/ansible/pinakes): The upstream community project for RedHat's Automation Services Catalog product. :skull:
+  - [Service Catalog API](https://github.com/RedHatInsights/catalog-api)
+  - [Service Catalog UI](https://github.com/RedHatInsights/catalog-ui) 
+  - [Drools](https://github.com/kiegroup/drools): Rule engine (Decision Manager).
 - [Ansible Collections](https://github.com/ansible-collections): Great Ansible content.
 
 ### Architecture
@@ -331,10 +337,6 @@ Curated list of Ansible resources online organized by topic.
 
 ### GUI
 - [Ansible Semaphore](https://ansible-semaphore.com/): Modern UI for Ansible written in Go.
-
-## Miscellaneous
-- [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Shifting from personal automation to automation architecture is a systems challenge.
-- [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
 
 ## My Ansible Content
 
