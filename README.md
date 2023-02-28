@@ -128,9 +128,17 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
 - [Security Best Practices](https://docs.ansible.com/ansible-tower/latest/html/administration/security_best_practices.html)
 
+### AAP in the cloud (AWS, Azure, GCP)
+- [Microsoft Azure (managed)](https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud)
+  - [Ansible on Azure Backup and Restore](https://access.redhat.com/articles/6986874): Ansible on Azure performs daily backups for data stored by the platform. These backups are used to provide a contingency against catastrophic failure of Azure resources to allow Red Hat’s SRE team to restore the platform to a running state.
+- [AWS Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-in-aws-marketplace)
+- [Google Cloud Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-on-google-cloud-marketplace)
+
 #### Backend Database
 - [Red Hat Ansible Tower Database Scope of Coverage](https://access.redhat.com/articles/4010491)
 - [Is Database Replication Supported with an Ansible Tower subscription?](https://access.redhat.com/solutions/3682951)
+- [Certified Database Partner for Ansible Automation Platform](https://www.crunchydata.com/solutions/ansible): Easily automate the creation of high-availability Postgres with tooling built for Ansible. Orchestrate single or multi-datacenter deployments with a single command. Configure synchronous / asynchronous data replication replicated.
+- [Support CockroachDB as back end DB for Ansible Tower](https://github.com/cockroachdb/cockroach/issues/51617): Explores the feasibility of substituting CockroachDB for PostgreSQL 10 as the back end database for Ansible Tower installation.
 
 #### Container Groups
 - [Container Groups docs](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#container-groups)
