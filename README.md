@@ -129,7 +129,9 @@ Curated list of Ansible resources online organized by topic.
 - [Security Best Practices](https://docs.ansible.com/ansible-tower/latest/html/administration/security_best_practices.html)
 
 ### AAP in the cloud (AWS, Azure, GCP)
+- [Ansible on Clouds Product Features](https://access.redhat.com/articles/6984539): Ansible Automation Platform offered through cloud marketplaces is the same product as self-installed Ansible Automation Platform. Due to differences in infrastructure or deployment model, there are some feature support in Ansible Automation Platform from cloud marketplaces that is still in development. Any feature not mentioned in this article should function the same regardless of deployment type.
 - [Microsoft Azure (managed)](https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud)
+  - [Ansible on Azure Articles](https://access.redhat.com/articles/6983528)
   - [Ansible on Azure Backup and Restore](https://access.redhat.com/articles/6986874): Ansible on Azure performs daily backups for data stored by the platform. These backups are used to provide a contingency against catastrophic failure of Azure resources to allow Red Hat’s SRE team to restore the platform to a running state.
 - [AWS Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-in-aws-marketplace)
 - [Google Cloud Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-on-google-cloud-marketplace)
@@ -147,6 +149,7 @@ Curated list of Ansible resources online organized by topic.
 - [Introduction to Ansible Builder](https://www.ansible.com/blog/introduction-to-ansible-builder)
 
 #### High Availability
+- [Disaster Recovery for the Ansible Automation Platform](https://access.redhat.com/articles/6967148): DR and High Availability (“HA”) are not currently supported. Current Ansible Automation Platform customers are needing to configure their DR instances to accurately reflect their node usage and need guidance based on changes due to manifest files. This can be for cold, warm, or hot DR/HA. 
 - [Configure High Availability and/or Disaster Recovery on a Tower Cluster](https://github.com/redhat-cop/automate-tower-ha-dr#configure-high-availability-andor-disaster-recovery-on-a-tower-cluster): Toolkit not officially supported by Red Hat Ansible support/engineering and provided as is.
 - [AWX Clustering/HA Overview](https://github.com/ansible/awx/blob/15964dc3959472950db23ed6463c7f4e1978192c/docs/clustering.md#awx-clusteringha-overview): Allow grouping of clustered instances into different pools/queues.
 - [Manage automation controller active and passive multisite architecture with Ansible](https://www.redhat.com/architect/automation-controller-active-passive-architecture-cac): Create a workflow to achieve consistency across multiple Ansible Automation Platform sites simultaneously. Remove the overhead associated with maintaining database backups or expensive replication solutions while enabling disaster recovery and failover. 
