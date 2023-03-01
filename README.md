@@ -274,6 +274,9 @@ Curated list of Ansible resources online organized by topic.
 
 ### NetBox
 - [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
+- [Get IP address from NetBox](https://github.com/nleiva/ansible-networking/blob/master/NetBox/get_ip.md#netbox)
+- [NetBox lookup](https://github.com/nleiva/ansible-networking/blob/master/NetBox/lookup.md#netbox)
+- [NetBox Ansible Collection: Inventory](https://josh-v.com/netbox_ansible_collection/netbox-ansible-inventory_plugin/): Starting out with the basics of the plugin and getting some sample output and show how to form groups.
 
 ### Palo Alto
 - [Palo Alto Ansible LIVEcommunity](https://live.paloaltonetworks.com/t5/ansible/ct-p/Ansible)
