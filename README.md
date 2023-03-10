@@ -23,6 +23,7 @@ Curated list of Ansible resources online organized by topic.
   - [Virtual 2021](https://www.youtube.com/watch?v=xVZM0QZtkeI&list=PLdu06OJoEf2aVagK5rW1uMA76H8rPw3CT)
   - [Chicago 2022](https://www.youtube.com/watch?v=GPYbxj5mi60&list=PLdu06OJoEf2aNRkQZQ8QM5ZwHc8QAoqtz)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
+- [Ansible Deck Finder](https://ansible.github.io/slides/): For Red Hat employees and partners.
 
 ### Good Practices to write Ansible content
 - [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
