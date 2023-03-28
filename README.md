@@ -29,6 +29,7 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
 - [The Zen of Ansible](https://www.ansible.com/blog/the-zen-of-ansible): Based on [Timothy Appnel](https://github.com/tima)'s presentation at AnsibleFest 2022.
 - [Good Practices for Ansible](https://github.com/redhat-cop/automation-good-practices#good-practices-for-ansible---gpa): This document aims to gather good practices from the field of Ansible practitioners at Red Hat, consultants, developers, and others. And thus it strives to give any Red Hat employee, partner or customer (or any Ansible user) a guideline from which to start in good conditions their automation journey.
+- [Roles: Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
 
 ### Performance
 - [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
@@ -36,13 +37,21 @@ Curated list of Ansible resources online organized by topic.
 - [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
 
 ## Ansible features
-### Roles
-- [Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
-
 ### Callback Modules
 - [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
 - [Examples of the stdout or callback plugins](https://rndmh3ro.github.io/)
 - [Provisioning Callbacks](https://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html#provisioning-callbacks)
+
+### Collections
+- [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections)
+- [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
+- [Ansible Supported Collections, Versioning, and Release Strategy](https://access.redhat.com/articles/4993781)
+
+### Event Driven Automation
+- [Self-paced lab](https://play.instruqt.com/redhat/invite/wzlzehptcqi6): Take this interactive, self-paced lab to learn how Event-Driven Ansible works.
+- [Event-driven-ansible repository on GitHub](https://github.com/ansible/event-driven-ansible)
+- [Kubernetes Meets Event-Driven Ansible](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible): Ansible automation activities can be triggered based on events and actions occurring within a Kubernetes cluster.
+- [Creating custom Event-Driven Ansible source plugins](https://www.ansible.com/blog/creating-custom-event-driven-ansible-source-plugins): Developing event source plugins is pretty straightforward. For more information, check out the documentation on [developing source plugins](https://ansible-rulebook.readthedocs.io/en/latest/sources.html#how-to-develop-a-custom-plugin).
 
 ### Inventory plugins
 - [Ansible Custom Inventory Plugin](https://termlen0.github.io/2019/11/16/observations/): A hands-on, quick start guide by Ajay Chenampara.
@@ -62,17 +71,7 @@ Curated list of Ansible resources online organized by topic.
 ### Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
 
-### Collections
-- [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections)
-- [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
-- [Ansible Supported Collections, Versioning, and Release Strategy](https://access.redhat.com/articles/4993781)
-
-#### Useful Collections
-- [Tower Configuration](https://github.com/redhat-cop/tower_configuration)
-- [Automation Hub Configuration](https://github.com/redhat-cop/ah_configuration)
-
 ## Red Hat Ansible Automation Platform
-
 ### Installation
 - [Product trial](https://www.redhat.com/en/technologies/management/ansible/try-it): A single, 60-day, self-supported subscription to Red Hat® Ansible® Automation Platform for installation on Red Hat Enterprise Linux® (a subscription to Red Hat Enterprise Linux is included with this product trial, if not already installed).
 - [Red Hat Ansible Automation Platform - Red Hat Developer](https://developers.redhat.com/products/ansible/overview): Download at no cost.
@@ -101,6 +100,10 @@ Curated list of Ansible resources online organized by topic.
 - [How to make the case for automation architecture: 5 ways to win investment](https://www.redhat.com/architect/automation-architecture): Having answers to the range of topics and questions discussed will help you be better equipped to embrace automation in your organization. If you can build a coalition of other Architects, explore these questions, and pitch to the right executive sponsor, you are well on your way to being the Automation Architect the team needs.
 - [Network automation: What architects need to know](https://www.redhat.com/architect/network-automation): Network automation is a marathon, so you might want to begin with baby steps. You also need clear business metrics and to understand how to measure them for success to help others see the path forward.
 - [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
+
+#### Configuration collections
+- [Controller Configuration](https://github.com/redhat-cop/controller_configuration)
+- [Automation Hub Configuration](https://github.com/redhat-cop/ah_configuration)
 
 ### Validated content
 - [Ansible Validated Content Submission](https://redhat-cop.github.io/cop/automation-cop/validated-content-submit.html): Ansible Validated Content is a program dedicated to providing curated but non-supported content through AAP to help customers perform common operational tasks based on Red Hat or partner-led expertise.
