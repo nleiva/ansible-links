@@ -101,7 +101,7 @@ Curated list of Ansible resources online organized by topic.
 - [Network automation: What architects need to know](https://www.redhat.com/architect/network-automation): Network automation is a marathon, so you might want to begin with baby steps. You also need clear business metrics and to understand how to measure them for success to help others see the path forward.
 - [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
 
-#### Configuration collections
+### Platform configuration collections
 - [Controller Configuration](https://github.com/redhat-cop/controller_configuration)
 - [Automation Hub Configuration](https://github.com/redhat-cop/ah_configuration)
 
