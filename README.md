@@ -43,9 +43,10 @@ Curated list of Ansible resources online organized by topic.
 - [Provisioning Callbacks](https://docs.ansible.com/ansible-tower/latest/html/userguide/job_templates.html#provisioning-callbacks)
 
 ### Collections
-- [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections)
-- [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections)
-- [Ansible Supported Collections, Versioning, and Release Strategy](https://access.redhat.com/articles/4993781)
+- [Getting Started With Ansible Content Collections](https://www.ansible.com/blog/getting-started-with-ansible-collections): Ansible Content Collections, or collections, represent the new standard of distributing, maintaining and consuming automation. Combine multiple types of Ansible content (playbooks, roles, modules, and plugins) by [Colin McNaughton](https://github.com/cloin).
+- [Hands on with Ansible collections](https://www.ansible.com/blog/hands-on-with-ansible-collections): Content is divided between two repositories: [Ansible Galaxy](https://galaxy.ansible.com) and [Automation Hub](https://cloud.redhat.com/ansible/automation-hub) by [Ajay Chenampara](https://github.com/termlen0).
+- [Ansible Supported Collections, Versioning, and Release Strategy](https://access.redhat.com/articles/4993781): Guidance for Certified Ansible content that is fully supported as part of the Ansible Automation Platform subscription. These Ansible Content Collections are a subset of the larger certified Collection library housed on Ansible Automation Hub.
+- [Collection Index](https://docs.ansible.com/ansible/latest/collections/#collection-index): Collections with docs hosted on docs.ansible.com.
 
 ### Event Driven Automation
 - [Self-paced lab](https://play.instruqt.com/redhat/invite/wzlzehptcqi6): Take this interactive, self-paced lab to learn how Event-Driven Ansible works.
