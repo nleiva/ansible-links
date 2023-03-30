@@ -263,6 +263,9 @@ Curated list of Ansible resources online organized by topic.
 - [Creating ACL entries in a Cisco ASA device](https://subscription.packtpub.com/book/cloud-and-networking/9781803235417/8/ch08lvl1sec50/creating-acl-entries-in-a-cisco-asa-device): The [Cisco ASA collection](https://galaxy.ansible.com/cisco/asa) provides modules and plugins to automate Cisco ASA operations. In this section, you will learn how to use Cisco ASA modules to create ACL entries in a Cisco ASA device.
 - [Automating the deployment os the Cisco ASA REST API](https://www.criticaldesign.net/post/automating-the-deployment-of-the-cisco-asa-rest-api): deploying the Cisco ASA REST API using automation via Ansible.
 - [Ansible Playbook for Cisco ASAv Firewall Topology](https://techbloc.net/archives/2360): Configure specific firewall settings.
+
+#### Cisco Unified Communications Manager (CallManager)
+- [Cisco Administrative XML (AXL) examples](https://github.com/CiscoDevNet/axl-ansible-examples#overview): These samples demonstrates how to use Ansible playbooks to read/update CUCM configurations via the AXL SOAP API and CUCM CLI/SSH.
 #### IOS-XE
 - [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean).
 - [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
