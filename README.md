@@ -266,10 +266,13 @@ Curated list of Ansible resources online organized by topic.
 
 #### Cisco Unified Communications Manager (CallManager)
 - [Cisco Administrative XML (AXL) examples](https://github.com/CiscoDevNet/axl-ansible-examples#overview): These samples demonstrates how to use Ansible playbooks to read/update CUCM configurations via the AXL SOAP API and CUCM CLI/SSH.
-#### IOS-XE
+#### IOS
 - [Ansible Network Automation - Config Backup and Restore](https://www.youtube.com/watch?v=dfRzfkbmx-A): Configuration backup and restore for a Cisco IOS-XE network router demo by [Sean Cavanaugh](https://github.com/IPvSean).
-- [Example of Cisco image upgrade with Ansible](https://github.com/colin-mccarthy/ansible_cisco_ios_upgrade).
 - [Network CVE Report with Ansible](https://adammack2007.github.io/Ansible-Cisco-CVE-Parser/): Creates a report of all CVEs that affect a specific platform (Cisco NXOS, IOS, IOS-XE) based on the version of the software the hosts are running. By [Adam Mack](https://github.com/AdamMack2007).
+##### Software upgrade
+- [Upgrading 71 Cisco Switches unattended using Ansible](https://www.linkedin.com/pulse/upgrading-71-cisco-switches-unattended-using-ansible-craig-armstrong/):  upgrade of 71 stacked Cisco 2960XR switches.
+- [How to perform IOS upgrade on Cisco Switch using Ansible](https://www.rogerperkin.co.uk/network-automation/ansible/cisco-ios-upgrade-for-switch/):  Example using a Cisco 2960 switch (WS-C2960-24TT-L).
+- [Ansible Playbook for Network OS Upgrade with pre and post checks](https://www.networkgalaxy.org/2020/12/ansible-playbook-for-network-os-upgrade.html): Upgrade process can also be customized to include any tasks that you want, e.g. taking pre-checks, post-checks and then comparing them and highlighting the differences, etc.
 #### Meraki
 - [Meraki playbook example](https://github.com/nleiva/ansible-networking/blob/master/meraki.md#meraki): Queries data from the Merakin innstance in the DevNet Sandbox.
 #### SD-WAN (Viptela)
