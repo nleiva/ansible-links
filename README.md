@@ -145,10 +145,10 @@ Curated list of Ansible resources online organized by topic.
 - [Container Groups docs](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#container-groups)
 - [Instance Groups](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#ag-instance-groups): . Instance groups can be assigned to one or more of; Organizations, Inventories, and Job Templates.
 - [Ansible Tower Container Groups demo](https://www.youtube.com/watch?v=fBNTYOovtkI)
-- [Introduction to Ansible Builder](https://www.ansible.com/blog/introduction-to-ansible-builder)
 
 #### Execution Environments
 - [The anatomy of automation execution environments](https://www.ansible.com/blog/the-anatomy-of-automation-execution-environments): Automation execution environments are container images that act as Ansible runtimes for automation controller jobs. Ansible Automation Platform also includes a command-line tool called ansible-builder(execution environment builder)that lets you create automation execution environments by specifying Ansible Content Collections and Python dependencies.
+- [Introduction to Ansible Builder](https://www.ansible.com/blog/introduction-to-ansible-builder):  Ansible Builder is a tool that aids in the creation of Ansible Execution Environments.
 - [When localhost isn't what it seems in Red Hat AAP 2](https://www.ansible.com/blog/when-localhost-isnt-what-it-seems-in-red-hat-ansible-automation-platform-2): Now with Ansible Automation Platform 2, localhost means you’re running inside a container, which is ephemeral in nature. This means we must do things differently to achieve the same goal. For persisten storage you can run some form of shared storage solution, like Amazon S3, maybe Gist, or even just have a role to rsync data to your data endpoint. As a last resort, you can use automation controller’s isolated jobs paths to mount directories and files into an execution environment at runtime.
 
 #### High Availability
