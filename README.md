@@ -135,14 +135,6 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
 - [Security Best Practices](https://docs.ansible.com/ansible-tower/latest/html/administration/security_best_practices.html)
 
-### AAP in the cloud (AWS, Azure, GCP)
-- [Ansible on Clouds Product Features](https://access.redhat.com/articles/6984539): Ansible Automation Platform offered through cloud marketplaces is the same product as self-installed Ansible Automation Platform. Due to differences in infrastructure or deployment model, there are some feature support in Ansible Automation Platform from cloud marketplaces that is still in development. Any feature not mentioned in this article should function the same regardless of deployment type.
-- [Microsoft Azure (managed)](https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud)
-  - [Ansible on Azure Articles](https://access.redhat.com/articles/6983528)
-  - [Ansible on Azure Backup and Restore](https://access.redhat.com/articles/6986874): Ansible on Azure performs daily backups for data stored by the platform. These backups are used to provide a contingency against catastrophic failure of Azure resources to allow Red Hat’s SRE team to restore the platform to a running state.
-- [AWS Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-in-aws-marketplace)
-- [Google Cloud Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-on-google-cloud-marketplace)
-
 #### Backend Database
 - [Red Hat Ansible Tower Database Scope of Coverage](https://access.redhat.com/articles/4010491)
 - [Is Database Replication Supported with an Ansible Tower subscription?](https://access.redhat.com/solutions/3682951)
@@ -154,6 +146,10 @@ Curated list of Ansible resources online organized by topic.
 - [Instance Groups](https://docs.ansible.com/ansible-tower/latest/html/administration/external_execution_envs.html#ag-instance-groups): . Instance groups can be assigned to one or more of; Organizations, Inventories, and Job Templates.
 - [Ansible Tower Container Groups demo](https://www.youtube.com/watch?v=fBNTYOovtkI)
 - [Introduction to Ansible Builder](https://www.ansible.com/blog/introduction-to-ansible-builder)
+
+#### Execution Environments
+- [The anatomy of automation execution environments](https://www.ansible.com/blog/the-anatomy-of-automation-execution-environments): Automation execution environments are container images that act as Ansible runtimes for automation controller jobs. Ansible Automation Platform also includes a command-line tool called ansible-builder(execution environment builder)that lets you create automation execution environments by specifying Ansible Content Collections and Python dependencies.
+- [When localhost isn't what it seems in Red Hat AAP 2](https://www.ansible.com/blog/when-localhost-isnt-what-it-seems-in-red-hat-ansible-automation-platform-2): Now with Ansible Automation Platform 2, localhost means you’re running inside a container, which is ephemeral in nature. This means we must do things differently to achieve the same goal. For persisten storage you can run some form of shared storage solution, like Amazon S3, maybe Gist, or even just have a role to rsync data to your data endpoint. As a last resort, you can use automation controller’s isolated jobs paths to mount directories and files into an execution environment at runtime.
 
 #### High Availability
 - [Disaster Recovery for the Ansible Automation Platform](https://access.redhat.com/articles/6967148): DR and High Availability (“HA”) are not currently supported. Current Ansible Automation Platform customers are needing to configure their DR instances to accurately reflect their node usage and need guidance based on changes due to manifest files. This can be for cold, warm, or hot DR/HA. 
@@ -172,6 +168,14 @@ Curated list of Ansible resources online organized by topic.
 #### Considerations
 - [Supported Platforms with Red Hat Ansible Automation Platform](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
 - [How are "managed nodes" defined as part of the Red Hat Ansible Automation Platform offering?](https://access.redhat.com/articles/3331481)
+
+### AAP in the cloud (AWS, Azure, GCP)
+- [Ansible on Clouds Product Features](https://access.redhat.com/articles/6984539): Ansible Automation Platform offered through cloud marketplaces is the same product as self-installed Ansible Automation Platform. Due to differences in infrastructure or deployment model, there are some feature support in Ansible Automation Platform from cloud marketplaces that is still in development. Any feature not mentioned in this article should function the same regardless of deployment type.
+- [Microsoft Azure (managed)](https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud)
+  - [Ansible on Azure Articles](https://access.redhat.com/articles/6983528)
+  - [Ansible on Azure Backup and Restore](https://access.redhat.com/articles/6986874): Ansible on Azure performs daily backups for data stored by the platform. These backups are used to provide a contingency against catastrophic failure of Azure resources to allow Red Hat’s SRE team to restore the platform to a running state.
+- [AWS Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-in-aws-marketplace)
+- [Google Cloud Marketplace (self-managed)](https://www.ansible.com/blog/red-hat-ansible-automation-platform-now-available-on-google-cloud-marketplace)
 
 ### RBAC and Authentication
 - [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
