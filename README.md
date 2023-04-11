@@ -24,6 +24,7 @@ Curated list of Ansible resources online organized by topic.
   - [Chicago 2022](https://www.youtube.com/watch?v=GPYbxj5mi60&list=PLdu06OJoEf2aNRkQZQ8QM5ZwHc8QAoqtz)
 - [Ansible on-demand webinars & training](https://www.ansible.com/resources/webinars-training)
 - [Ansible Videos](https://www.ansible.com/resources/videos)
+- [Alex Dworjan videos](https://www.youtube.com/@alexdworjan/videos): AAP collection 15-minute videos by [Alex Dworjan](https://github.com/shadowman-lab).
 - [Ansible Deck Finder](https://ansible.github.io/slides/): For Red Hat employees and partners.
 
 ### Good Practices to write Ansible content
