@@ -382,7 +382,7 @@ Curated list of Ansible resources online organized by topic.
 
 ### Playbooks
 - [ansible-kubernetes](https://github.com/nleiva/ansible-kubernetes): Deploy managed Kubernetes clusters in the cloud: AKS, EKS and GKE.
-- [ansible-web-server](https://github.com/nleiva/ansible-web-server): Create a highly available web appplication on any cloud provider with Ansible.
+- [ansible-web-server](https://github.com/nleiva/ansible-web-server): Create a highly available web application on any cloud provider with Ansible.
 - [ansible-webserver-azure](https://github.com/nleiva/ansible-webserver-azure): Automatically provision a number webserver instances behind a load balancer on Azure.
 - [ansible-networking](https://github.com/nleiva/ansible-networking): Simple networking examples.
 - [ansible-net-modules](https://github.com/nleiva/ansible-net-modules): Network Resource Modules Demo.
