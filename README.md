@@ -263,6 +263,7 @@ Curated list of Ansible resources online organized by topic.
 - [Simplifying network automation with Red Hat Ansible and Cisco](https://www.youtube.com/watch?v=tYKHP-3ol9c): Simplify, optimize, and automate network operations.  Automation gives you the agility, flexibility, and consistency you need to keep infrastructure running at peal performance.
 - [Cisco with Ansible](https://developer.cisco.com/automation-ansible/): DevNet tutorials to start your automation journey with Ansible.
 - [Manage your Cisco devices with Red Hat Ansible Automation Platform](https://www.youtube.com/watch?v=teJGYOu49QY&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX&index=14): Drive the desired state of configuration for VLANs, prefix-lists, interfaces, BGP and more!
+- [Cisco OSPF Configuration with Ansible](https://www.packetswitch.co.uk/cisco-ospf-configuration-with-ansible/): The primary focus is on configuring OSPF, but the Ansible playbook also takes care of configuring the interfaces and IP addresses with resource modules.
 #### ACI
 - [Automate Cisco ACI Tenant Profile Creation](https://github.com/CiscoSE/ACI_Ansible_FastStrike): Parse a CSV file that includes the needed attributes to automate and orchestrate creation of new tenants.
 #### ASA
