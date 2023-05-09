@@ -37,6 +37,7 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
 - [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
 - [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
+- [Metrics endpoint](https://docs.ansible.com/automation-controller/latest/html/administration/metrics.html#metrics): Available in the API: `/api/v2/metrics/`. It surfaces instantaneous metrics about the controller, which can be consumed by system monitoring software like the open source project Prometheus..
 
 ## Ansible features
 ### Callback Modules
