@@ -85,8 +85,9 @@ Curated list of Ansible resources online organized by topic.
 - [What Ports Need To Be Opened In The Firewall For Ansible Automation Platform 2 Services?](https://access.redhat.com/solutions/6756251)
 - [Deploying the Red Hat Ansible Automation Platform operator on OpenShift Container Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.3/html/deploying_the_red_hat_ansible_automation_platform_operator_on_openshift_container_platform/index)
 - [Upgrading an Existing Tower Installation](https://docs.ansible.com/ansible-tower/latest/html/installandreference/upgrade_tower.html)
-- [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/
+- [Install Ansible Tower on OpenShift 4.x on your Laptop](https://www.ansiblejunky.com/blog/ansible-tower-in-openshift-on-laptop/)
 - [May I only update one of the components I want on Ansible Tower or Ansible Automation Controller?](https://access.redhat.com/solutions/6834291): No.
+- [How Do I Perform Security Patching / OS Package Upgrades On Ansible Tower/Automation Controller Nodes Without Breaking Any Ansible Tower/Automation Controller Functionality ?](https://access.redhat.com/solutions/4566711): To avoid upgrading Ansible Tower/Automation Controller outside of the Ansible Tower/Automation Controller setup playbook, you must exclude Ansible Tower/Automation Controller and its component packages from unrelated yum upgrades.
 
 ### Ansible Automation Platform 2
 - [Red Hat Ansible Automation Platform Product Status Update](https://www.ansible.com/blog/red-hat-ansible-automation-platform-product-status-update): Blog post update from Feb 2021.
