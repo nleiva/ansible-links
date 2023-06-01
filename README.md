@@ -19,7 +19,8 @@ Curated list of Ansible resources online organized by topic.
   - [Ansible Lightspeed with Watson Code Assistant Lab](https://labs.demoredhat.com/webpages/lightspeed)
 - [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training): Interactive learning scenarios provide you with a pre-configured Ansible environment to experiment, learn, and see how Ansible can help you solve real-world problems. The environment runs entirely in your browser at your convenience, enabling you to learn more about our technology at your pace and time.
 - [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/): The Red Hat Ansible Automation Workshops project is intended for effectively demonstrating Ansible’s capabilities through instructor-led workshops or self-paced exercises.
-- [Official Ansible Product Demos](https://github.com/RedHatGov/product-demos#official-ansible-product-demos)
+- [Official Ansible Product Demos](https://github.com/ansible/product-demos#official-ansible-product-demos)
+  - [Instruqt Ansible Product Demos](http://red.ht/aap-product-demos) 
 - [Ansible Blog](https://www.ansible.com/blog)
 - [Ansible Fest](https://www.ansible.com/ansiblefest)
   - [Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
