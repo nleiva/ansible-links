@@ -275,6 +275,7 @@ Curated list of Ansible resources online organized by topic.
 #### ACI
 - [Automate Cisco ACI Tenant Profile Creation](https://github.com/CiscoSE/ACI_Ansible_FastStrike): Parse a CSV file that includes the needed attributes to automate and orchestrate creation of new tenants.
 #### ASA
+- [Parsing a Cisco ASA config file](https://github.com/nleiva/ansible-parsing-cisco-asa): Three options to parse data from an unstructured config file.
 - [Creating ACL entries in a Cisco ASA device](https://subscription.packtpub.com/book/cloud-and-networking/9781803235417/8/ch08lvl1sec50/creating-acl-entries-in-a-cisco-asa-device): The [Cisco ASA collection](https://galaxy.ansible.com/cisco/asa) provides modules and plugins to automate Cisco ASA operations. In this section, you will learn how to use Cisco ASA modules to create ACL entries in a Cisco ASA device.
 - [Automating the deployment os the Cisco ASA REST API](https://www.criticaldesign.net/post/automating-the-deployment-of-the-cisco-asa-rest-api): deploying the Cisco ASA REST API using automation via Ansible.
 - [Ansible Playbook for Cisco ASAv Firewall Topology](https://techbloc.net/archives/2360): Configure specific firewall settings.
