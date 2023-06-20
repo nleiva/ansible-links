@@ -28,6 +28,7 @@ Curated list of Ansible resources online organized by topic.
   - [Virtual 2021](https://www.youtube.com/watch?v=xVZM0QZtkeI&list=PLdu06OJoEf2aVagK5rW1uMA76H8rPw3CT)
   - [Chicago 2022](https://www.youtube.com/watch?v=GPYbxj5mi60&list=PLdu06OJoEf2aNRkQZQ8QM5ZwHc8QAoqtz)
 - [Ansible on-demand webinars & training](https://www.ansible.com/resources/webinars-training)
+- [Jeff Geerling's Ansible 101 for Linux server administration](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN): Playlist with 15 videos, based on the best-selling book Ansible for DevOps.
 - [Ansible Videos](https://www.ansible.com/resources/videos)
 - [Alex Dworjan videos](https://www.youtube.com/@alexdworjan/videos): Collection of 15-minute AAP walk-thoughs by [Alex Dworjan](https://github.com/shadowman-lab).
 - [Ansible Deck Finder](https://ansible.github.io/slides/): For Red Hat employees and partners.
