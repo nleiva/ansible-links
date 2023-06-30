@@ -32,6 +32,7 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Videos](https://www.ansible.com/resources/videos)
 - [Alex Dworjan videos](https://www.youtube.com/@alexdworjan/videos): Collection of 15-minute AAP walk-thoughs by [Alex Dworjan](https://github.com/shadowman-lab).
 - [Ansible Deck Finder](https://ansible.github.io/slides/): For Red Hat employees and partners.
+- [Ansible e-book finded](https://ansible.github.io/slides/ebooks): Hybrid Cloud Automation, Network Automation, Event-Driven Ansible (EDA), Security, Edge and more.
 
 ### Good Practices to write Ansible content
 - [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
