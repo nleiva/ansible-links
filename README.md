@@ -12,6 +12,9 @@ Curated list of Ansible resources online organized by topic.
 - [Get started with Ansible in three parts](https://developers.redhat.com/products/ansible/getting-started): Create, manage and scale by [Red Hat Developer](https://developers.redhat.com/).
 - [DO007 - Ansible Basics: Automation Technical Overview (FREE)](https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview): Series of on-demand, online videos that introduce you to the Red Hat Ansible Automation Platform. Learn configuration management, provisioning, deploying, and managing compute infrastructure across cloud, virtual, and physical environments with Ansible.
 - [Red Hat Ansible Automation Platform: A beginner’s guide](https://www.redhat.com/rhdc/managed-files/ma-intro-to-ansible-ebook-f31032-202204-en_0.pdf): Concise guide to Ansible Automation Platform, its benefits, and information to help you make the right decisions for your organization's automation practice.
+- [Ansible Blog](https://www.ansible.com/blog)
+
+### Labs
 - [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training): Hands-on learning scenarios provide you with a preconfigured Red Hat® Ansible® Automation Platform environment to experiment, practice, and see how automation can relieve you of manual tasks.
 - [Ansible Instruqt](https://labs.demoredhat.com/): This repo contains images and tracks for the instruqt platform. Red Hat is using Instruqt for in-browser demonstrations of the Ansible Automation Platform.
   - [Introduction to cloud automation](https://labs.demoredhat.com/webpages/ansible-cloud-lab)
@@ -21,30 +24,22 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/): The Red Hat Ansible Automation Workshops project is intended for effectively demonstrating Ansible’s capabilities through instructor-led workshops or self-paced exercises.
 - [Official Ansible Product Demos](https://github.com/ansible/product-demos#official-ansible-product-demos)
   - [Instruqt Ansible Product Demos](http://red.ht/aap-product-demos) 
-- [Ansible Blog](https://www.ansible.com/blog)
+
+### Red Hat Ansible content finder
+- [Decks](https://ansible.github.io/slides/): For Red Hat employees and partners.
+- [e-Books](https://ansible.github.io/slides/ebooks): Hybrid Cloud Automation, Network Automation, Event-Driven Ansible (EDA), Security, Edge and more.
+- [Collaterals](https://ansible.github.io/slides/datasheets): This webpage includes links to all non-slide collateral including datasheets, whitepapers, briefs, checklists, infographics and overviews.
+
+### Videos:
+- [Ansible on-demand webinars & training](https://www.ansible.com/resources/webinars-training)
+- [Ansible Videos](https://www.ansible.com/resources/videos)
+- [Alex Dworjan videos](https://www.youtube.com/@alexdworjan/videos): Collection of 15-minute AAP walk-thoughs by [Alex Dworjan](https://github.com/shadowman-lab).
+- [Jeff Geerling's Ansible 101 for Linux server administration](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN): Playlist with 15 videos, based on the best-selling book Ansible for DevOps.
 - [Ansible Fest](https://www.ansible.com/ansiblefest)
   - [Atlanta 2019](https://www.ansible.com/resources/videos/ansiblefest-atlanta-2019)
   - [Virtual 2020](https://www.youtube.com/watch?v=IXs46VEmBaY&list=PLdu06OJoEf2YcaRkIjvB7V35u6WI9yb19)
   - [Virtual 2021](https://www.youtube.com/watch?v=xVZM0QZtkeI&list=PLdu06OJoEf2aVagK5rW1uMA76H8rPw3CT)
   - [Chicago 2022](https://www.youtube.com/watch?v=GPYbxj5mi60&list=PLdu06OJoEf2aNRkQZQ8QM5ZwHc8QAoqtz)
-- [Ansible on-demand webinars & training](https://www.ansible.com/resources/webinars-training)
-- [Jeff Geerling's Ansible 101 for Linux server administration](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN): Playlist with 15 videos, based on the best-selling book Ansible for DevOps.
-- [Ansible Videos](https://www.ansible.com/resources/videos)
-- [Alex Dworjan videos](https://www.youtube.com/@alexdworjan/videos): Collection of 15-minute AAP walk-thoughs by [Alex Dworjan](https://github.com/shadowman-lab).
-- [Ansible Deck Finder](https://ansible.github.io/slides/): For Red Hat employees and partners.
-- [Ansible e-book finded](https://ansible.github.io/slides/ebooks): Hybrid Cloud Automation, Network Automation, Event-Driven Ansible (EDA), Security, Edge and more.
-
-### Good Practices to write Ansible content
-- [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
-- [The Zen of Ansible](https://www.ansible.com/blog/the-zen-of-ansible): Based on [Timothy Appnel](https://github.com/tima)'s presentation at AnsibleFest 2022.
-- [Good Practices for Ansible](https://github.com/redhat-cop/automation-good-practices#good-practices-for-ansible---gpa): This document aims to gather good practices from the field of Ansible practitioners at Red Hat, consultants, developers, and others. And thus it strives to give any Red Hat employee, partner or customer (or any Ansible user) a guideline from which to start in good conditions their automation journey.
-- [Roles: Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
-
-### Performance
-- [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
-- [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
-- [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
-- [Metrics endpoint](https://docs.ansible.com/automation-controller/latest/html/administration/metrics.html#metrics): Available in the API: `/api/v2/metrics/`. It surfaces instantaneous metrics about the controller, which can be consumed by system monitoring software like the open source project Prometheus..
 
 ## Ansible features
 ### Callback Modules
@@ -64,6 +59,12 @@ Curated list of Ansible resources online organized by topic.
 - [Kubernetes Meets Event-Driven Ansible](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible): Ansible automation activities can be triggered based on events and actions occurring within a Kubernetes cluster.
 - [Creating custom Event-Driven Ansible source plugins](https://www.ansible.com/blog/creating-custom-event-driven-ansible-source-plugins): Developing event source plugins is pretty straightforward. For more information, check out the documentation on [developing source plugins](https://ansible-rulebook.readthedocs.io/en/latest/sources.html#how-to-develop-a-custom-plugin).
 
+### Good Practices to write Ansible content
+- [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
+- [The Zen of Ansible](https://www.ansible.com/blog/the-zen-of-ansible): Based on [Timothy Appnel](https://github.com/tima)'s presentation at AnsibleFest 2022.
+- [Good Practices for Ansible](https://github.com/redhat-cop/automation-good-practices#good-practices-for-ansible---gpa): This document aims to gather good practices from the field of Ansible practitioners at Red Hat, consultants, developers, and others. And thus it strives to give any Red Hat employee, partner or customer (or any Ansible user) a guideline from which to start in good conditions their automation journey.
+- [Roles: Include vs Import](https://www.ansiblejunky.com/blog/ansible-101-include-vs-import/)
+
 ### Inventory plugins
 - [Ansible Custom Inventory Plugin](https://termlen0.github.io/2019/11/16/observations/): A hands-on, quick start guide by Ajay Chenampara.
 - [Using inventory plugins](https://docs.ansible.com/ansible/latest/plugins/inventory.html#using-inventory-plugins)
@@ -77,7 +78,13 @@ Curated list of Ansible resources online organized by topic.
 - [Will Tome's examples](https://github.com/willtome/ansible-inventory): by Will Tome.
 - [JSON](https://github.com/nleiva/inventory): My JSON inventory plugin demo.
 - [Active Directory](https://github.com/mdhowle/ansible-ad-inventory): Active Directory dynamic inventory plugin for Ansible
-- [LDAP](https://github.com/joshinryz/ansible_ldap_inventory): Query active directory and get a list of machines to use as an inventory. Groups are auto generated off of OU structure and optionally group membership. 
+- [LDAP](https://github.com/joshinryz/ansible_ldap_inventory): Query active directory and get a list of machines to use as an inventory. Groups are auto generated off of OU structure and optionally group membership.
+
+### Performance
+- [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
+- [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
+- [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
+- [Metrics endpoint](https://docs.ansible.com/automation-controller/latest/html/administration/metrics.html#metrics): Available in the API: `/api/v2/metrics/`. It surfaces instantaneous metrics about the controller, which can be consumed by system monitoring software like the open source project Prometheus.
 
 ### Testing
 - [Developing and Testing Ansible Roles with Molecule and Podman - Part 1](https://www.ansible.com/blog/developing-and-testing-ansible-roles-with-molecule-and-podman-part-1)
