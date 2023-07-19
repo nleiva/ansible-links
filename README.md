@@ -147,6 +147,8 @@ Curated list of Ansible resources online organized by topic.
   - [Service Catalog UI](https://github.com/RedHatInsights/catalog-ui) 
   - [Drools](https://github.com/kiegroup/drools): Rule engine (Decision Manager).
 - [Ansible Collections](https://github.com/ansible-collections): Great Ansible content.
+- [Event Driven Ansible Controller](https://github.com/ansible/eda-server): aka EDA-Controller.
+- [Backstage Plugin](https://github.com/janus-idp/backstage-plugins/pull/527): Backstage as a Service Catalog replacement?
 
 ### Architecture
 - [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
