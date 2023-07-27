@@ -155,7 +155,8 @@ Curated list of Ansible resources online organized by topic.
 - [Deploying Ansible Automation Platform 2 on Red Hat OpenShift](https://access.redhat.com/documentation/en-us/reference_architectures/2023/html/deploying_ansible_automation_platform_2_on_red_hat_openshift/index): Provides the best practices to deploy Ansible Automation Platform 2 on Red Hat OpenShift. 
 - [Ansible Automation Platform 1.2 - Reference Architecture](https://access.redhat.com/articles/6039601)
 - [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
-- [Security Best Practices](https://docs.ansible.com/automation-controller/latest/html/administration/security_best_practices.html): Automation controller out-of-the-box is deployed in a secure fashion for use to automate typical environments. However, managing certain operating system environments, automation, and automation platforms, may require some additional best practices to ensure security. 
+- [Security Best Practices](https://docs.ansible.com/automation-controller/latest/html/administration/security_best_practices.html): Automation controller out-of-the-box is deployed in a secure fashion for use to automate typical environments. However, managing certain operating system environments, automation, and automation platforms, may require some additional best practices to ensure security.
+- [Red Hat Ansible Automation Platform Hardening Guide](https://access.redhat.com/articles/7025278): This guide can be used to harden the security posture of your Red Hat Ansible Automation Platform (AAP) deployment on Red Hat Enterprise Linux (RHEL).
 
 #### Backend Database
 - [Red Hat Ansible Tower Database Scope of Coverage](https://access.redhat.com/articles/4010491)
