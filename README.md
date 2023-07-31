@@ -246,6 +246,7 @@ Curated list of Ansible resources online organized by topic.
 
 ### Working with Network Configurations
 - [Automating Network Device Configuration Parsing with Ansible: Tips and Tricks for Network Engineers](https://nleiva.medium.com/automating-network-device-configuration-parsing-with-ansible-99790909c384): Convert network device configurations into an automation-friendly format. Ansible also provides various options for parsing configurations, including using network resource modules, NTC templates, and Ansible’s native parser.
+- [Ansible Network Backup](https://github.com/rohitthakur2590/network.backup): Role that provides a single platform-agnostic entry management for network backup.
 - [Network Tool Kit](https://github.com/network-automation/toolkit): Collection of network roles used for the Ansible Network Automation Workshop.
 - [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html): Documentation of the cli_parse module that parses semi-structured data such as network configurations into structured data to allow programmatic use of the data from that device.
 - [Ansible Module for utilizing Hierarchical Configuration](https://github.com/netdevops/hconfig-remediation-ansible): Hierarchical Configuration takes a running configuration of a network device, compares it to its intended configuration, and builds the remediation steps necessary to bring a device into spec with its intended configuration.
