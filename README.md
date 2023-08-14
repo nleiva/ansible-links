@@ -55,6 +55,7 @@ Curated list of Ansible resources online organized by topic.
 
 ### Event Driven Automation
 - [Self-paced lab](https://play.instruqt.com/redhat/invite/wzlzehptcqi6): Take this interactive, self-paced lab to learn how Event-Driven Ansible works.
+- [Event-Driven Ansible Controller: Up and running](https://play.instruqt.com/embed/redhat/tracks/getting-started-eda-controller): EDA Controller integrated with Automation Controller for job template launch. Integrated with Prometheus with Alertmanager source plugin
 - [Event-driven-ansible repository on GitHub](https://github.com/ansible/event-driven-ansible)
 - [Kubernetes Meets Event-Driven Ansible](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible): Ansible automation activities can be triggered based on events and actions occurring within a Kubernetes cluster.
 - [Creating custom Event-Driven Ansible source plugins](https://www.ansible.com/blog/creating-custom-event-driven-ansible-source-plugins): Developing event source plugins is pretty straightforward. For more information, check out the documentation on [developing source plugins](https://ansible-rulebook.readthedocs.io/en/latest/sources.html#how-to-develop-a-custom-plugin).
