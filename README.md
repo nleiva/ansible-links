@@ -439,6 +439,7 @@ Curated list of Ansible resources online organized by topic.
 
 ### Blog Posts
 - [Automating Azure Infrastructure for High Availability Web Hosting with Ansible](https://medium.com/@nleiva/automating-azure-infrastructure-with-ansible-45fee00971d)
+- [Automating Network Device Configuration Parsing with Ansible: Tips and Tricks for Network Engineers](https://nleiva.medium.com/automating-network-device-configuration-parsing-with-ansible-99790909c384)
 - [A simple approach to delete AWS resources with Ansible](https://nleiva.medium.com/a-simple-approach-to-delete-aws-resources-with-ansible-b31c796fa16d)
 - [A beginner's guide to auto-configure a Linux machine with Ansible](https://nleiva.medium.com/a-beginners-guide-to-auto-configure-a-linux-machine-with-ansible-1f4435e8f12e)
 - [A simple guide to quickly provisioning AWS resources with Ansible](https://nleiva.medium.com/a-simple-guide-to-quickly-provisioning-aws-resources-with-ansible-35e67ae15b9c)
