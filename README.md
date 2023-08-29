@@ -127,6 +127,7 @@ Curated list of Ansible resources online organized by topic.
 - [Network automation: What architects need to know](https://www.redhat.com/architect/network-automation): Network automation is a marathon, so you might want to begin with baby steps. You also need clear business metrics and to understand how to measure them for success to help others see the path forward.
 - [18 ways to differentiate open source products from upstream suppliers](https://opensource.com/article/21/2/differentiating-products-upstream-suppliers): Open source products must create enough differentiated value that customers will voluntarily pay for them versus another (or free) product. 
 - [An IT executive's guide to automation](https://www.redhat.com/en/resources/executive-guide-to-automation-ebook): Learn the benefits of automation, how IT executives can ensure a successful rollout and adoption, and what to look for in an automation solution.
+- [Business value of Red Hat Ansible Automation](https://www.redhat.com/rhdc/managed-files/ma-idc-business-value-of-ansible-automation-analyst-material-f30958-202201-en.pdf)
 
 ### Platform configuration collections
 - [Controller Configuration](https://github.com/redhat-cop/controller_configuration)
@@ -240,6 +241,9 @@ Curated list of Ansible resources online organized by topic.
 - [Five great use cases for Ansible Network Automation](https://www.youtube.com/watch?v=wXUgYfZKMHU&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX): Presented by [Sean Cavanaugh](https://github.com/IPvSean), Technical Marketing Manager at Red Hat.
 - [Network automation instructional e-book](https://www.redhat.com/en/resources/network-automation-technical-e-book): Technical guide to implementing common network automation tasks with Red Hat® Ansible® Automation Platform.
 - [Using network automation to power modern applications](https://www.redhat.com/rhdc/managed-files/cl-network-automation-power-modern-applications-analyst-material-f30632-202111-en.pdf): [Mike Fratto](https://451research.com/analyst-team/analyst/Mike+Fratto) at 451 Research explores how network automation differs from automated network management and which features to consider as you mature your network automation solution.
+- [Network automation for everyone](https://www.redhat.com/rhdc/managed-files/rh-network-automation-for-everyone-ebook-f26682-202101-en_1.pdf)
+- [Financial services network automation](https://www.redhat.com/rhdc/managed-files/ve-fsi-network-automation-overview-f31263wg-202203-en.pdf)
+- [Enterprise network automation for 2020 and beyond](https://www.redhat.com/cms/managed-files/ma-enterprise-network-automation-ema-analyst-paper-f19360-201909-en.pdf)
 - [How Do You Start Your Network Automation Adoption Journey?](https://www.landoman.com/2020/03/07/how-do-you-start-your-network-automation-adoption-journey/): One of the best ways for people to begin managing their network in a practical way by Landon Holley.
 - [Infrastructure Awareness - Technical Demo](https://www.youtube.com/watch?v=2O-f7PnxA3A): Retrieve facts from network devices and build dynamic documentation to help network engineers and architects gather automated information about their network. By [Sean Cavanaugh](https://github.com/IPvSean).
 - [Using New Ansible Utilities for Operational State Management and Remediation](https://www.ansible.com/blog/using-new-ansible-utilities-for-operational-state-management-and-remediation): Comparing the current operational state of your IT infrastructure to your desired state.
