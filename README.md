@@ -61,6 +61,7 @@ Curated list of Ansible resources online organized by topic.
 - [Event-driven-ansible repository on GitHub](https://github.com/ansible/event-driven-ansible)
 - [Kubernetes Meets Event-Driven Ansible](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible): Ansible automation activities can be triggered based on events and actions occurring within a Kubernetes cluster.
 - [Creating custom Event-Driven Ansible source plugins](https://www.ansible.com/blog/creating-custom-event-driven-ansible-source-plugins): Developing event source plugins is pretty straightforward. For more information, check out the documentation on [developing source plugins](https://ansible-rulebook.readthedocs.io/en/latest/sources.html#how-to-develop-a-custom-plugin).
+- [EDA Ansible Automation Platform Demo](https://github.com/kubealex/event-driven-automation): Provides everything to configure the needed resources to run the demo on AAP (credentials, templates, custom credentials for ServiceNow, activations, etc) along with the Decision Environment that is needed to run them or using podman, so it's ready-to-consume.
 
 ### Good Practices to write Ansible content
 - [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
