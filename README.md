@@ -18,8 +18,6 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training): Hands-on learning scenarios provide you with a preconfigured Red Hat® Ansible® Automation Platform environment to experiment, practice, and see how automation can relieve you of manual tasks.
 - [Ansible Instruqt](https://labs.demoredhat.com/): This repo contains images and tracks for the instruqt platform. Red Hat is using Instruqt for in-browser demonstrations of the Ansible Automation Platform.
   - [Introduction to cloud automation](https://labs.demoredhat.com/webpages/ansible-cloud-lab)
-  - [ServiceNow](https://labs.demoredhat.com/webpages/servicenow)
-  - [Ansible Lightspeed with Watson Code Assistant Lab](https://labs.demoredhat.com/webpages/lightspeed)
 - [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training): Interactive learning scenarios provide you with a pre-configured Ansible environment to experiment, learn, and see how Ansible can help you solve real-world problems. The environment runs entirely in your browser at your convenience, enabling you to learn more about our technology at your pace and time.
 - [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/): The Red Hat Ansible Automation Workshops project is intended for effectively demonstrating Ansible’s capabilities through instructor-led workshops or self-paced exercises.
 - [Official Ansible Product Demos](https://github.com/ansible/product-demos#official-ansible-product-demos)
@@ -85,6 +83,9 @@ Curated list of Ansible resources online organized by topic.
 - [Active Directory](https://github.com/mdhowle/ansible-ad-inventory): Active Directory dynamic inventory plugin for Ansible
 - [LDAP](https://github.com/joshinryz/ansible_ldap_inventory): Query active directory and get a list of machines to use as an inventory. Groups are auto generated off of OU structure and optionally group membership.
 
+### Lightspeed
+- [Getting started with Ansible Lightspeed Instruqt lab](https://red.ht/lab-lightspeed-101)
+  
 ### Performance
 - [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
 - [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
@@ -335,6 +336,7 @@ Curated list of Ansible resources online organized by topic.
 - [NetBox Ansible Collection: Inventory](https://josh-v.com/netbox_ansible_collection/netbox-ansible-inventory_plugin/): Starting out with the basics of the plugin and getting some sample output and show how to form groups.
 
 ### Palo Alto
+- [Palo Alto Networks firewall automation with AAP](https://play.instruqt.com/embed/redhat/tracks/ansible-panos-automation?token=em_iiCtxt5JWd5Iube8): Instruqt lab.
 - [Palo Alto Ansible LIVEcommunity](https://live.paloaltonetworks.com/t5/ansible/ct-p/Ansible)
 - [Module reference](https://paloaltonetworks.github.io/pan-os-ansible/modules.html)
 - [Palo Alto Networks playbook examples](https://github.com/PaloAltoNetworks/ansible-playbooks)
@@ -385,6 +387,7 @@ Curated list of Ansible resources online organized by topic.
 - [Governing Self-Service Cloud Provisioning](https://github.com/michaelford85/aws-deploy)
 - [Ansible Service Now example](https://github.com/nleiva/ansible-snow): My workflow example with SNOW that parses data from a Cisco IOS device to create and update an incident.
 - [Instruqt lab](https://play.instruqt.com/embed/redhat/tracks/getting-started-servicenow-automation?token=em_5ktpLJWtzpbqcDyM)
+- [Get started with ServiceNow automation (lab)](https://labs.demoredhat.com/webpages/servicenow): The ServiceNow integration for Ansible Automation Platform is made possible through a certified content collection called servicenow.itsm. This collection is made available on Automation Hub on console.redhat.com. The environment that is being created for you includes this collection in an execution environment that allows Ansible Automation Platform to execute tasks against a ServiceNow instance
 
 ### Splunk
 - [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
