@@ -40,6 +40,11 @@ Curated list of Ansible resources online organized by topic.
   - [Chicago 2022](https://www.youtube.com/watch?v=GPYbxj5mi60&list=PLdu06OJoEf2aNRkQZQ8QM5ZwHc8QAoqtz)
 
 ## Ansible features
+
+### Automation Hub
+- [How to get started with Ansible Private Automation Hub](https://www.redhat.com/sysadmin/get-started-private-automation-hub): Learn how to use Red Hat Ansible Automation Private Automation Hub.
+- [Control your content with private Automation Hub](https://www.ansible.com/blog/control-your-content-with-private-automation-hub): Private Automation Hub is a self-hosted Ansible content management system. Organizations can host private hubs on their own infrastructure and manage it themselves. Similar to how Red Hat Satellite enables Red Hat Enterprise Linux customers to manage operating system content, private Automation Hub enables automation teams to manage Ansible automation content.  Private Automation Hub allows curation and distribution of Ansible content as close as possible to Ansible Automation Platform clusters. 
+
 ### Callback Modules
 - [Reference for Ansible Callback Modules](https://github.com/sean-m-sullivan/callback_modules/blob/master/research.md)
 - [Examples of the stdout or callback plugins](https://rndmh3ro.github.io/)
