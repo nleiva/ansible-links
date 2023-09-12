@@ -299,12 +299,18 @@ Curated list of Ansible resources online organized by topic.
 - [Aruba Switching for Data Center Networking (DCN)](https://github.com/aruba/aoscx-ansible-dcn-workflows)
 
 ### Cisco
-- [Simplifying network automation with Red Hat Ansible and Cisco](https://www.youtube.com/watch?v=tYKHP-3ol9c): Simplify, optimize, and automate network operations.  Automation gives you the agility, flexibility, and consistency you need to keep infrastructure running at peal performance.
+- [Simplifying network automation with Red Hat Ansible and Cisco](https://www.youtube.com/watch?v=tYKHP-3ol9c): Simplify, optimize, and automate network operations. Automation gives you the agility, flexibility, and consistency you need to keep infrastructure running at peal performance.
 - [Cisco with Ansible](https://developer.cisco.com/automation-ansible/): DevNet tutorials to start your automation journey with Ansible.
 - [Manage your Cisco devices with Red Hat Ansible Automation Platform](https://www.youtube.com/watch?v=teJGYOu49QY&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX&index=14): Drive the desired state of configuration for VLANs, prefix-lists, interfaces, BGP and more!
 - [Cisco OSPF Configuration with Ansible](https://www.packetswitch.co.uk/cisco-ospf-configuration-with-ansible/): The primary focus is on configuring OSPF, but the Ansible playbook also takes care of configuring the interfaces and IP addresses with resource modules.
 #### ACI
-- [What’s new and exciting on Cisco ACI with Red Hat Ansible Collections](https://blogs.cisco.com/datacenter/whats-new-and-exciting-on-cisco-aci-with-red-hat-ansible-collections)
+- [Cisco ACI Guide](https://docs.ansible.com/ansible/devel/scenario_guides/guide_aci.html): Ansible ACI module documentation to provide a user-friendly interface to managing your ACI environment using Ansible playbooks.
+- [Introduction to ACI and Ansible labs](https://developer.cisco.com/learning/modules/ansible-aci-intro/): Explore how you can now manage your ACI using Ansible for "ACI as Code" and integrate into your DevOps practices.
+- [What’s new and exciting on Cisco ACI with Red Hat Ansible Collections](https://blogs.cisco.com/datacenter/whats-new-and-exciting-on-cisco-aci-with-red-hat-ansible-collections): There are over 100 ACI and Multisite modules in Ansible core. Modules for specific objects like, Tenant and Application Profiles as well as a module for interacting directly with the ACI REST API. This means that a broad set of ACI functionality is available in Ansible, to cover a broad set of Data center use cases.
+- [Secure Service Provisioning with Ansible Automation Platform, vCenter, HashiCorp Vault, and Cisco ASA/ACI](https://www.ahead.com/resources/secure-service-provisioning-automation-with-ansible-tower-vcenter-hashicorp-vault-and-cisco-asa-aci/): Demo integrating Ansible Tower, VMware, HashiCorp Vault, and Cisco ACI/ASA. A single Ansible playbook that does the work of the VM admin, O/S admin, network admin, and the security/firewall team.
+- [Automating ACI with Ansible)](https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKACI-1619.pdf): Cisco Live slides for session BRKACI-1619.
+- [Ansible recipes for ACI](https://github.com/datacenter/Ansible-recipes-for-ACI/): A series of Ansible playbooks you can use with Cisco ACI. They are kept as simple as possible to make them easy to understand and reuse in your environment. 
+- [Controlling Cisco ACI with Ansible](https://gregsowell.com/?p=6410)
 - [Automate Cisco ACI Tenant Profile Creation](https://github.com/CiscoSE/ACI_Ansible_FastStrike): Parse a CSV file that includes the needed attributes to automate and orchestrate creation of new tenants.
 #### ASA
 - [Parsing a Cisco ASA config file](https://github.com/nleiva/ansible-parsing-cisco-asa): Three options to parse data from an unstructured config file.
