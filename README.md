@@ -330,6 +330,7 @@ Curated list of Ansible resources online organized by topic.
 - [How to perform IOS upgrade on Cisco Switch using Ansible](https://www.rogerperkin.co.uk/network-automation/ansible/cisco-ios-upgrade-for-switch/):  Example using a Cisco 2960 switch (WS-C2960-24TT-L).
 - [Ansible Playbook for Network OS Upgrade with pre and post checks](https://www.networkgalaxy.org/2020/12/ansible-playbook-for-network-os-upgrade.html): Upgrade process can also be customized to include any tasks that you want, e.g. taking pre-checks, post-checks and then comparing them and highlighting the differences, etc.
 #### Meraki
+- [An official Ansible collection for Meraki Dashboard AP](https://community.meraki.com/t5/Developers-APIs/Now-available-An-official-Ansible-collection-for-Meraki/m-p/208157): The initial version of the new official Ansible collection is backward-compatible with the previous community-supported Ansible collection. Using the old modules of the collection will generate deprecation messages on the console.
 - [Meraki playbook example](https://github.com/nleiva/ansible-networking/blob/master/meraki.md#meraki): Queries data from the Merakin innstance in the DevNet Sandbox.
 #### SD-WAN (Viptela)
 - [Viptela Ansible Modules](https://github.com/CiscoDevNet/python-viptela/tree/master/ansible): An set of Ansible modules for automating a Viptela Overlay Network.
