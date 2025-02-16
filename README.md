@@ -65,7 +65,6 @@ Curated list of Ansible resources online organized by topic.
 - [Kubernetes Meets Event-Driven Ansible](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible): Ansible automation activities can be triggered based on events and actions occurring within a Kubernetes cluster.
 - [Creating custom Event-Driven Ansible source plugins](https://www.ansible.com/blog/creating-custom-event-driven-ansible-source-plugins): Developing event source plugins is pretty straightforward. For more information, check out the documentation on [developing source plugins](https://ansible-rulebook.readthedocs.io/en/latest/sources.html#how-to-develop-a-custom-plugin).
 - [EDA Ansible Automation Platform Demo](https://github.com/kubealex/event-driven-automation): Provides everything to configure the needed resources to run the demo on AAP (credentials, templates, custom credentials for ServiceNow, activations, etc) along with the Decision Environment that is needed to run them or using podman, so it's ready-to-consume.
-- [Palo Alto EDA](https://github.com/cdot65/panos-eda-collection)
 
 ### Good Practices to write Ansible content
 - [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
@@ -359,6 +358,7 @@ Curated list of Ansible resources online organized by topic.
 - [Module reference](https://paloaltonetworks.github.io/pan-os-ansible/modules.html)
 - [Palo Alto Networks playbook examples](https://github.com/PaloAltoNetworks/ansible-playbooks)
 - [Michael Ford's examples](https://github.com/michaelford85/ansible-panos)
+- [Calvin Remsburg's examples](https://github.com/cdot65/paloaltonetworks-automation-examples/tree/main/ansible)
 
 ## Edge
 - [Red Hat Device Edge Workshop](https://redhat-manufacturing.github.io/device-edge-workshops/exercises/rhde_aw_120/#section-2---setting-up-for-zero-touch-provisioning): Focuses on deploying various workloads to a Device Edge endpoint, focusing on ease of updating the image to support the workload type and leveraging automation to deploy the workload.
