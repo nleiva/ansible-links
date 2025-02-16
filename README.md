@@ -265,7 +265,7 @@ Curated list of Ansible resources online organized by topic.
 - [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html): Documentation of the cli_parse module that parses semi-structured data such as network configurations into structured data to allow programmatic use of the data from that device.
 - [Ansible Module for utilizing Hierarchical Configuration](https://github.com/netdevops/hconfig-remediation-ansible): Hierarchical Configuration takes a running configuration of a network device, compares it to its intended configuration, and builds the remediation steps necessary to bring a device into spec with its intended configuration.
 - [Fix Your Interface Description with Ansible and CDP/LLDP](https://nwmichl.net/2020/07/05/fix-your-interface-description-with-ansible-and-cdp-lldp/): Fetch all discovered neighbors per device and set the interface description according to the remote host and port. It supports Cisco IOS XE and NX-OS.
-- [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/): To test online your jinja2 template.
+- [Jinja2 Template Parser](https://j2live.ttl255.com/): To test your jinja2 template live from a web page.
 
 ### Network Inventory
 - [Network Inventory Report with Ansible](https://github.com/AdamMack2007/ansible_inventory_report#network-inventory-report-with-ansible): Creates a compliance report for network devices. By [Adam Mack](https://github.com/AdamMack2007).
