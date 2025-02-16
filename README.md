@@ -224,7 +224,7 @@ Curated list of Ansible resources online organized by topic.
 - [Setting up LDAP Authentication](https://docs.ansible.com/automation-controller/4.2.1/html/administration/ldap_auth.html)
 
 #### SAML
-- [Using two-factor SAML with Ansible Tower](https://www.ansible.com/blog/using-two-factor-saml-with-ansible-tower): 2FA to Ansible Tower with SAML, OAuth, and even some LDAP configs is fine. On the other hand, [2FA to managed machines is discouraged](https://access.redhat.com/solutions/3617131).
+- [Using two-factor SAML with Ansible Tower](https://www.ansible.com/blog/using-two-factor-saml-with-ansible-tower): 2FA to Ansible Tower with SAML, OAuth, and even some LDAP configs is fine. On the other hand, [2FA to managed machines is discouraged (paywall)](https://access.redhat.com/solutions/3617131).
 - [Mapping SAML attributes to Red Hat Ansible Automation Platform organizations and teams](https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams)
 - [How To Configure SAML Authentication with Azure AD in Ansible Tower?](https://access.redhat.com/solutions/3889291)
 - [Configure SAML Authentication](https://github.com/ansible/awx/blob/15964dc3959472950db23ed6463c7f4e1978192c/docs/auth/saml.md#saml): AWX can be configured to talk with SAML in order to authenticate (create/login/logout) users of AWX. User Team and Organization membership can be embedded in the SAML response to AWX.
