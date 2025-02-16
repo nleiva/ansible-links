@@ -206,7 +206,7 @@ Curated list of Ansible resources online organized by topic.
 - [How are "managed nodes" defined as part of the Red Hat Ansible Automation Platform offering?](https://access.redhat.com/articles/3331481)
 
 ### AAP in the cloud (AWS, Azure, GCP)
-- [Ansible on Clouds Product Features](https://access.redhat.com/articles/6984539): Ansible Automation Platform offered through cloud marketplaces is the same product as self-installed Ansible Automation Platform. Due to differences in infrastructure or deployment model, there are some feature support in Ansible Automation Platform from cloud marketplaces that is still in development. Any feature not mentioned in this article should function the same regardless of deployment type.
+- [Ansible on Clouds Documentation](https://docs.redhat.com/en/documentation/ansible_on_clouds/2.x): Ansible Automation Platform offered through cloud marketplaces is the same product as self-installed Ansible Automation Platform. Due to differences in infrastructure or deployment model, there are some feature support in Ansible Automation Platform from cloud marketplaces that is still in development.
 - [Microsoft Azure (managed)](https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud)
   - [Ansible on Azure Articles](https://access.redhat.com/articles/6983528)
   - [Ansible on Azure Backup and Restore](https://access.redhat.com/articles/6986874): Ansible on Azure performs daily backups for data stored by the platform. These backups are used to provide a contingency against catastrophic failure of Azure resources to allow Red Hat’s SRE team to restore the platform to a running state.
