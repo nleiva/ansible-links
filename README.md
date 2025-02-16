@@ -393,7 +393,7 @@ Curated list of Ansible resources online organized by topic.
 
 ## Integrations
 
-### Service Now
+### ServiceNow
 - [Introducing the Ansible API for ServiceNow ITSM](https://www.ansible.com/blog/introducing-the-ansible-api-for-servicenow-itsm): A result of the release of Rome, but it's also compatible with ServiceNow ITSM San Diego and Tokyo.
 - [Automating ServiceNow with Red Hat Ansible Automation Platform](https://www.ansible.com/blog/certified-collection-servicenow)
 - [Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
@@ -402,9 +402,9 @@ Curated list of Ansible resources online organized by topic.
 - [Making outbound RESTful API calls to Red Hat Ansible Tower](https://www.ansible.com/blog/ansible-servicenow-howto-part-3-making-outbound-restful-api-calls-to-ansible-tower)
 - [Connecting ServiceNow and Ansible Tower](https://github.com/shadowman-lab/Ansible-Config/tree/master/SNOW)
 - [Governing Self-Service Cloud Provisioning](https://github.com/michaelford85/aws-deploy)
-- [Ansible Service Now example](https://github.com/nleiva/ansible-snow): My workflow example with SNOW that parses data from a Cisco IOS device to create and update an incident.
+- [Ansible ServiceNow example](https://github.com/nleiva/ansible-snow): My workflow example with SNOW that parses data from a Cisco IOS device to create and update an incident.
 - [Instruqt lab](https://play.instruqt.com/embed/redhat/tracks/getting-started-servicenow-automation?token=em_5ktpLJWtzpbqcDyM)
-- [Get started with ServiceNow automation (lab)](https://labs.demoredhat.com/webpages/servicenow): The ServiceNow integration for Ansible Automation Platform is made possible through a certified content collection called servicenow.itsm. This collection is made available on Automation Hub on console.redhat.com. The environment that is being created for you includes this collection in an execution environment that allows Ansible Automation Platform to execute tasks against a ServiceNow instance
+- [Get started with ServiceNow automation (lab)](https://labs.demoredhat.com/exercises/instruqt/servicenow): The ServiceNow integration for Ansible Automation Platform is made possible through a certified content collection called servicenow.itsm. This collection is made available on Automation Hub on console.redhat.com. The environment that is being created for you includes this collection in an execution environment that allows Ansible Automation Platform to execute tasks against a ServiceNow instance
 
 ### Splunk
 - [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
@@ -445,7 +445,7 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-net-modules](https://github.com/nleiva/ansible-net-modules): Network Resource Modules Demo.
 - [aws-testbed](https://github.com/nleiva/aws-testbed): Create reproducible Linux environments in the cloud.
 - [ansible-cloud](https://github.com/nleiva/ansible-cloud): Deploy virtual machines in AWS (Fedora, JunOS, Cisco IOS, CentOS, etc.).
-- [ansible-snow](https://github.com/nleiva/ansible-snow): Ansible Tower workflow with Cisco and Service Now Collections.
+- [ansible-snow](https://github.com/nleiva/ansible-snow): Ansible Tower workflow with Cisco and ServiceNow Collections.
 - [ansible-backup](https://github.com/nleiva/ansible-backup): Creates a backup of your Tower setup and uploads it to AWS S3.
 - [ansible-home](https://github.com/nleiva/ansible-home): Collection of playbooks I run in my personal home-lab.
 - [ansible-rhpds](https://github.com/nleiva/ansible-rhpds): Request a Red Hat Product Demo System (RHPDS) Sandbox.
