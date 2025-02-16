@@ -164,7 +164,7 @@ Curated list of Ansible resources online organized by topic.
 - [Backstage Plugin](https://github.com/janus-idp/backstage-plugins/pull/527): Backstage as a Service Catalog replacement?
 
 ### Architecture
-- [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
+- [Deploying Ansible Automation Platform 2.1](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.1/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
 - [Deploying Ansible Automation Platform 2 on Red Hat OpenShift](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html-single/deploying_ansible_automation_platform_2_on_red_hat_openshift/index): Provides the best practices to deploy Ansible Automation Platform 2 on Red Hat OpenShift. 
 - [Ansible Automation Platform 1.2 - Reference Architecture](https://access.redhat.com/articles/6039601)
 - [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
