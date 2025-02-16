@@ -362,7 +362,9 @@ Curated list of Ansible resources online organized by topic.
 
 ## Edge
 - [Red Hat Device Edge Workshop](https://redhat-manufacturing.github.io/device-edge-workshops/exercises/rhde_aw_120/#section-2---setting-up-for-zero-touch-provisioning): Focuses on deploying various workloads to a Device Edge endpoint, focusing on ease of updating the image to support the workload type and leveraging automation to deploy the workload.
-- [Ansible Edge GitOps](https://redhat-gitops-patterns.io/ansible-edge-gitops/): Explores some of the possibilities of using an OpenShift-based Ansible Automated Platform deployment and managing Edge devices, based on work done with a partner in the Chemical space. This pattern uses OpenShift Virtualization (the productization of Kubevirt) to simulate the Edge environment for VMs.
+- [Ansible Edge GitOps (archive.org)](https://web.archive.org/web/20221130075257/https://redhat-gitops-patterns.io/ansible-edge-gitops/): Explores some of the possibilities of using an OpenShift-based Ansible Automated Platform deployment and managing Edge devices, based on work done with a partner in the Chemical space. This pattern uses OpenShift Virtualization (the productization of Kubevirt) to simulate the Edge environment for VMs.
+- [Ansible Edge GitOps Validated Pattern](https://validatedpatterns.io/patterns/ansible-edge-gitops/)
+  - [Ansible Edge GitOps GitHub repo](https://github.com/validatedpatterns/ansible-edge-gitops)
 - [How to automate devices using the Ansible CIP collection](https://developers.redhat.com/articles/2023/01/10/automate-devices-using-ansible-cip#): Control embedded devices via the Common Industrial Protocol (CIP).
 
 ## Kubernetes
