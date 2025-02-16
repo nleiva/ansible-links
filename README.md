@@ -294,8 +294,9 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Modules for Arista CloudVision Platform](https://github.com/aristanetworks/ansible-cvp)
 - [Addressing NetOps issues with Event-Driven Ansible](https://www.ansible.com/blog/addressing-netops-issues-with-event-driven-ansible): Respond to events we gather from things like network telemetry.
 - [gNMI and NATS Demo](https://github.com/arista-netdevops-community/Ansible-Event-Driven-Automation-Examples/tree/main/nats#nats-demo).
-- [Arista CI Workshops](https://github.com/aristanetworks/avd-workshops) covers Git, VS Code, Jinja2, YAML, Ansible, AVD, Basic CI/CD via GitHub Actions
-  - [MkDocs output of Arista CI Workshops content](https://aristanetworks.github.io/avd-workshops/)
+- [Arista CI Workshops (archived)](https://github.com/aristanetworks/avd-workshops)
+  covers Git, VS Code, Jinja2, YAML, Ansible, AVD, Basic CI/CD via GitHub Actions
+- [Arista AVD Ansible Roles](https://avd.arista.com/devel/ansible_collections/arista/avd/roles/eos_designs/index.html)
 
 ### Aruba
 - [Aruba Switching for Data Center Networking (DCN)](https://github.com/aruba/aoscx-ansible-dcn-workflows)
