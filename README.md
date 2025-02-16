@@ -216,7 +216,7 @@ Curated list of Ansible resources online organized by topic.
 ### RBAC and Authentication
 - [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
 - [Setting up Enterprise Authentication](https://docs.ansible.com/ansible-tower/latest/html/administration/ent_auth.html#setting-up-enterprise-authentication)
-- [RBAC Guide and Recommendations](https://github.com/ShaddGallegos/RHTI/blob/master/Ansible_Tower/Ansible_PDF/Ansible_Tower-RBAC_Recommendations.pdf)
+- [RBAC Guide and Recommendations](https://github.com/ShaddGallegos/RHTI/blob/5c8dbc0d34e2de6fb4c35ae383e8f809d00b9b10/Ansible_Tower/Ansible_PDF/Ansible_Tower-RBAC_Recommendations.pdf)
 - [Organizations](https://docs.ansible.com/ansible-tower/latest/html/userguide/organizations.html): Logical collection of Users, Teams, Projects, and Inventories.
 
 #### LDAP
