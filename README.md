@@ -17,7 +17,7 @@ Curated list of Ansible resources online organized by topic.
 ### Labs
 - [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training): Hands-on learning scenarios provide you with a preconfigured Red Hat® Ansible® Automation Platform environment to experiment, practice, and see how automation can relieve you of manual tasks.
 - [Ansible Instruqt](https://labs.demoredhat.com/): This repo contains images and tracks for the instruqt platform. Red Hat is using Instruqt for in-browser demonstrations of the Ansible Automation Platform.
-  - [Introduction to cloud automation](https://labs.demoredhat.com/webpages/ansible-cloud-lab)
+  - [Introduction to cloud automation](https://labs.demoredhat.com/exercises/instruqt/ansible-cloud-lab)
 - [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training): Interactive learning scenarios provide you with a pre-configured Ansible environment to experiment, learn, and see how Ansible can help you solve real-world problems. The environment runs entirely in your browser at your convenience, enabling you to learn more about our technology at your pace and time.
 - [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/): The Red Hat Ansible Automation Workshops project is intended for effectively demonstrating Ansible’s capabilities through instructor-led workshops or self-paced exercises.
 - [Official Ansible Product Demos](https://github.com/ansible/product-demos#official-ansible-product-demos)
