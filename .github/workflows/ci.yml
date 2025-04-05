@@ -2,9 +2,13 @@ name: GitHub Actions
 
 on:
   push:
-    branches: ["main","master"]
+    branches: ['main','master']
   pull_request:
-    branches: ["main","master"]
+    branches: ['main','master']
+  schedule:
+    # run once a month (until 60 days of repo inactivity hits)
+    #  (time in UTC, run at 7:45 EST depending on daylight savings)
+    - cron: '45 11 16 * *'
 
 jobs:
   link_check:
@@ -16,3 +20,4 @@ jobs:
     - name: Link Checker (lychee)
       id: lychee
       uses: lycheeverse/lychee-action@v2
+      # certain links are excluded from checking via .lycheeignore
