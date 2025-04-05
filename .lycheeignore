@@ -1,3 +1,6 @@
 # links that 403 because they require a Red Hat Subscription
 https://access.redhat.com/articles/3168091$
 https://access.redhat.com/solutions/3617131$
+
+# GitHub link that frequently times out with HTTP 504 error code
+https://github.com/janus-idp/backstage-plugins/pull/527$
