@@ -94,7 +94,7 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
 - [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
 - [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
-- [Metrics endpoint](https://docs.ansible.com/automation-controller/latest/html/administration/metrics.html#metrics): Available in the API: `/api/v2/metrics/`. It surfaces instantaneous metrics about the controller, which can be consumed by system monitoring software like the open source project Prometheus.
+- [Metrics endpoint](https://docs.ansible.com/automation-controller/4.4/html/administration/metrics.html#metrics): Available in the API: `/api/v2/metrics/`. It surfaces instantaneous metrics about the controller, which can be consumed by system monitoring software like the open source project Prometheus.
 - [Ansible SDK for Python](https://github.com/ansible/ansible-sdk): The Ansible SDK provides a lightweight Python library for dispatching and live-monitoring Ansible tasks, roles, and playbooks from the product or project.
 
 ### Testing
@@ -167,7 +167,7 @@ Curated list of Ansible resources online organized by topic.
 - [Deploying Ansible Automation Platform 2 on Red Hat OpenShift](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html-single/deploying_ansible_automation_platform_2_on_red_hat_openshift/index): Provides the best practices to deploy Ansible Automation Platform 2 on Red Hat OpenShift. 
 - [Ansible Automation Platform 1.2 - Reference Architecture](https://access.redhat.com/articles/6039601)
 - [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
-- [Security Best Practices](https://docs.ansible.com/automation-controller/latest/html/administration/security_best_practices.html): Automation controller out-of-the-box is deployed in a secure fashion for use to automate typical environments. However, managing certain operating system environments, automation, and automation platforms, may require some additional best practices to ensure security.
+- [Security Best Practices](https://docs.ansible.com/automation-controller/4.4/html/administration/security_best_practices.html): Automation controller out-of-the-box is deployed in a secure fashion for use to automate typical environments. However, managing certain operating system environments, automation, and automation platforms, may require some additional best practices to ensure security.
 - [Red Hat Ansible Automation Platform Hardening Guide](https://access.redhat.com/articles/7025278): This guide can be used to harden the security posture of your Red Hat Ansible Automation Platform (AAP) deployment on Red Hat Enterprise Linux (RHEL).
 
 #### Backend Database
