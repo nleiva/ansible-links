@@ -17,7 +17,7 @@ Curated list of Ansible resources online organized by topic.
 ### Labs
 - [Ansible Automation Platform Self-Paced Labs (Instruqt)](https://www.ansible.com/products/ansible-training): Hands-on learning scenarios provide you with a preconfigured Red Hat® Ansible® Automation Platform environment to experiment, practice, and see how automation can relieve you of manual tasks.
 - [Ansible Instruqt](https://labs.demoredhat.com/): This repo contains images and tracks for the instruqt platform. Red Hat is using Instruqt for in-browser demonstrations of the Ansible Automation Platform.
-  - [Introduction to cloud automation](https://labs.demoredhat.com/webpages/ansible-cloud-lab)
+  - [Introduction to cloud automation](https://labs.demoredhat.com/exercises/instruqt/ansible-cloud-lab)
 - [Ansible Self-Paced Labs (Community)](https://www.ansible.com/products/ansible-community-training): Interactive learning scenarios provide you with a pre-configured Ansible environment to experiment, learn, and see how Ansible can help you solve real-world problems. The environment runs entirely in your browser at your convenience, enabling you to learn more about our technology at your pace and time.
 - [Ansible Automation Platform 2 Workshops](https://aap2.demoredhat.com/): The Red Hat Ansible Automation Workshops project is intended for effectively demonstrating Ansible’s capabilities through instructor-led workshops or self-paced exercises.
 - [Official Ansible Product Demos](https://github.com/ansible/product-demos#official-ansible-product-demos)
@@ -60,12 +60,11 @@ Curated list of Ansible resources online organized by topic.
 - [Event-Driven Ansible](https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible): Event-Driven Ansible top-level page.
 - [Self-paced lab](https://play.instruqt.com/redhat/invite/wzlzehptcqi6): Take this interactive, self-paced lab to learn how Event-Driven Ansible works.
 - [Event-Driven Ansible Controller: Up and running](https://play.instruqt.com/embed/redhat/tracks/getting-started-eda-controller): EDA Controller integrated with Automation Controller for job template launch. Integrated with Prometheus with Alertmanager source plugin.
-- [Event-Driven Ansible Technical Workshop](https://labs.demoredhat.com/webpages/eda.html): Walk through the basics of EDA (Event-Driven Ansible) covering fundamentals such as sources, rules, and actions and the corresponding technology and implementation through Ansible Rulebook CLI, rulebooks, source plugins, and EDA content collections.  
+- [Event-Driven Ansible Technical Workshop](https://labs.demoredhat.com/exercises/instruqt/eda): Walk through the basics of EDA (Event-Driven Ansible) covering fundamentals such as sources, rules, and actions and the corresponding technology and implementation through Ansible Rulebook CLI, rulebooks, source plugins, and EDA content collections.  
 - [Event-driven-ansible repository on GitHub](https://github.com/ansible/event-driven-ansible)
 - [Kubernetes Meets Event-Driven Ansible](https://www.ansible.com/blog/kubernetes-meets-event-driven-ansible): Ansible automation activities can be triggered based on events and actions occurring within a Kubernetes cluster.
 - [Creating custom Event-Driven Ansible source plugins](https://www.ansible.com/blog/creating-custom-event-driven-ansible-source-plugins): Developing event source plugins is pretty straightforward. For more information, check out the documentation on [developing source plugins](https://ansible-rulebook.readthedocs.io/en/latest/sources.html#how-to-develop-a-custom-plugin).
 - [EDA Ansible Automation Platform Demo](https://github.com/kubealex/event-driven-automation): Provides everything to configure the needed resources to run the demo on AAP (credentials, templates, custom credentials for ServiceNow, activations, etc) along with the Decision Environment that is needed to run them or using podman, so it's ready-to-consume.
-- [Palo Alto EDA](https://github.com/cdot65/panos-eda-collection)
 
 ### Good Practices to write Ansible content
 - [Ansible 101 - Standards](https://www.ansiblejunky.com/blog/ansible-101-standards/): By [John Wadleigh](https://github.com/ansiblejunky).
@@ -95,7 +94,7 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-trace](https://github.com/mhansen/ansible-trace): Visualise where time is spent in your Ansible playbooks: what tasks, and what hosts, so you can find where to optimise and decrease playbook latency.
 - [8 ways to speed up your Ansible playbooks](https://www.redhat.com/sysadmin/faster-ansible-playbook-execution): Integrate appropriate optimization techniques into your Ansible playbooks.
 - [5 ways to make your Ansible modules work faster](https://www.redhat.com/sysadmin/faster-ansible-modules): When it comes to complex and lengthy workflows, you need to consider how to optimize the way you use modules so you can speed up your playbooks.
-- [Metrics endpoint](https://docs.ansible.com/automation-controller/latest/html/administration/metrics.html#metrics): Available in the API: `/api/v2/metrics/`. It surfaces instantaneous metrics about the controller, which can be consumed by system monitoring software like the open source project Prometheus.
+- [Metrics endpoint](https://docs.ansible.com/automation-controller/4.4/html/administration/metrics.html#metrics): Available in the API: `/api/v2/metrics/`. It surfaces instantaneous metrics about the controller, which can be consumed by system monitoring software like the open source project Prometheus.
 - [Ansible SDK for Python](https://github.com/ansible/ansible-sdk): The Ansible SDK provides a lightweight Python library for dispatching and live-monitoring Ansible tasks, roles, and playbooks from the product or project.
 
 ### Testing
@@ -121,7 +120,7 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Automation Platform 2.0 Early Access Homepage](https://access.redhat.com/articles/6145072): Most commonly used resources for Ansible Automation Platform 2 with all information, FAQ, links, etc.
 - [Ansible Automation Platform 2.0 Release FAQ](https://access.redhat.com/articles/6192881): Product features or roadmap items as it relates to the Ansible Automation Platform (AAP) 2 Release.
 - [What’s New in Ansible Automation Controller 4.0](https://access.redhat.com/articles/6184841): Why was Ansible Tower renamed to Automation controller?
-- [Ansible Automation Platform 1.2 to 2 Migration Guide](https://access.redhat.com/documentation/en-us/reference_architectures/2022/html-single/ansible_automation_platform_1.2_to_2_migration_guide/index): Methodology to migrate from Ansible Automation Platform 1.2 to Ansible Automation Platform 2.
+- [Ansible Automation Platform 1.2 to 2 Migration Guide](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html-single/ansible_automation_platform_1.2_to_2_migration_guide/index): Methodology to migrate from Ansible Automation Platform 1.2 to Ansible Automation Platform 2.
 - [Migration from AAP 1.2 to Ansible Automation Platform 2: Side by side upgrade](https://www.youtube.com/watch?v=EKf3u1QdpNo&list=PLdu06OJoEf2YTVvHFPO6ZyZz5ax0FHe2L): Videos series with a step by step walkthrough of a side by side migration from AAP 1.2 to AAP 2 by [Julen Landa Alustiza](https://github.com/Zokormazo).
 
 ### Subscription
@@ -164,11 +163,11 @@ Curated list of Ansible resources online organized by topic.
 - [Backstage Plugin](https://github.com/janus-idp/backstage-plugins/pull/527): Backstage as a Service Catalog replacement?
 
 ### Architecture
-- [Deploying Ansible Automation Platform 2.1](https://access.redhat.com/documentation/en-us/reference_architectures/2021/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
-- [Deploying Ansible Automation Platform 2 on Red Hat OpenShift](https://access.redhat.com/documentation/en-us/reference_architectures/2023/html/deploying_ansible_automation_platform_2_on_red_hat_openshift/index): Provides the best practices to deploy Ansible Automation Platform 2 on Red Hat OpenShift. 
+- [Deploying Ansible Automation Platform 2.1](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.1/html-single/deploying_ansible_automation_platform_2.1/index): Best practices to deploy Ansible Automation Platform 2.1. Reference architecture that provides an opinionated setup of deploying a highly available Ansible Automation Platform environment.
+- [Deploying Ansible Automation Platform 2 on Red Hat OpenShift](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html-single/deploying_ansible_automation_platform_2_on_red_hat_openshift/index): Provides the best practices to deploy Ansible Automation Platform 2 on Red Hat OpenShift. 
 - [Ansible Automation Platform 1.2 - Reference Architecture](https://access.redhat.com/articles/6039601)
 - [Ansible Tower container-based cluster running on OpenShift](https://docs.ansible.com/ansible-tower/latest/html/administration/openshift_configuration.html): Ansible Tower supports container-based clusters running on OpenShift.
-- [Security Best Practices](https://docs.ansible.com/automation-controller/latest/html/administration/security_best_practices.html): Automation controller out-of-the-box is deployed in a secure fashion for use to automate typical environments. However, managing certain operating system environments, automation, and automation platforms, may require some additional best practices to ensure security.
+- [Security Best Practices](https://docs.ansible.com/automation-controller/4.4/html/administration/security_best_practices.html): Automation controller out-of-the-box is deployed in a secure fashion for use to automate typical environments. However, managing certain operating system environments, automation, and automation platforms, may require some additional best practices to ensure security.
 - [Red Hat Ansible Automation Platform Hardening Guide](https://access.redhat.com/articles/7025278): This guide can be used to harden the security posture of your Red Hat Ansible Automation Platform (AAP) deployment on Red Hat Enterprise Linux (RHEL).
 
 #### Backend Database
@@ -202,11 +201,11 @@ Curated list of Ansible resources online organized by topic.
 - [Manage automation controller Configuration as Code (CaC) with Ansible](https://www.redhat.com/architect/ansible-automation-controller-cac-gitops): An alternative to database replication to copy data from one environment to another.
 
 #### Considerations
-- [Supported Platforms with Red Hat Ansible Automation Platform](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
+- [Supported Platforms with Red Hat Ansible Automation Platform (Subscription Required)](https://access.redhat.com/articles/3168091): Platform Support Matrix for control nodes (the nodes that Ansible Engine is installed on) as well as the managed nodes (the nodes that Ansible Engine are connecting to and automating).
 - [How are "managed nodes" defined as part of the Red Hat Ansible Automation Platform offering?](https://access.redhat.com/articles/3331481)
 
 ### AAP in the cloud (AWS, Azure, GCP)
-- [Ansible on Clouds Product Features](https://access.redhat.com/articles/6984539): Ansible Automation Platform offered through cloud marketplaces is the same product as self-installed Ansible Automation Platform. Due to differences in infrastructure or deployment model, there are some feature support in Ansible Automation Platform from cloud marketplaces that is still in development. Any feature not mentioned in this article should function the same regardless of deployment type.
+- [Ansible on Clouds Documentation](https://docs.redhat.com/en/documentation/ansible_on_clouds/2.x): Ansible Automation Platform offered through cloud marketplaces is the same product as self-installed Ansible Automation Platform. Due to differences in infrastructure or deployment model, there are some feature support in Ansible Automation Platform from cloud marketplaces that is still in development.
 - [Microsoft Azure (managed)](https://www.ansible.com/blog/introducing-a-brand-new-way-to-automate-your-azure-cloud)
   - [Ansible on Azure Articles](https://access.redhat.com/articles/6983528)
   - [Ansible on Azure Backup and Restore](https://access.redhat.com/articles/6986874): Ansible on Azure performs daily backups for data stored by the platform. These backups are used to provide a contingency against catastrophic failure of Azure resources to allow Red Hat’s SRE team to restore the platform to a running state.
@@ -216,7 +215,7 @@ Curated list of Ansible resources online organized by topic.
 ### RBAC and Authentication
 - [Summary of Authentication Methods For Red Hat Ansible Tower](https://www.ansible.com/blog/summary-of-authentication-methods-in-red-hat-ansible-tower)
 - [Setting up Enterprise Authentication](https://docs.ansible.com/ansible-tower/latest/html/administration/ent_auth.html#setting-up-enterprise-authentication)
-- [RBAC Guide and Recommendations](https://github.com/ShaddGallegos/RHTI/blob/master/Ansible_Tower/Ansible_PDF/Ansible_Tower-RBAC_Recommendations.pdf)
+- [RBAC Guide and Recommendations](https://github.com/ShaddGallegos/RHTI/blob/5c8dbc0d34e2de6fb4c35ae383e8f809d00b9b10/Ansible_Tower/Ansible_PDF/Ansible_Tower-RBAC_Recommendations.pdf)
 - [Organizations](https://docs.ansible.com/ansible-tower/latest/html/userguide/organizations.html): Logical collection of Users, Teams, Projects, and Inventories.
 
 #### LDAP
@@ -224,7 +223,7 @@ Curated list of Ansible resources online organized by topic.
 - [Setting up LDAP Authentication](https://docs.ansible.com/automation-controller/4.2.1/html/administration/ldap_auth.html)
 
 #### SAML
-- [Using two-factor SAML with Ansible Tower](https://www.ansible.com/blog/using-two-factor-saml-with-ansible-tower): 2FA to Ansible Tower with SAML, OAuth, and even some LDAP configs is fine. On the other hand, [2FA to managed machines is discouraged](https://access.redhat.com/solutions/3617131).
+- [Using two-factor SAML with Ansible Tower](https://www.ansible.com/blog/using-two-factor-saml-with-ansible-tower): 2FA to Ansible Tower with SAML, OAuth, and even some LDAP configs is fine. On the other hand, [2FA to managed machines is discouraged (Subscription Required)](https://access.redhat.com/solutions/3617131).
 - [Mapping SAML attributes to Red Hat Ansible Automation Platform organizations and teams](https://www.ansible.com/blog/mapping-saml-attributes-to-red-hat-ansible-automation-platform-organizations-and-teams)
 - [How To Configure SAML Authentication with Azure AD in Ansible Tower?](https://access.redhat.com/solutions/3889291)
 - [Configure SAML Authentication](https://github.com/ansible/awx/blob/15964dc3959472950db23ed6463c7f4e1978192c/docs/auth/saml.md#saml): AWX can be configured to talk with SAML in order to authenticate (create/login/logout) users of AWX. User Team and Organization membership can be embedded in the SAML response to AWX.
@@ -266,7 +265,7 @@ Curated list of Ansible resources online organized by topic.
 - [Parsing semi-structured text with Ansible](https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html): Documentation of the cli_parse module that parses semi-structured data such as network configurations into structured data to allow programmatic use of the data from that device.
 - [Ansible Module for utilizing Hierarchical Configuration](https://github.com/netdevops/hconfig-remediation-ansible): Hierarchical Configuration takes a running configuration of a network device, compares it to its intended configuration, and builds the remediation steps necessary to bring a device into spec with its intended configuration.
 - [Fix Your Interface Description with Ansible and CDP/LLDP](https://nwmichl.net/2020/07/05/fix-your-interface-description-with-ansible-and-cdp-lldp/): Fetch all discovered neighbors per device and set the interface description according to the remote host and port. It supports Cisco IOS XE and NX-OS.
-- [Jinja2 Template Designer for Automation](https://td4a.codethenetwork.com/): To test online your jinja2 template.
+- [Jinja2 Template Parser](https://j2live.ttl255.com/): To test your jinja2 template live from a web page.
 
 ### Network Inventory
 - [Network Inventory Report with Ansible](https://github.com/AdamMack2007/ansible_inventory_report#network-inventory-report-with-ansible): Creates a compliance report for network devices. By [Adam Mack](https://github.com/AdamMack2007).
@@ -294,8 +293,9 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible Modules for Arista CloudVision Platform](https://github.com/aristanetworks/ansible-cvp)
 - [Addressing NetOps issues with Event-Driven Ansible](https://www.ansible.com/blog/addressing-netops-issues-with-event-driven-ansible): Respond to events we gather from things like network telemetry.
 - [gNMI and NATS Demo](https://github.com/arista-netdevops-community/Ansible-Event-Driven-Automation-Examples/tree/main/nats#nats-demo).
-- [Arista CI Workshops](https://github.com/aristanetworks/avd-workshops) covers Git, VS Code, Jinja2, YAML, Ansible, AVD, Basic CI/CD via GitHub Actions
-  - [MkDocs output of Arista CI Workshops content](https://aristanetworks.github.io/avd-workshops/)
+- [Arista CI Workshops (archived)](https://github.com/aristanetworks/avd-workshops)
+  covers Git, VS Code, Jinja2, YAML, Ansible, AVD, Basic CI/CD via GitHub Actions
+- [Arista AVD Ansible Roles](https://avd.arista.com/devel/ansible_collections/arista/avd/roles/eos_designs/index.html)
 
 ### Aruba
 - [Aruba Switching for Data Center Networking (DCN)](https://github.com/aruba/aoscx-ansible-dcn-workflows)
@@ -306,12 +306,14 @@ Curated list of Ansible resources online organized by topic.
 - [Manage your Cisco devices with Red Hat Ansible Automation Platform](https://www.youtube.com/watch?v=teJGYOu49QY&list=PLdu06OJoEf2axRLJvwAbAIWUOhPEv_emX&index=14): Drive the desired state of configuration for VLANs, prefix-lists, interfaces, BGP and more!
 - [Cisco OSPF Configuration with Ansible](https://www.packetswitch.co.uk/cisco-ospf-configuration-with-ansible/): The primary focus is on configuring OSPF, but the Ansible playbook also takes care of configuring the interfaces and IP addresses with resource modules.
 #### ACI
-- [Cisco ACI Guide](https://docs.ansible.com/ansible/devel/scenario_guides/guide_aci.html): Ansible ACI module documentation to provide a user-friendly interface to managing your ACI environment using Ansible playbooks.
+- [Cisco ACI Guide](https://docs.ansible.com/ansible/9/scenario_guides/guide_aci.html): Ansible ACI module documentation to provide a user-friendly interface to managing your ACI environment using Ansible playbooks.
+- [Cisco Secure ADC and Cisco ACI Ansible Automation](https://www.cisco.com/c/en/us/solutions/collateral/data-center-virtualization/application-centric-infrastructure/aci-ansible-automation-guide.pdf)
 - [Introduction to ACI and Ansible labs](https://developer.cisco.com/learning/modules/ansible-aci-intro/): Explore how you can now manage your ACI using Ansible for "ACI as Code" and integrate into your DevOps practices.
 - [Intel embraces SDN to modernize its chip factories](https://www.cio.com/article/650204/intel-embraces-sdn-to-modernize-its-chip-factories.html): Intel has deployed SDN in roughly 15% of its factories to date and will continue to migrate existing Ethernet-based factories to SDN. For new implementations, Intel has chosen to use open source Ansible playbooks and scripts from GitHub to accelerate its move to SDN.
 - [What’s new and exciting on Cisco ACI with Red Hat Ansible Collections](https://blogs.cisco.com/datacenter/whats-new-and-exciting-on-cisco-aci-with-red-hat-ansible-collections): There are over 100 ACI and Multisite modules in Ansible core. Modules for specific objects like, Tenant and Application Profiles as well as a module for interacting directly with the ACI REST API. This means that a broad set of ACI functionality is available in Ansible, to cover a broad set of Data center use cases.
 - [Secure Service Provisioning with Ansible Automation Platform, vCenter, HashiCorp Vault, and Cisco ASA/ACI](https://www.ahead.com/resources/secure-service-provisioning-automation-with-ansible-tower-vcenter-hashicorp-vault-and-cisco-asa-aci/): Demo integrating Ansible Tower, VMware, HashiCorp Vault, and Cisco ACI/ASA. A single Ansible playbook that does the work of the VM admin, O/S admin, network admin, and the security/firewall team.
-- [Automating ACI with Ansible)](https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKACI-1619.pdf): Cisco Live slides for session BRKACI-1619.
+- [Automating ACI with Ansible (scribd)](https://www.scribd.com/document/478147887/BRKACI-1619-Automating-ACI-with-Ansible): Cisco Live slides for session BRKACI-1619.
+  - [Thomas Renzy's Ansible playbooks for BRKACI-1619](https://github.com/trenzy/BRKACI-1619)
 - [Ansible recipes for ACI](https://github.com/datacenter/Ansible-recipes-for-ACI/): A series of Ansible playbooks you can use with Cisco ACI. They are kept as simple as possible to make them easy to understand and reuse in your environment. 
 - [Controlling Cisco ACI with Ansible](https://gregsowell.com/?p=6410)
 - [Automate Cisco ACI Tenant Profile Creation](https://github.com/CiscoSE/ACI_Ansible_FastStrike): Parse a CSV file that includes the needed attributes to automate and orchestrate creation of new tenants.
@@ -349,7 +351,7 @@ Curated list of Ansible resources online organized by topic.
 - [Using NetBox for Ansible Source of Truth](https://www.ansible.com/blog/using-netbox-for-ansible-source-of-truth)
 - [Get IP address from NetBox](https://github.com/nleiva/ansible-networking/blob/master/NetBox/get_ip.md#netbox)
 - [NetBox lookup](https://github.com/nleiva/ansible-networking/blob/master/NetBox/lookup.md#netbox)
-- [NetBox Ansible Collection: Inventory](https://josh-v.com/netbox_ansible_collection/netbox-ansible-inventory_plugin/): Starting out with the basics of the plugin and getting some sample output and show how to form groups.
+- [NetBox Ansible Collection: Inventory (archive.org)](https://web.archive.org/web/20221004034257/https://josh-v.com/netbox_ansible_collection/netbox-ansible-inventory_plugin/): Starting out with the basics of the plugin and getting some sample output and show how to form groups.
 
 ### Palo Alto
 - [Palo Alto Networks firewall automation with AAP](https://play.instruqt.com/embed/redhat/tracks/ansible-panos-automation?token=em_iiCtxt5JWd5Iube8): Instruqt lab.
@@ -357,10 +359,13 @@ Curated list of Ansible resources online organized by topic.
 - [Module reference](https://paloaltonetworks.github.io/pan-os-ansible/modules.html)
 - [Palo Alto Networks playbook examples](https://github.com/PaloAltoNetworks/ansible-playbooks)
 - [Michael Ford's examples](https://github.com/michaelford85/ansible-panos)
+- [Calvin Remsburg's examples](https://github.com/cdot65/paloaltonetworks-automation-examples/tree/main/ansible)
 
 ## Edge
 - [Red Hat Device Edge Workshop](https://redhat-manufacturing.github.io/device-edge-workshops/exercises/rhde_aw_120/#section-2---setting-up-for-zero-touch-provisioning): Focuses on deploying various workloads to a Device Edge endpoint, focusing on ease of updating the image to support the workload type and leveraging automation to deploy the workload.
-- [Ansible Edge GitOps](https://redhat-gitops-patterns.io/ansible-edge-gitops/): Explores some of the possibilities of using an OpenShift-based Ansible Automated Platform deployment and managing Edge devices, based on work done with a partner in the Chemical space. This pattern uses OpenShift Virtualization (the productization of Kubevirt) to simulate the Edge environment for VMs.
+- [Ansible Edge GitOps (archive.org)](https://web.archive.org/web/20221130075257/https://redhat-gitops-patterns.io/ansible-edge-gitops/): Explores some of the possibilities of using an OpenShift-based Ansible Automated Platform deployment and managing Edge devices, based on work done with a partner in the Chemical space. This pattern uses OpenShift Virtualization (the productization of Kubevirt) to simulate the Edge environment for VMs.
+- [Ansible Edge GitOps Validated Pattern](https://validatedpatterns.io/patterns/ansible-edge-gitops/)
+  - [Ansible Edge GitOps GitHub repo](https://github.com/validatedpatterns/ansible-edge-gitops)
 - [How to automate devices using the Ansible CIP collection](https://developers.redhat.com/articles/2023/01/10/automate-devices-using-ansible-cip#): Control embedded devices via the Common Industrial Protocol (CIP).
 
 ## Kubernetes
@@ -392,7 +397,7 @@ Curated list of Ansible resources online organized by topic.
 
 ## Integrations
 
-### Service Now
+### ServiceNow
 - [Introducing the Ansible API for ServiceNow ITSM](https://www.ansible.com/blog/introducing-the-ansible-api-for-servicenow-itsm): A result of the release of Rome, but it's also compatible with ServiceNow ITSM San Diego and Tokyo.
 - [Automating ServiceNow with Red Hat Ansible Automation Platform](https://www.ansible.com/blog/certified-collection-servicenow)
 - [Opening and Closing Tickets](https://www.ansible.com/blog/ansible-servicenow-opening-and-closing-tickets)
@@ -401,9 +406,9 @@ Curated list of Ansible resources online organized by topic.
 - [Making outbound RESTful API calls to Red Hat Ansible Tower](https://www.ansible.com/blog/ansible-servicenow-howto-part-3-making-outbound-restful-api-calls-to-ansible-tower)
 - [Connecting ServiceNow and Ansible Tower](https://github.com/shadowman-lab/Ansible-Config/tree/master/SNOW)
 - [Governing Self-Service Cloud Provisioning](https://github.com/michaelford85/aws-deploy)
-- [Ansible Service Now example](https://github.com/nleiva/ansible-snow): My workflow example with SNOW that parses data from a Cisco IOS device to create and update an incident.
+- [Ansible ServiceNow example](https://github.com/nleiva/ansible-snow): My workflow example with SNOW that parses data from a Cisco IOS device to create and update an incident.
 - [Instruqt lab](https://play.instruqt.com/embed/redhat/tracks/getting-started-servicenow-automation?token=em_5ktpLJWtzpbqcDyM)
-- [Get started with ServiceNow automation (lab)](https://labs.demoredhat.com/webpages/servicenow): The ServiceNow integration for Ansible Automation Platform is made possible through a certified content collection called servicenow.itsm. This collection is made available on Automation Hub on console.redhat.com. The environment that is being created for you includes this collection in an execution environment that allows Ansible Automation Platform to execute tasks against a ServiceNow instance
+- [Get started with ServiceNow automation (lab)](https://labs.demoredhat.com/exercises/instruqt/servicenow): The ServiceNow integration for Ansible Automation Platform is made possible through a certified content collection called servicenow.itsm. This collection is made available on Automation Hub on console.redhat.com. The environment that is being created for you includes this collection in an execution environment that allows Ansible Automation Platform to execute tasks against a ServiceNow instance
 
 ### Splunk
 - [Centralize your Automation Logs with Ansible Tower and Splunk Enterprise](https://www.ansible.com/blog/centralize-your-automation-logs-with-ansible-tower-and-splunk-enterprise)
@@ -415,7 +420,6 @@ Curated list of Ansible resources online organized by topic.
 - [Ansible and HashiCorp: Better Together](https://www.hashicorp.com/resources/ansible-terraform-better-together): Presenters from Red Hat and HashiCorp showcase workflows that integrate the best parts of Ansible and the HashiCorp stack for configuration and provisioning.
 - [Ansible & Terraform – together or against?](https://www.opensourcerers.org/2020/10/12/ansible-and-terraform-integration/): Treat Terraform like any other Ansible module to deploy resources and get the benefit of Terraform like state, dynamic changes to the deployment and even “terraform destroy”. By Götz Rieger.
 - [DigitalOcean's How To Use Ansible with Terraform for Configuration Management](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management): Terraform and Ansible together form a flexible workflow for spinning up servers with the needed software and hardware configurations. Running Ansible directly as part of the Terraform deployment process allows you to have the servers up and bootstrapped with dependencies for your development work and applications much faster.
-- [Red Hat and Hashicorp Demo Event](https://primetime.bluejeans.com/a2m/events/playback/e0c34c7f-3cae-4ddc-81ea-ee4d4cc7c91a): By [Michael Ford](https://github.com/michaelford85) and Andy James.
 
 ### Puppet
 - [Migrating from Puppet Enterprise to Ansible Tower](https://www.ansible.com/migrating-from-puppet-enterprise-to-ansible-tower)
@@ -445,7 +449,7 @@ Curated list of Ansible resources online organized by topic.
 - [ansible-net-modules](https://github.com/nleiva/ansible-net-modules): Network Resource Modules Demo.
 - [aws-testbed](https://github.com/nleiva/aws-testbed): Create reproducible Linux environments in the cloud.
 - [ansible-cloud](https://github.com/nleiva/ansible-cloud): Deploy virtual machines in AWS (Fedora, JunOS, Cisco IOS, CentOS, etc.).
-- [ansible-snow](https://github.com/nleiva/ansible-snow): Ansible Tower workflow with Cisco and Service Now Collections.
+- [ansible-snow](https://github.com/nleiva/ansible-snow): Ansible Tower workflow with Cisco and ServiceNow Collections.
 - [ansible-backup](https://github.com/nleiva/ansible-backup): Creates a backup of your Tower setup and uploads it to AWS S3.
 - [ansible-home](https://github.com/nleiva/ansible-home): Collection of playbooks I run in my personal home-lab.
 - [ansible-rhpds](https://github.com/nleiva/ansible-rhpds): Request a Red Hat Product Demo System (RHPDS) Sandbox.
